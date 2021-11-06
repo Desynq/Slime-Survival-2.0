@@ -1,0 +1,17 @@
+#Butterfly Knife
+#execute if entity @s[scores={damageTaken=1..}] at @s rotated ~ 0 positioned ^ ^ ^-1 if entity @a[scores={damageDealt=1..},distance=..2,nbt={SelectedItem:{tag:{type:butterfly_knife}}}] run tag @s add silentDeath
+#execute if entity @s[scores={damageTaken=1..}] at @s rotated ~ 0 positioned ^ ^ ^-2 if entity @a[scores={damageDealt=1..},distance=..2,nbt={SelectedItem:{tag:{type:butterfly_knife}}}] run tag @s add silentDeath
+#execute if entity @s[scores={damageTaken=1..}] at @s rotated ~ 0 positioned ^ ^ ^-3 if entity @a[scores={damageDealt=1..},distance=..2,nbt={SelectedItem:{tag:{type:butterfly_knife}}}] run tag @s add silentDeath
+#scoreboard players set @s[scores={damageDealt=1..}] damageDealt 0
+#scoreboard players set @s[scores={damageTaken=1..}] damageTaken 0
+
+#MK1
+#effect give @s[nbt={Inventory:[{Slot:103b,tag:{type:mk.1_helmet}}]}] minecraft:regeneration 2 0 true
+#effect give @s[nbt={Inventory:[{Slot:103b,tag:{type:mk.1_helmet}}]}] minecraft:saturation 2 0 true
+
+#clear @s[nbt=!{Inventory:[{Slot:103b,tag:{type:mk.1_helmet}}]}] minecraft:leather_boots{type:mk.1_boots}
+#clear @s[nbt=!{Inventory:[{Slot:103b,tag:{type:mk.1_helmet}}]}] minecraft:leather_leggings{type:mk.1_leg_armor}
+#clear @s[nbt=!{Inventory:[{Slot:103b,tag:{type:mk.1_helmet}}]}] minecraft:leather_chestplate{type:mk.1_body_armor}
+#replaceitem entity @s[nbt={Inventory:[{Slot:103b,tag:{type:mk.1_helmet}}]}] armor.chest leather_chestplate{type:mk.1_body_armor,Enchantments:[{id:projectile_protection,lvl:10},{id:blast_protection,lvl:10},{id:protection,lvl:5},{id:vanishing_curse,lvl:1},{id:binding_curse,lvl:1}],display:{color:3689528,Name:'{"italic":"false","color":"dark_gray","text":"Mk.1 Body Armor"}'},AttributeModifiers:[{AttributeName:generic.armor,Amount:8,Operation:0,Slot:chest,UUIDLeast:8562,UUIDMost:8573},{AttributeName:generic.armorToughness,Amount:2,Operation:0,Slot:chest,UUIDLeast:8632,UUIDMost:12842}]}
+#replaceitem entity @s[nbt={Inventory:[{Slot:103b,tag:{type:mk.1_helmet}}]}] armor.legs minecraft:leather_leggings{type:mk.1_leg_armor,Enchantments:[{id:protection,lvl:10},{id:blast_protection,lvl:10},{id:vanishing_curse,lvl:1},{id:binding_curse,lvl:1}],display:{color:5527380,Name:'{"italic":"false","color":"dark_gray","text":"Mk.1 Leg Armor"}'},AttributeModifiers:[{AttributeName:generic.armor,Amount:6,Operation:0,Slot:legs,UUIDLeast:69,UUIDMost:759},{AttributeName:generic.armorToughness,Amount:2,Operation:0,Slot:legs,UUIDLeast:62,UUIDMost:7632}]}
+#replaceitem entity @s[nbt={Inventory:[{Slot:103b,tag:{type:mk.1_helmet}}]}] armor.feet minecraft:leather_boots{type:mk.1_boots,Enchantments:[{id:protection,lvl:10},{id:blast_protection,lvl:10},{id:feather_falling,lvl:10},{id:vanishing_curse,lvl:1},{id:binding_curse,lvl:1}],display:{color:3882299,Name:'{"italic":"false","color":"dark_gray","text":"Mk.1 Boots"}'},AttributeModifiers:[{AttributeName:generic.armor,Amount:3,Operation:0,Slot:feet,UUIDLeast:7123,UUIDMost:7731},{AttributeName:generic.armorToughness,Amount:2,Operation:0,Slot:feet,UUIDLeast:69,UUIDMost:5739}]}

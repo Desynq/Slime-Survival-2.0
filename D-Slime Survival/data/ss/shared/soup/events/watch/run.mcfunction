@@ -1,0 +1,2 @@
+execute if entity @s[tag=watch.1] run function soup:events/watch/timer
+execute unless entity @s[tag=watch.1] in slime:vietnam positioned -104 8 -4 if entity @s[distance=..1] run function soup:events/watch/timer
