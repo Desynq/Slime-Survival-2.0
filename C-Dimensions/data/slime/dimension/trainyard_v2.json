@@ -1,0 +1,35 @@
+{
+	"type": "slime:vietnam",
+	"generator": {
+		"type": "minecraft:flat",
+		"seed": 0,
+		"settings": {
+			"level": "",
+			"lakes": false,
+			"lava_lakes": false,
+			"features": true,
+			"biome": "minecraft:the_void",
+			"structures": {
+				"structures": {}
+			},
+			"layers": [
+				{
+					"height": 1,
+					"block": "minecraft:bedrock"
+				},
+				{
+					"height": 58,
+					"block": "minecraft:stone"
+				},
+				{
+					"height": 4,
+					"block": "minecraft:dirt"
+				},
+				{
+					"height": 1,
+					"block": "minecraft:grass_block"
+				}
+			]
+		}
+	}
+}

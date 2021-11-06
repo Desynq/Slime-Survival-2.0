@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:overworld",
+	"generator": {
+		"type": "minecraft:flat",
+		"seed": 2043603658,
+		"settings": {
+			"level": "",
+			"lakes": true,
+			"lava_lakes": true,
+			"features": true,
+			"biome": "minecraft:plains",
+			"structures": {
+				"structures": {}
+			},
+			"layers": [
+				{
+					"height": 1,
+					"block": "minecraft:bedrock"
+				},
+				{
+					"height": 14,
+					"block": "minecraft:dirt"
+				},
+				{
+					"height": 1,
+					"block": "minecraft:grass_block"
+				}
+			]
+		}
+	}
+}

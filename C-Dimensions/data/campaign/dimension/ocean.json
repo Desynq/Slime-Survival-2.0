@@ -1,0 +1,35 @@
+{
+	"type": "campaign:ocean",
+	"generator": {
+		"type": "minecraft:flat",
+		"seed": 0,
+		"settings": {
+			"level": "",
+			"lakes": false,
+			"lava_lakes": false,
+			"features": true,
+			"biome": "campaign:cold_sea",
+			"structures": {
+				"structures": {}
+			},
+			"layers": [
+				{
+					"height": 1,
+					"block": "minecraft:bedrock"
+				},
+				{
+					"height": 5,
+					"block": "minecraft:sandstone"
+				},
+				{
+					"height": 5,
+					"block": "minecraft:sand"
+				},
+				{
+					"height": 52,
+					"block": "minecraft:water"
+				}
+			]
+		}
+	}
+}
