@@ -1,4 +1,0 @@
-clear @s #minecraft:all{type:"ish_armour"}
-
-item replace entity @s armor.chest with leather_chestplate{Unbreakable:true,display:{Name:'{"italic":"false","color":"blue","text":"Stealth Vest"}',color:4868682},Enchantments:[{id:vanishing_curse,lvl:1},{id:projectile_protection,lvl:3},{id:protection,lvl:2},{id:binding_curse,lvl:1}],type:"ish_chest",Tags:["ish_armour"],AttributeModifiers:[{AttributeName:generic.armor,Amount:8,Operation:0,Slot:chest,UUID:[I;19031,13019,5819081,59101]}]}
-item replace entity @s armor.legs with leather_leggings{Unbreakable:true,display:{Name:'{"italic":"false","color":"blue","text":"Stealth Pants"}',color:3225650},Enchantments:[{id:vanishing_curse,lvl:1},{id:projectile_protection,lvl:3},{id:protection,lvl:2},{id:binding_curse,lvl:1}],type:"ish_legs",Tags:["ish_armour"],AttributeModifiers:[{AttributeName:generic.armor,Amount:6,Operation:0,Slot:chest,UUID:[I;54819,518941,6891,69811]}]}
