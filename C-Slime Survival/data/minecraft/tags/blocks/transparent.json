@@ -1,0 +1,32 @@
+{
+	"values": [
+		"#minecraft:saplings",
+		"#minecraft:lawnmowable",
+		"#minecraft:air",
+		"minecraft:cobweb",
+		"#minecraft:underwater_bonemeals",
+		"minecraft:brown_mushroom",
+		"minecraft:red_mushroom",
+		"#minecraft:torches",
+		"minecraft:vine",
+		"minecraft:kelp",
+		"#minecraft:dead_corals",
+		"#minecraft:signs",
+		"#minecraft:banners",
+		"minecraft:lever",
+		"minecraft:stone_pressure_plate",
+		"#minecraft:wooden_pressure_plates",
+		"#minecraft:buttons",
+		"minecraft:tripwire_hook",
+		"minecraft:light_weighted_pressure_plate",
+		"minecraft:heavy_weighted_pressure_plate",
+		"minecraft:redstone_wire",
+		"minecraft:repeater",
+		"minecraft:comparator",
+		"#minecraft:rails",
+		"minecraft:snow",
+		"minecraft:tripwire",
+		"minecraft:water",
+		"minecraft:lava"
+	]
+}
