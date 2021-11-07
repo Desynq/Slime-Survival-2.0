@@ -1,0 +1,23 @@
+{
+	"condition": "alternative",
+	"terms": [
+		{
+			"condition": "location_check",
+			"predicate": {
+				"dimension": "slime:themyst"
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"dimension": "slime:trainyard"
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"dimension": "slime:vietnam"
+			}
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"condition": "alternative",
+	"terms": [
+		{
+			"condition": "location_check",
+			"predicate": {
+				"dimension": "slime:cmp"
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"dimension": "slime:cmp2"
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"dimension": "slime:cmp3"
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"dimension": "slime:cmp_void"
+			}
+		}
+	]
+}
