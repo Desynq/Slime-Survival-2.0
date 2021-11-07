@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "text": "][---][ Bestiary ][---][",
+            "color": "#58181F"
+        },
+        "description": [
+            "",
+            {
+                "text": "We are not born evil, yet is human nature to become evil.",
+                "color": "dark_gray",
+                "italic": true
+            }
+        ],
+        "icon": {
+            "item": "minecraft:skeleton_skull"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/soul_sand.png"
+    },
+    "criteria": {
+        "acquired": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

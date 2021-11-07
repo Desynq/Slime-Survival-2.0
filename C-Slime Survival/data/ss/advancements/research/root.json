@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "text": "][---][ Research ][---][",
+            "color": "#2243b6"
+        },
+        "description": [
+            "",
+            {
+                "text": "Knowledge itself is power.\n- Sir Francis Bacon",
+                "color": "dark_gray",
+                "italic": true
+            }
+        ],
+        "icon": {
+            "item": "minecraft:writable_book"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/bookshelf.png"
+    },
+    "criteria": {
+        "acquired": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

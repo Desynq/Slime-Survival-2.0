@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "text": "][---][ Survival ][---][",
+            "color": "#116628"
+        },
+        "description": [
+            "",
+            {
+                "text": "The roots of survival start with a man punching a tree...",
+                "color": "dark_gray",
+                "italic": true
+            }
+        ],
+        "icon": {
+            "item": "minecraft:oak_sapling"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/dirt.png"
+    },
+    "criteria": {
+        "acquired": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

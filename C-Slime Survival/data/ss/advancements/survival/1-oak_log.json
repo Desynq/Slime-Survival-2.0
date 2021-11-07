@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": "Planking Around",
+        "description": [
+            "",
+            {
+                "text": "Acquire any type of wooden planks",
+                "color": "dark_aqua",
+                "italic": true
+            }
+        ],
+        "icon": {
+            "item": "minecraft:oak_planks"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "acquired": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "minecraft:planks"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "ss:survival/root"
+}
