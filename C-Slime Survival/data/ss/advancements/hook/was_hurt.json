@@ -1,0 +1,20 @@
+{
+    "display": {
+        "title": "Was Hurt By Something",
+        "description": "",
+        "icon": {
+            "item": "minecraft:potion",
+            "nbt": "{Potion:\"minecraft:harming\"}"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "acquired": {
+            "trigger": "minecraft:entity_hurt_player"
+        }
+    },
+    "parent": "ss:hook/root"
+}

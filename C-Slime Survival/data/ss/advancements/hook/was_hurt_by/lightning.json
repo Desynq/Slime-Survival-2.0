@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": "Lightning",
+        "description": "",
+        "icon": {
+            "item": "minecraft:lightning_rod"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "acquired": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "is_lightning": true
+                    }
+                }
+            }
+        }
+    },
+    "parent": "ss:hook/was_hurt"
+}
