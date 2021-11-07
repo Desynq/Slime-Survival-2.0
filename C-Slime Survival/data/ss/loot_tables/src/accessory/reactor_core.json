@@ -1,0 +1,75 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:warped_fungus_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "italic": "false",
+                                "color": "dark_green",
+                                "text": "Reactor Core"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "italic": "false",
+                                    "color": "dark_gray",
+                                    "text": "════════════════"
+                                },
+                                [
+                                    {
+                                        "italic": "false",
+                                        "color": "dark_aqua",
+                                        "text": "Mystical"
+                                    },
+                                    {
+                                        "italic": "false",
+                                        "color": "white",
+                                        "text":" Unstackable Accessory"
+                                    }
+                                ],
+                                {
+                                    "italic": "false",
+                                    "color": "dark_gray",
+                                    "text": "════════════════"
+                                },
+                                {
+                                    "italic": "false",
+                                    "color": "gray",
+                                    "text": "When worn as Accessory:"
+                                },
+                                {
+                                    "italic": "false",
+                                    "color": "blue",
+                                    "text": " +50% Max Health"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData:55,type:\"reactor_core\"}"
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{SpawnFromLootTable:true}",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:reference",
+                                    "name": "ss:entity/has_tag/giving_item"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
