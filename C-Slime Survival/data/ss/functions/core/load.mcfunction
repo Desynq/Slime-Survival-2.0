@@ -2,6 +2,7 @@
 # Scoreboard Objectives
 ########################
 
+scoreboard players reset * temp
 
 
 
@@ -11,8 +12,6 @@
 
 datapack disable vanilla
 
-commandaliases reload
-
 
 
 ##############
@@ -20,7 +19,6 @@ commandaliases reload
 ##############
 
 execute in minecraft:overworld run summon minecraft:marker 0 0 0 {Tags:["onLoad"]}
-execute store result score seed rng run data get entity @e[type=minecraft:marker,tag=onLoad,limit=1] UUID[0] 1
 
 
 
@@ -74,4 +72,3 @@ function ss:math/table/generate
 kill @e[type=minecraft:marker,tag=onLoad]
 
 tellraw @a {"color":"dark_purple","text":"Reloaded All Datapacks!"}
-tellraw @a {"color":"dark_purple","text":"Reloaded All Custom Commands!"}

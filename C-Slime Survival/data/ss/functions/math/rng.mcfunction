@@ -1,11 +1,3 @@
-scoreboard players set rand_limit rng 2147483647
-scoreboard players operation rand_limit rng %= seed rng
-scoreboard players add rand_limit rng 1
-
-
-
-
-
 # Generates a random number between 0 and 2147483647 using coin flip addition
 scoreboard players set rand rng 0
 execute if predicate ss:global/bit run scoreboard players add rand rng 1
@@ -42,12 +34,6 @@ execute if predicate ss:global/bit run scoreboard players add rand rng 107374182
 
 
 
-
-
-# Rerun rng if (random integer between -2147483648 and 2147483647 >= 2147483647 % seed + 1)
-execute unless score rand_limit rng = seed rng if score rand rng < rand_limit rng run function ss:math/rng/run
-
-scoreboard players operation rand rng %= seed rng
-
+# Clone the random number and make it within the bounds of the asked limit
 scoreboard players operation output rng = rand rng
 scoreboard players operation output rng %= limit rng
