@@ -20,6 +20,7 @@ commandaliases reload
 ##############
 
 execute in minecraft:overworld run summon minecraft:marker 0 0 0 {Tags:["onLoad"]}
+execute store result score seed rng run data get entity @e[type=minecraft:marker,tag=onLoad,limit=1] UUID[0] 1
 
 
 
@@ -61,7 +62,7 @@ gamerule witherGriefing false
 
 
 
-function ss:math/math_table
+function ss:math/table/generate
 
 
 
