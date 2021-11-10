@@ -2,7 +2,8 @@
 ## Ticking
 ###########
 
-
+execute store result score 20 tick run time query gametime
+scoreboard players operation 20 tick %= 20 math
 
 
 ##########
