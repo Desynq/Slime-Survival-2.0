@@ -20,7 +20,7 @@
 		"item": "minecraft:iron_pickaxe",
 		"count": 1,
 		"data": {
-			"Damage": 240,
+			"Damage": 218,
 			"RepairCost": 32767,
 			"type": "philosophers_pickaxe",
 			"Enchantments": [
