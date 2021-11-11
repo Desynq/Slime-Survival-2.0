@@ -32,7 +32,7 @@
 			"display": {
 				"Name": "{\"italic\":\"false\",\"color\":\"dark_aqua\",\"text\":\"Philosopher's Pickaxe\"}",
 				"Lore": [
-					"[{\"italic\":\"false\",\"color\":\"dark_gray\",\"text\":\"=========[ \"},{\"color\":\"dark_red\",\"text\":\"Lore\"},\" ]=========\"]",
+					"[{\"italic\":\"false\",\"color\":\"dark_gray\",\"text\":\"=========[ \"},{\"color\":\"dark_purple\",\"text\":\"Lore\"},\" ]=========\"]",
 					"[{\"italic\":\"false\",\"color\":\"dark_gray\",\"text\":\"=======[ \"},{\"color\":\"dark_red\",\"text\":\"Limitations\"},\" ]=======\"]",
 					"{\"italic\":\"false\",\"color\":\"dark_red\",\"text\":\"* Cannot be used within an anvil.\"}"
 				]
