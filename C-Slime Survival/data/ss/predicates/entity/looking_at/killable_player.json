@@ -1,0 +1,31 @@
+{
+	"condition": "minecraft:alternative",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"player": {
+					"looking_at": {
+						"player": {
+							"gamemode": "survival"
+						}
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"player": {
+					"looking_at": {
+						"player": {
+							"gamemode": "adventure"
+						}
+					}
+				}
+			}
+		}
+	]
+}
