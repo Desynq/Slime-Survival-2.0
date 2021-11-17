@@ -12,6 +12,9 @@ scoreboard players reset * temp
 
 datapack disable vanilla
 
+# Due to how fabric mods work with /reload, command aliases have to be forcefully loaded after a /reload
+commandaliases load
+
 
 
 ##############
