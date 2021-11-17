@@ -2,21 +2,30 @@
 ## Ticking
 ###########
 
-execute store result score 20 tick run time query gametime
+execute store result score 20 tick store result score 40 tick run time query gametime
 scoreboard players operation 20 tick %= 20 math
+scoreboard players operation 40 tick %= 40 math
 
 
-##########
-## Runtime
-##########
+###############
+## Pre-Runtime
+###############
 
 execute as @e[type=!player] at @s run function ss:entity/prerun
+
+
+###########
+## Runtime
+###########
+
 execute as @a at @s run function ss:player/run
+
+function ss:test/run
+
+execute as @e[type=!player] at @s run function ss:entity/run
 
 
 
 ###############
 ## Post-Runtime
 ###############
-
-execute as @e[type=!player] at @s run function ss:entity/run
