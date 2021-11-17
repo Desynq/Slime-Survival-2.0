@@ -1,0 +1,97 @@
+{
+	"type": "minecraft:generic",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:poisonous_potato",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"color": "green",
+								"text": "Creeper Flesh"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								[
+									{
+										"italic": false,
+										"color": "dark_gray",
+										"text": "=========[ "
+									},
+									{
+										"italic": false,
+										"color": "dark_purple",
+										"text": "Lore"
+									},
+									{
+										"italic": false,
+										"color": "dark_gray",
+										"text": " ]========="
+									}
+								],
+								{
+									"italic": false,
+									"color": "gray",
+									"text": "Ripped straight from a creeper, this "
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"text": "fungal flesh is highly explosive with "
+								},
+								[
+									{
+										"italic": false,
+										"color": "gray",
+										"text": "minute traces of "
+									},
+									{
+										"italic": false,
+										"color": "yellow",
+										"text": "nitre"
+									},
+									{
+										"italic": false,
+										"color": "gray",
+										"text": " and "
+									},
+									{
+										"italic": false,
+										"color": "yellow",
+										"text": "sulfur"
+									},
+									{
+										"italic": false,
+										"color": "gray",
+										"text": "."
+									}
+								]
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:1000000,type:\"creeper_flesh\"}"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{SpawnFromLootTable:true}",
+							"conditions": [
+								{
+									"condition": "minecraft:reference",
+									"name": "ss:entity/has_tag/giving_item"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
