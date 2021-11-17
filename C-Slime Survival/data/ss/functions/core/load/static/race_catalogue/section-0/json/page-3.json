@@ -1,0 +1,59 @@
+[
+	{
+		"text": "Our Mission\n",
+		"color": "dark_green",
+		"obfuscated": false,
+		"bold": true,
+		"strikethrough": false,
+		"underlined": false,
+		"italic": false
+	},
+	{
+		"text": "-------------------\n",
+		"color": "black",
+		"obfuscated": false,
+		"bold": false,
+		"strikethrough": false,
+		"underlined": false,
+		"italic": false
+	},
+	[
+		{
+			"text": "Here at SoCorp®, we value ",
+			"color": "black",
+			"obfuscated": false,
+			"bold": false,
+			"strikethrough": false,
+			"underlined": false,
+			"italic": false
+		},
+		{
+			"text": "diversity",
+			"italic": true
+		},
+		{
+			"text": " and ",
+			"italic": false
+		},
+		{
+			"text": "inclusion",
+			"italic": true
+		},
+		{
+			"text": ". Our goal is to be the most equal workplace in Desynqtopia by 20",
+			"italic": false
+		},
+		{
+			"text": "??",
+			"obfuscated": true
+		},
+		{
+			"text": ". And so, to achieve this goal, we will be testing our new device:\n",
+			"obfuscated": false
+		},
+		{
+			"text": "The Racial Morph Device™\n",
+			"italic": true
+		}
+	]
+]

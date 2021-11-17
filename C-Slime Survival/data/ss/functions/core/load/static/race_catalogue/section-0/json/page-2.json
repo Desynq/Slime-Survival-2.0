@@ -1,0 +1,20 @@
+[
+	{
+		"text": "\n\n\n\n General Information \n\n\n\n\n\n\n\n\n",
+		"color": "black",
+		"obfuscated": false,
+		"bold": false,
+		"strikethrough": false,
+		"underlined": false,
+		"italic": false
+	},
+	{
+		"text": "       Turn Page",
+		"color": "black",
+		"obfuscated": false,
+		"bold": false,
+		"strikethrough": false,
+		"underlined": false,
+		"italic": true
+	}
+]
