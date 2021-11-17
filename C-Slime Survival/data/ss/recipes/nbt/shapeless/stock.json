@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:bowl"
+		},
+		{
+			"tag": "ss:stock_fillers"
+		}
+	],
+	"result": {
+		"item": "minecraft:dried_kelp",
+		"count": 1,
+		"data": {
+			"CustomModelData": 1000000,
+			"type": "stock",
+			"display": {
+				"Name": "{\"italic\":false,\"color\":\"white\",\"text\":\"Stock\"}",
+				"Lore": [
+					"[{\"italic\":false,\"color\":\"dark_gray\",\"text\":\"=========[ \"},{\"italic\":false,\"color\":\"dark_purple\",\"text\":\"Lore\"},{\"italic\":false,\"color\":\"dark_gray\",\"text\":\" ]=========\"}]",
+					"{\"italic\":false,\"color\":\"gray\",\"text\":\"Stock is an essential ingredient\"}",
+					"{\"italic\":false,\"color\":\"gray\",\"text\":\"for making soups and stews.\"}"
+				]
+			}
+		}
+	}
+}
