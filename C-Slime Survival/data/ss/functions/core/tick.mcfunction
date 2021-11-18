@@ -29,3 +29,11 @@ execute as @e[type=!player] at @s run function ss:entity/run
 ###############
 ## Post-Runtime
 ###############
+
+execute as @a at @s run function ss:player/post/run
+
+
+# Emptying temporary or hooked scoreboards
+scoreboard players reset * temp
+scoreboard players reset * isSneaking
+scoreboard players reset * openedEnderchest
