@@ -19,3 +19,7 @@ execute store result score @s FallFlying run data get entity @s FallFlying 1
 
 # Store player's health (to the tenth)
 execute store result score @s Health-0.1 run data get entity @s Health 10
+
+# Player's X and Y rotations
+execute store result score @s plyRotX run data get entity @s Rotation[0] 1
+execute store result score @s plyRotY run data get entity @s Rotation[1] 1
