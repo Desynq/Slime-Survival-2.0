@@ -1,11 +1,3 @@
-########################
-# Scoreboard Objectives
-########################
-
-scoreboard players reset * temp
-
-
-
 ################
 # Compatability
 ################
@@ -25,6 +17,7 @@ execute in minecraft:overworld run summon minecraft:marker 0 0 0 {Tags:["onLoad"
 
 
 
+function ss:core/load/scoreboards
 function ss:core/load/bossbars
 function ss:core/load/static/run
 
