@@ -1,0 +1,19 @@
+{
+    "display": {
+        "title": "Using Item",
+        "description": "",
+        "icon": {
+            "item": "minecraft:spyglass"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "acquired": {
+            "trigger": "minecraft:using_item"
+        }
+    },
+    "parent": "ss:hook/root"
+}

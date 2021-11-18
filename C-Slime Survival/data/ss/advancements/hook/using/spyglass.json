@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": "Using Spyglass",
+        "description": "",
+        "icon": {
+            "item": "minecraft:spyglass"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "acquired": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:spyglass"
+                    ]
+                }
+            }
+        }
+    },
+    "parent": "ss:hook/using_item"
+}
