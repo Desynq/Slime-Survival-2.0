@@ -10,3 +10,10 @@ execute if entity @s[predicate=!ss:entity/equipment/mainhand/air] run function s
 
 # Detect if player has rejoined since last leaving or has never joined
 execute unless score @s hasLeft matches 0 run function ss:player/server/on_join
+
+
+function ss:player/enderchest/run
+
+
+
+function ss:player/actionbar/run
