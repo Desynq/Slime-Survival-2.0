@@ -1,15 +1,15 @@
-###########
-## Ticking
-###########
-
-execute store result score 20 tick store result score 40 tick run time query gametime
-scoreboard players operation 20 tick %= 20 math
-scoreboard players operation 40 tick %= 40 math
-
-
 ###############
 ## Pre-Runtime
 ###############
+
+function ss:global/timers
+
+
+
+# Detect if player has rejoined since last leaving or has never joined
+execute as @a at @s unless score @s hasLeft matches 0 run function ss:player/server/on_join
+
+execute as @a[predicate=ss:entity/has_effect/at_40958_ticks/any] at @s run function ss:core/prerun/clear_effects
 
 execute as @e[type=!player] at @s run function ss:entity/prerun
 
