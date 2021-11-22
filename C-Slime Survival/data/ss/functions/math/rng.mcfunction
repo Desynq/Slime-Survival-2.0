@@ -1,4 +1,4 @@
-# Generates a random number between 0 and 2147483647 using coin flip addition
+# Generates a random number between 0 and 2147483647 using quadratic coin flip addition
 scoreboard players set rand rng 0
 execute if predicate ss:global/bit run scoreboard players add rand rng 1
 execute if predicate ss:global/bit run scoreboard players add rand rng 2
