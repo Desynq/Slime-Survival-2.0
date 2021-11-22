@@ -1,0 +1,11 @@
+{
+	"condition": "entity_properties",
+	"entity": "this",
+	"predicate": {
+		"effects": {
+			"weakness": {
+				"duration": 40958
+			}
+		}
+	}
+}

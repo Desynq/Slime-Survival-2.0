@@ -1,0 +1,11 @@
+{
+	"condition": "entity_properties",
+	"entity": "this",
+	"predicate": {
+		"effects": {
+			"jump_boost": {
+				"duration": 40958
+			}
+		}
+	}
+}

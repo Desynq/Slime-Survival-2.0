@@ -1,0 +1,11 @@
+{
+	"condition": "entity_properties",
+	"entity": "this",
+	"predicate": {
+		"effects": {
+			"instant_damage": {
+				"duration": 40958
+			}
+		}
+	}
+}

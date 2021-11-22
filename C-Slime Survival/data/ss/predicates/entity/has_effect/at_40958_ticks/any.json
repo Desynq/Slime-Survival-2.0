@@ -1,0 +1,357 @@
+{
+	"condition": "minecraft:alternative",
+	"terms": [
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"effects": {
+					"minecraft:absorption": {
+						"duration": 40958
+					}
+				}
+			}
+		},
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"effects": {
+					"minecraft:bad_omen": {
+						"duration": 40958
+					}
+				}
+			}
+		},
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"effects": {
+					"minecraft:blindness": {
+						"duration": 40958
+					}
+				}
+			}
+		},
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"effects": {
+					"minecraft:conduit_power": {
+						"duration": 40958
+					}
+				}
+			}
+		},
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"effects": {
+					"minecraft:dolphins_grace": {
+						"duration": 40958
+					}
+				}
+			}
+		},
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"effects": {
+					"minecraft:fire_resistance": {
+						"duration": 40958
+					}
+				}
+			}
+		},
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"effects": {
+					"minecraft:glowing": {
+						"duration": 40958
+					}
+				}
+			}
+		},
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"effects": {
+					"minecraft:haste": {
+						"duration": 40958
+					}
+				}
+			}
+		},
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"effects": {
+					"minecraft:health_boost": {
+						"duration": 40958
+					}
+				}
+			}
+		},
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"effects": {
+					"minecraft:hero_of_the_village": {
+						"duration": 40958
+					}
+				}
+			}
+		},
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"effects": {
+					"minecraft:hunger": {
+						"duration": 40958
+					}
+				}
+			}
+		},
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"effects": {
+					"minecraft:instant_damage": {
+						"duration": 40958
+					}
+				}
+			}
+		},
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"effects": {
+					"minecraft:instant_health": {
+						"duration": 40958
+					}
+				}
+			}
+		},
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"effects": {
+					"minecraft:invisibility": {
+						"duration": 40958
+					}
+				}
+			}
+		},
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"effects": {
+					"minecraft:jump_boost": {
+						"duration": 40958
+					}
+				}
+			}
+		},
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"effects": {
+					"minecraft:levitation": {
+						"duration": 40958
+					}
+				}
+			}
+		},
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"effects": {
+					"minecraft:luck": {
+						"duration": 40958
+					}
+				}
+			}
+		},
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"effects": {
+					"minecraft:mining_fatigue": {
+						"duration": 40958
+					}
+				}
+			}
+		},
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"effects": {
+					"minecraft:nausea": {
+						"duration": 40958
+					}
+				}
+			}
+		},
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"effects": {
+					"minecraft:night_vision": {
+						"duration": 40958
+					}
+				}
+			}
+		},
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"effects": {
+					"minecraft:poison": {
+						"duration": 40958
+					}
+				}
+			}
+		},
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"effects": {
+					"minecraft:regeneration": {
+						"duration": 40958
+					}
+				}
+			}
+		},
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"effects": {
+					"minecraft:resistance": {
+						"duration": 40958
+					}
+				}
+			}
+		},
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"effects": {
+					"minecraft:saturation": {
+						"duration": 40958
+					}
+				}
+			}
+		},
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"effects": {
+					"minecraft:slow_falling": {
+						"duration": 40958
+					}
+				}
+			}
+		},
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"effects": {
+					"minecraft:slowness": {
+						"duration": 40958
+					}
+				}
+			}
+		},
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"effects": {
+					"minecraft:speed": {
+						"duration": 40958
+					}
+				}
+			}
+		},
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"effects": {
+					"minecraft:strength": {
+						"duration": 40958
+					}
+				}
+			}
+		},
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"effects": {
+					"minecraft:unluck": {
+						"duration": 40958
+					}
+				}
+			}
+		},
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"effects": {
+					"minecraft:water_breathing": {
+						"duration": 40958
+					}
+				}
+			}
+		},
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"effects": {
+					"minecraft:weakness": {
+						"duration": 40958
+					}
+				}
+			}
+		},
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"effects": {
+					"minecraft:wither": {
+						"duration": 40958
+					}
+				}
+			}
+		}
+	]
+}

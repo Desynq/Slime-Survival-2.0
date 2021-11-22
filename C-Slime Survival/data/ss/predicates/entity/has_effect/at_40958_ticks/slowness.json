@@ -1,0 +1,11 @@
+{
+	"condition": "entity_properties",
+	"entity": "this",
+	"predicate": {
+		"effects": {
+			"slowness": {
+				"duration": 40958
+			}
+		}
+	}
+}

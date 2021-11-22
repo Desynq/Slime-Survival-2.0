@@ -1,0 +1,11 @@
+{
+	"condition": "entity_properties",
+	"entity": "this",
+	"predicate": {
+		"effects": {
+			"health_boost": {
+				"duration": 40958
+			}
+		}
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"condition": "entity_properties",
+	"entity": "this",
+	"predicate": {
+		"effects": {
+			"instant_health": {
+				"duration": 40958
+			}
+		}
+	}
+}
