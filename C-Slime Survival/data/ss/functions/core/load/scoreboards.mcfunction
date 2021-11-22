@@ -17,6 +17,7 @@ scoreboard objectives add tempTimer dummy
 
 scoreboard objectives add hasLeft minecraft.custom:minecraft.leave_game
 scoreboard objectives add isSneaking minecraft.custom:minecraft.sneak_time
+scoreboard objectives add hasJumped minecraft.custom:minecraft.jump
 
 scoreboard objectives add openedEnderchest minecraft.custom:minecraft.open_enderchest
 

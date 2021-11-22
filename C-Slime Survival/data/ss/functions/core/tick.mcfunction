@@ -36,4 +36,5 @@ execute as @a at @s run function ss:player/post/run
 # Emptying temporary or hooked scoreboards
 scoreboard players reset * temp
 scoreboard players reset * isSneaking
+scoreboard players reset * hasJumped
 scoreboard players reset * openedEnderchest
