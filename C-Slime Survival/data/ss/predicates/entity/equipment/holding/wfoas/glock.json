@@ -8,8 +8,9 @@
 				"equipment": {
 					"mainhand": {
 						"items": [
-							"minecraft:ender_chest"
-						]
+							"minecraft:warped_fungus_on_a_stick"
+						],
+						"nbt": "{\"type\":\"glock\"}"
 					}
 				}
 			}
@@ -21,8 +22,9 @@
 				"equipment": {
 					"offhand": {
 						"items": [
-							"minecraft:ender_chest"
-						]
+							"minecraft:warped_fungus_on_a_stick"
+						],
+						"nbt": "{\"type\":\"glock\"}"
 					}
 				}
 			}
