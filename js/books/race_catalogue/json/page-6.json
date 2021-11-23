@@ -1,0 +1,37 @@
+{
+	"text": "",
+	"extra": [
+		[
+			"Race Selection     ",
+			{
+				"text": "[<-]\n",
+				"color": "blue",
+				"clickEvent": {
+					"action": "change_page",
+					"value": 2
+				}
+			}
+		],
+		"-------------------\n",
+		[
+			"Before you pick your new race, you will be provided with material aiding in the selection of your new race.\n\n",
+			{
+				"text": "Warning:\n",
+				"color": "dark_red"
+			},
+			{
+				"text": "Failure to read informational material may result in ",
+				"color": "red"
+			},
+			{
+				"text": "unpleasant",
+				"italic": true,
+				"color": "red"
+			},
+			{
+				"text": " features after transformation.\n\n",
+				"color": "red"
+			}
+		]
+	]
+}

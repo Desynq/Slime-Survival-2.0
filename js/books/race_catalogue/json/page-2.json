@@ -1,0 +1,58 @@
+{
+	"text": "",
+	"extra": [
+		[
+			{
+				"text": "24. "
+			},
+			{
+				"text": "Arthropod\n",
+				"clickEvent": {
+					"action": "change_page",
+					"value": 24
+				}
+			}
+		],
+		[
+			{
+				"text": "27. "
+			},
+			{
+				"text": "Warforged\n",
+				"clickEvent": {
+					"action": "change_page",
+					"value": 24
+				}
+			}
+		],
+		[
+			{
+				"text": "30. "
+			},
+			{
+				"text": "Merfolk\n",
+				"clickEvent": {
+					"action": "change_page",
+					"value": 30
+				}
+			}
+		],
+		{
+			"text": "-------------------\n\n"
+		},
+		{
+			"text": "  [Select Your Race]\n\n\n\n\n\n\n\n",
+			"color": "dark_green",
+			"hoverEvent": {
+				"action": "show_text",
+				"value": {
+					"text": "Make sure you know the details\nof your race before proceeding!",
+					"color": "red"
+				}
+			}
+		},
+		{
+			"text": "       Turn Page"
+		}
+	]
+}

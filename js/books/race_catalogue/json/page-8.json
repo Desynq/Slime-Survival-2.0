@@ -1,0 +1,25 @@
+{
+	"text": "",
+	"extra": [
+		"Human                ",
+		{
+			"text": "[<-]\n",
+			"color": "blue",
+			"clickEvent": {
+				"action": "change_page",
+				"value": 2
+			}
+		},
+		"-------------------\n",
+		{
+			"text": "Homo sapiens sapiens\n\n",
+			"italic": true
+		},
+		{
+			"text": "Description:\n\n"
+		},
+		{
+			"text": "Humans are still the most common race to find all around the world. They are known for their general intelligence and ingenuity. Unlike many other races, they are"
+		}
+	]
+}

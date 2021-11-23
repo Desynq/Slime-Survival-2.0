@@ -1,0 +1,15 @@
+{
+	"text": "",
+	"extra": [
+		"Which will allow you to change your race - helping us become the most inclusive company! So, please join us in embarking in the usage of the revolutionary new way of avoiding diversity quotas",
+		{
+			"text": "*",
+			"color": "blue",
+			"hoverEvent": {
+				"action": "show_text",
+				"value": "Gender change NOT available!"
+			}
+		},
+		"."
+	]
+}

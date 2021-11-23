@@ -1,6 +1,4 @@
-data remove storage ss:race_catalogue section
-data modify storage ss:race_catalogue section set value []
+data remove storage ss:books books
+data modify storage ss:books books set value [{"type":"race_catalogue",pages:[]}]
 
-
-data modify storage ss:race_catalogue section append value {"page":[]}
-function ss:core/load/static/race_catalogue/section-0/run
+function ss:core/load/static/books/race_catalogue

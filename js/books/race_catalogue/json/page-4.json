@@ -1,0 +1,45 @@
+{
+	"text": "",
+	"extra": [
+		"Introduction        ",
+		{
+			"text": "[<-]\n",
+			"color": "blue",
+			"clickEvent": {
+				"action": "change_page",
+				"value": 2
+			}
+		},
+		"-------------------\n",
+		[
+			"Here at SoCorp, we value Diversity and Inclusion. We hope to be the most equal workplace in Desynqtopia by 20",
+			{
+				"text": "//",
+				"obfuscated": true
+			},
+			{
+				"text": "*",
+				"color": "blue",
+				"hoverEvent": {
+					"action": "show_text",
+					"value": {
+						"text": "",
+						"extra": [
+							{
+								"text": "For "
+							},
+							{
+								"text": "tax",
+								"italic": true
+							},
+							{
+								"text": " reasons"
+							}
+						]
+					}
+				}
+			},
+			". To achieve this we will be testing our new Racial Morph Device™. Inside this pamphlet is our new experimental Racial Morph Device™."
+		]
+	]
+}
