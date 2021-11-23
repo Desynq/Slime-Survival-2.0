@@ -9,4 +9,4 @@ scoreboard players operation distance temp /= 10 math
 scoreboard players operation distance-0.1 temp %= 10 math
 
 execute unless score distance temp matches 250.. run title @s actionbar [{"color":"white","score":{"name":"distance","objective":"temp"}},{"color":"white","text":"."},{"score":{"name":"distance-0.1","objective":"temp"}},{"color":"green","text":"m"}]
-execute if score distance temp matches 250.. run title @s actionbar [{"color":"white","text":">250.0"},{"color":"green","text":"m"}]
+execute if score distance temp matches 250.. run title @s actionbar [{"obfuscated":true,"color":"white","text":"250.0"},{"obfuscated":false,"color":"green","text":"m"}]
