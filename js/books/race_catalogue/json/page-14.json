@@ -1,0 +1,29 @@
+{
+	"text": "",
+	"extra": [
+		"Sludge               ",
+		{
+			"text": "[<-]\n",
+			"color": "blue",
+			"clickEvent": {
+				"action": "change_page",
+				"value": 2
+			}
+		},
+		"-------------------\n",
+		{
+			"text": "Oleum persona",
+			"italic": true
+		},
+		{
+			"text": "*\n\n",
+			"color": "blue",
+			"hoverEvent": {
+				"action": "show_text",
+				"value": "Translates to: Oily Person"
+			}
+		},
+		"Description:\n\n",
+		"The Sludge, a gelatinous blob formed of some blend of oils and mucus, is a common sight in corporate boardrooms and banks. Sludges come"
+	]
+}

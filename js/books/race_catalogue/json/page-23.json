@@ -1,0 +1,29 @@
+{
+	"text": "",
+	"extra": [
+		"Arthropod          ",
+		{
+			"text": "[<-]\n",
+			"color": "blue",
+			"clickEvent": {
+				"action": "change_page",
+				"value": 2
+			}
+		},
+		"-------------------\n",
+		{
+			"text": "Abominatio dei",
+			"italic": true
+		},
+		{
+			"text": "*\n",
+			"color": "blue",
+			"hoverEvent": {
+				"action": "show_text",
+				"value": "Roughly translates to: The Abomination of God"
+			}
+		},
+		"Description:\n",
+		"Originating from what used to be an Avarice prison colony island, the Arthropod was able to claim back its territory after the great collapse of the Great Avarice Empire. Their"
+	]
+}

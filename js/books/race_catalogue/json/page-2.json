@@ -1,58 +1,83 @@
 {
 	"text": "",
 	"extra": [
-		[
-			{
-				"text": "24. "
-			},
-			{
-				"text": "Arthropod\n",
-				"clickEvent": {
-					"action": "change_page",
-					"value": 24
-				}
-			}
-		],
-		[
-			{
-				"text": "27. "
-			},
-			{
-				"text": "Warforged\n",
-				"clickEvent": {
-					"action": "change_page",
-					"value": 24
-				}
-			}
-		],
-		[
-			{
-				"text": "30. "
-			},
-			{
-				"text": "Merfolk\n",
-				"clickEvent": {
-					"action": "change_page",
-					"value": 30
-				}
-			}
-		],
 		{
-			"text": "-------------------\n\n"
+			"text": "",
+			"extra": [
+				{
+					"text": "[->]",
+					"color": "blue",
+					"clickEvent": {
+						"action": "change_page",
+						"value": 24
+					}
+				},
+				{
+					"text": " 24. Arthropod\n"
+				}
+			]
 		},
 		{
-			"text": "  [Select Your Race]\n\n\n\n\n\n\n\n",
-			"color": "dark_green",
-			"hoverEvent": {
-				"action": "show_text",
-				"value": {
-					"text": "Make sure you know the details\nof your race before proceeding!",
-					"color": "red"
+			"text": "",
+			"extra": [
+				{
+					"text": "[->]",
+					"color": "blue",
+					"clickEvent": {
+						"action": "change_page",
+						"value": 27
+					}
+				},
+				{
+					"text": " 27. Warforged\n"
 				}
-			}
+			]
 		},
 		{
-			"text": "       Turn Page"
+			"text": "",
+			"extra": [
+				{
+					"text": "[->]",
+					"color": "blue",
+					"clickEvent": {
+						"action": "change_page",
+						"value": 30
+					}
+				},
+				{
+					"text": " 30. Merfolk\n"
+				}
+			]
+		},
+		"-------------------\n\n",
+		{
+			"text": "",
+			"extra": [
+				{
+					"text": "[->]",
+					"color": "blue",
+					"hoverEvent": {
+						"action": "show_text",
+						"value": "Temporarily broken, contact tech support for further help. ;)"
+					}
+				},
+				" 33. ",
+				{
+					"text": "Change Race",
+					"color": "dark_green"
+				},
+				{
+					"text": "*\n\n\n\n\n\n\n\n",
+					"color": "blue",
+					"hoverEvent": {
+						"action": "show_text",
+						"value": {
+							"text": "Make sure you know the details\nof your race before proceeding!",
+							"color": "red"
+						}
+					}
+				}
+			]
 		}
 	]
 }

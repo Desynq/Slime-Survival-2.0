@@ -4,125 +4,153 @@
 		{
 			"text": "Table of Contents\n"
 		},
+		"-------------------\n",
 		{
-			"text": "-------------------\n"
-		},
-		[
-			{
-				"text": "4. "
-			},
-			{
-				"text": "Preface\n",
-				"clickEvent": {
-					"action": "change_page",
-					"value": 4
+			"text": "",
+			"extra": [
+				{
+					"text": "[->]",
+					"color": "blue",
+					"clickEvent": {
+						"action": "change_page",
+						"value": 4
+					}
+				},
+				{
+					"text": " 4. Preface\n"
 				}
-			}
-		],
+			]
+		},
+		"-------------------\n",
 		{
-			"text": "-------------------\n"
+			"text": "",
+			"extra": [
+				{
+					"text": "[->]",
+					"color": "blue",
+					"clickEvent": {
+						"action": "change_page",
+						"value": 5
+					}
+				},
+				{
+					"text": " 5. Introduction\n"
+				}
+			]
 		},
-		[
-			{
-				"text": "5. "
-			},
-			{
-				"text": "Introduction\n",
-				"clickEvent": {
-					"action": "change_page",
-					"value": 5
-				}
-			}
-		],
-		[
-			{
-				"text": "7. "
-			},
-			{
-				"text": "Race Selection\n",
-				"clickEvent": {
-					"action": "change_page",
-					"value": 7
-				}
-			}
-		],
 		{
-			"text": "-------------------\n"
-		},
-		[
-			{
-				"text": "8. "
-			},
-			{
-				"text": "Races\n",
-				"clickEvent": {
-					"action": "change_page",
-					"value": 8
+			"text": "",
+			"extra": [
+				{
+					"text": "[->]",
+					"color": "blue",
+					"clickEvent": {
+						"action": "change_page",
+						"value": 7
+					}
+				},
+				{
+					"text": " 7. Race Selection\n"
 				}
-			}
-		],
+			]
+		},
+		"-------------------\n",
 		{
-			"text": "-------------------\n"
+			"text": "",
+			"extra": [
+				{
+					"text": "[->]",
+					"color": "blue",
+					"clickEvent": {
+						"action": "change_page",
+						"value": 8
+					}
+				},
+				{
+					"text": " 8. Races\n"
+				}
+			]
 		},
-		[
-			{
-				"text": "9. "
-			},
-			{
-				"text": "Human\n",
-				"clickEvent": {
-					"action": "change_page",
-					"value": 9
+		"-------------------\n",
+		{
+			"text": "",
+			"extra": [
+				{
+					"text": "[->]",
+					"color": "blue",
+					"clickEvent": {
+						"action": "change_page",
+						"value": 9
+					}
+				},
+				{
+					"text": " 9. Human\n"
 				}
-			}
-		],
-		[
-			{
-				"text": "12. "
-			},
-			{
-				"text": "Creep\n",
-				"clickEvent": {
-					"action": "change_page",
-					"value": 12
+			]
+		},
+		{
+			"text": "",
+			"extra": [
+				{
+					"text": "[->]",
+					"color": "blue",
+					"clickEvent": {
+						"action": "change_page",
+						"value": 12
+					}
+				},
+				{
+					"text": " 12. Creep\n"
 				}
-			}
-		],
-		[
-			{
-				"text": "15. "
-			},
-			{
-				"text": "Sludge\n",
-				"clickEvent": {
-					"action": "change_page",
-					"value": 15
+			]
+		},
+		{
+			"text": "",
+			"extra": [
+				{
+					"text": "[->]",
+					"color": "blue",
+					"clickEvent": {
+						"action": "change_page",
+						"value": 15
+					}
+				},
+				{
+					"text": " 15. Sludge\n"
 				}
-			}
-		],
-		[
-			{
-				"text": "18. "
-			},
-			{
-				"text": "Bloodborne\n",
-				"clickEvent": {
-					"action": "change_page",
-					"value": 18
+			]
+		},
+		{
+			"text": "",
+			"extra": [
+				{
+					"text": "[->]",
+					"color": "blue",
+					"clickEvent": {
+						"action": "change_page",
+						"value": 18
+					}
+				},
+				{
+					"text": " 18. Bloodborne\n"
 				}
-			}
-		],
-		[
-			{
-				"text": "21. "
-			},
-			{
-				"text": "Floran\n",
-				"clickEvent": {
-					"action": "change_page",
-					"value": 21
+			]
+		},
+		{
+			"text": "",
+			"extra": [
+				{
+					"text": "[->]",
+					"color": "blue",
+					"clickEvent": {
+						"action": "change_page",
+						"value": 21
+					}
+				},
+				{
+					"text": " 21. Floran\n"
 				}
-			}
-		]
+			]
+		}
 	]
 }

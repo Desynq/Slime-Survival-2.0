@@ -1,0 +1,29 @@
+{
+	"text": "",
+	"extra": [
+		"Merfolk              ",
+		{
+			"text": "[<-]\n",
+			"color": "blue",
+			"clickEvent": {
+				"action": "change_page",
+				"value": 2
+			}
+		},
+		"-------------------\n",
+		{
+			"text": "Lolligo creatura",
+			"italic": true
+		},
+		{
+			"text": "*\n\n",
+			"color": "blue",
+			"hoverEvent": {
+				"action": "show_text",
+				"value": "Roughly translates to: Squid Creature"
+			}
+		},
+		"Description:\n\n",
+		"Meant to live in the waters around the East Asian Pacific, Merfolk, through a series of engineering marvels and technological advances, have gotten"
+	]
+}

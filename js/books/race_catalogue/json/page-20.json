@@ -1,0 +1,29 @@
+{
+	"text": "",
+	"extra": [
+		"Floran              ",
+		{
+			"text": "[<-]\n",
+			"color": "blue",
+			"clickEvent": {
+				"action": "change_page",
+				"value": 2
+			}
+		},
+		"-------------------\n",
+		{
+			"text": "Plantae vivae Europae",
+			"italic": true
+		},
+		{
+			"text": "*\n\n",
+			"color": "blue",
+			"hoverEvent": {
+				"action": "show_text",
+				"value": "Roughly translates to: The Living Plants of Europe"
+			}
+		},
+		"Description:\n\n",
+		"Having evolved from plants, Florans are known for ruthless efficiency and a brutal history. Now a widely peaceful group, the name Floran once drew fear of many"
+	]
+}

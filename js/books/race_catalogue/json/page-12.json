@@ -1,7 +1,7 @@
 {
 	"text": "",
 	"extra": [
-		"are known for exploding when in battle. Creeps are found mostly in Derelictland under the rule of the late",
+		"are known for exploding when in battle. Creeps are found mostly in Derelictland under the rule of the late Z. Axaco",
 		{
 			"text": "*",
 			"color": "blue",
@@ -10,7 +10,7 @@
 				"value": {
 					"text": "",
 					"extra": [
-						"Supposedly MIA for over ",
+						"Has been reportedly missing for over ",
 						{
 							"text": "/",
 							"obfuscated": true
@@ -20,6 +20,6 @@
 				}
 			}
 		},
-		" Z. Axaco. In wartime, Creeps often find themselves in two opposing positions: on the fronts as suicide bombers, and at the rear as artillery men. Creeper flesh is"
+		". In wartime, Creeps often find themselves in two opposing positions: on the fronts as suicide bombers, and at the rear as artillery men. Creeper flesh is"
 	]
 }

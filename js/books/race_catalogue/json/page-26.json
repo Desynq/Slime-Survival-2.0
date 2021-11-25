@@ -1,0 +1,29 @@
+{
+	"text": "",
+	"extra": [
+		"Warforged          ",
+		{
+			"text": "[<-]\n",
+			"color": "blue",
+			"clickEvent": {
+				"action": "change_page",
+				"value": 2
+			}
+		},
+		"-------------------\n",
+		{
+			"text": "Metallum opus hominis",
+			"italic": true
+		},
+		{
+			"text": "*\n\n",
+			"color": "blue",
+			"hoverEvent": {
+				"action": "show_text",
+				"value": "Roughly translates to: Metal Work Man"
+			}
+		},
+		"Description:\n\n",
+		"The Warforged were created through a joint effort of Creeps, Humans, and Florans to make a machine into man. Their purpose from the start has been to"
+	]
+}

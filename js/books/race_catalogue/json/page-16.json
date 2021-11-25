@@ -1,0 +1,15 @@
+{
+	"text": "",
+	"extra": [
+		"Avarice, Derelictland, and the Arthropod Continent",
+		{
+			"text": "*",
+			"color": "blue",
+			"hoverEvent": {
+				"action": "show_text",
+				"value": "Formerly known as Australia before its\n takeover by the native Arthropod population."
+			}
+		},
+		". Sludges are historically one of the most oppressed races being pushed away from multiple homelands by the Humans, Warforged, and Creeps - almost going extinct from the Floran tomatoes in the '40s."
+	]
+}

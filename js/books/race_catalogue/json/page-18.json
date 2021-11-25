@@ -1,0 +1,15 @@
+{
+	"text": "",
+	"extra": [
+		"stalk their targets before killing them and consuming their blood for nutrients. They are weak to the touch of silver and holy",
+		{
+			"text": "*",
+			"color": "blue",
+			"hoverEvent": {
+				"action": "show_text",
+				"value": "Pure water may suffice for weaker individuals."
+			}
+		},
+		". Thanks to their special ability to sneak around and kill anything around it that moves, the Bloodborne commonly finds employment in bounty hunting as"
+	]
+}

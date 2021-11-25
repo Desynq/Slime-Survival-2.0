@@ -1,0 +1,34 @@
+{
+	"text": "",
+	"extra": [
+		"Bloodborne         ",
+		{
+			"text": "[<-]\n",
+			"color": "blue",
+			"clickEvent": {
+				"action": "change_page",
+				"value": 2
+			}
+		},
+		"-------------------\n",
+		{
+			"text": "Nox venatorum orientis",
+			"italic": true
+		},
+		{
+			"text": "*\n\n",
+			"color": "blue",
+			"hoverEvent": {
+				"action": "show_text",
+				"value": "Roughly translates to: Night Hunters of the East"
+			}
+		},
+		"Description:\n\n",
+		"The Bloodborne is a race originating from now contested lands in the Balkans. Referred to as ",
+		{
+			"text": "Night Hunters",
+			"italic": true
+		},
+		", the Bloodborne silently"
+	]
+}
