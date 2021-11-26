@@ -1,15 +1,15 @@
 {
     "criteria": {
         "acquired": {
-            "trigger": "minecraft:using_item",
+            "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
                     "items": [
-                        "minecraft:spyglass"
+                        "minecraft:poisonous_potato"
                     ]
                 }
             }
         }
     },
-    "parent": "ss:hook/using_item"
+    "parent": "ss:hook/consume_item"
 }

@@ -5,7 +5,7 @@
             "conditions": {
                 "item": {
                     "items": [
-                        "minecraft:spyglass"
+                        "minecraft:shield"
                     ]
                 }
             }
