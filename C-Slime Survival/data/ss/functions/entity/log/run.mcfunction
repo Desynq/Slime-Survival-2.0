@@ -12,9 +12,9 @@ execute store result score @s entZ run data get entity @s Pos[2] 1
 # Despawning
 #################
 
-execute if entity @s[type=minecraft:giant,tag=] run function ss:entity/shared/despawn
+execute if entity @s[type=minecraft:giant,tag=] run function ss:util/despawn
 
-execute if entity @s[type=minecraft:bat,tag=,predicate=!ss:dimension/overworld] run function ss:entity/shared/despawn
+execute if entity @s[type=minecraft:bat,tag=,predicate=!ss:dimension/overworld] run function ss:util/despawn
 
 execute if entity @s[type=minecraft:end_crystal] run kill @s
 
