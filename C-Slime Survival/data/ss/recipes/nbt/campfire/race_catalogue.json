@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:campfire_cooking",
+	"ingredient": {
+		"item": "minecraft:written_book",
+		"data": {
+			"require": {
+				"type": "race_catalogue"
+			}
+		}
+	},
+	"result": {
+		"item": "minecraft:paper",
+		"data": {
+			"display": {
+				"Name": "{\"italic\":false,\"color\":\"dark_red\",\"text\":\"You should NOT have done that...\"}"
+			}
+		}
+	},
+	"experience": 1,
+	"cookingtime": 10
+}
