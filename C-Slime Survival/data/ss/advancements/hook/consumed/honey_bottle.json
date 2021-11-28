@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "acquired": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:honey_bottle"
+                    ]
+                }
+            }
+        }
+    },
+    "parent": "ss:hook/consume_item"
+}

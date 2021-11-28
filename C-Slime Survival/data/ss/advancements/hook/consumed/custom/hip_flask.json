@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "acquired": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:potion"
+                    ],
+                    "nbt": "{type:\"hip_flask\"}"
+                }
+            }
+        }
+    },
+    "parent": "ss:hook/consume_item"
+}
