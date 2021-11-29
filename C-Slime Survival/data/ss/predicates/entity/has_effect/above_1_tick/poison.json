@@ -1,0 +1,13 @@
+{
+	"condition": "entity_properties",
+	"entity": "this",
+	"predicate": {
+		"effects": {
+			"minecraft:poison": {
+				"duration": {
+					"min": 2
+				}
+			}
+		}
+	}
+}
