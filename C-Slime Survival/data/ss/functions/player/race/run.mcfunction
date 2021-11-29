@@ -9,8 +9,14 @@
 # 8 = Merfolk
 # 9 = Tiefling
 
+execute unless score @s race matches 0..9 run scoreboard players set @s race 0
 
 
-execute if predicate ss:entity/race_is/invalid run function ss:player/race/invalid/run
 
-execute if predicate ss:entity/race_is/sludge run function ss:player/race/sludge/run
+execute if predicate ss:player/race/invalid run function ss:player/race/invalid/run
+
+
+
+execute if predicate ss:player/race/sludge run function ss:player/race/sludge/run
+
+execute if predicate ss:player/race/bloodborne run function ss:player/race/bloodborne/run
