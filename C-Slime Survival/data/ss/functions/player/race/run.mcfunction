@@ -22,6 +22,22 @@ execute if predicate ss:player/race/invalid run function ss:player/race/invalid/
 
 
 
+
+
+
+## Sludge
+
+# Cytokinetic Boost
+attribute @s minecraft:generic.movement_speed modifier remove 7091ceff-ec6a-4c0a-ad14-bbbe10434664
+
+
 execute if predicate ss:player/race/sludge run function ss:player/race/sludge/run
+
+
+
+
+
+
+
 
 execute if predicate ss:player/race/bloodborne run function ss:player/race/bloodborne/run

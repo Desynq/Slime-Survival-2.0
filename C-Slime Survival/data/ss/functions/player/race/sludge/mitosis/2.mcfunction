@@ -1,3 +1,3 @@
-scoreboard players set ran temp 1
+scoreboard players set %bool temp 1
 
 effect give @s minecraft:regeneration 5 1 true
