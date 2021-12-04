@@ -36,6 +36,9 @@ scoreboard objectives add reloadTime.oh dummy
 # Invulnerability timer for chlorine gas damage
 scoreboard objectives add it.chlorineGas dummy
 
+# Invulnerability timer for fire damage when playing as a sludge
+scoreboard objectives add it.SludgeFire dummy
+
 
 
 scoreboard objectives add Health health

@@ -4,6 +4,10 @@ execute if predicate ss:entity/equipment/feet/air run function ss:player/race/sl
 
 
 
+execute if entity @s[predicate=ss:entity/is/on_fire,predicate=!ss:entity/has_effect/fire_resistance] run function ss:player/race/sludge/burning/run
+
+
+
 
 
 scoreboard players set %bool temp 0

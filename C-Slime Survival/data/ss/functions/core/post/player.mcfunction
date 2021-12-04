@@ -16,6 +16,7 @@ execute if score @s u.wfoas matches 1.. unless score @s u.wfoas_hold matches 1..
 
 
 execute if score @s it.chlorineGas matches 1.. run scoreboard players remove @s it.chlorineGas 1
+execute if score @s it.SludgeFire matches 1.. run scoreboard players remove @s it.SludgeFire 1
 
 
 
