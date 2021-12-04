@@ -1,0 +1,91 @@
+{
+	"type": "minecraft:generic",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:crossbow",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"color": "white",
+								"text": "Lewis Gun"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								[
+									{
+										"italic": false,
+										"color": "dark_gray",
+										"text": "=========[ "
+									},
+									{
+										"italic": false,
+										"color": "dark_purple",
+										"text": "Lore"
+									},
+									{
+										"italic": false,
+										"color": "dark_gray",
+										"text": " ]========="
+									}
+								],
+								{
+									"italic": false,
+									"color": "gray",
+									"text": "It's a repeater but fancier."
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:power": 5,
+								"minecraft:quick_charge": 5
+							}
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"name": "",
+									"attribute": "minecraft:generic.attack_damage",
+									"operation": "addition",
+									"amount": 5,
+									"slot": "mainhand"
+								},
+								{
+									"name": "",
+									"attribute": "minecraft:generic.attack_speed",
+									"operation": "multiply_total",
+									"amount": -0.8,
+									"slot": "mainhand"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:4,type:\"lewis_gun\"}"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{SpawnFromLootTable:true}",
+							"conditions": [
+								{
+									"condition": "minecraft:reference",
+									"name": "ss:entity/has_tag/giving_item"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

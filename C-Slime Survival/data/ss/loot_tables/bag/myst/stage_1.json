@@ -1,0 +1,66 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "ss:bag/myst/base"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:netherite_boots",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{type:\"soulwalker_boots\",Enchantments:[{id:\"minecraft:protection\",lvl:5}],AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Amount:0.05,Operation:1,Slot:\"feet\",UUID:[I;1870189035,531492105,652519154,459259428]}],display:{Name:'{\"italic\":\"false\",\"color\":\"dark_aqua\",\"text\":\"Soulwalker Boots\"}',Lore:['{\"italic\":\"false\",\"color\":\"dark_purple\",\"text\":\"• Immunity to crying obsidian\"}','{\"italic\":\"false\",\"color\":\"dark_purple\",\"text\":\"• Vulnerability to water\"}']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:netherite_axe",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{type:rift_battleaxe,display:{Name:'{\"italic\":\"false\",\"color\":\"dark_purple\",\"text\":\"Rift Battleaxe\"}'},AttributeModifiers:[{AttributeName:generic.attack_damage,Amount:30,Slot:mainhand,UUID:[I;14891,4189,14981,51894]},{AttributeName:generic.attack_speed,Amount:-0.8,Operation:2,Slot:mainhand,UUID:[I;148149,58191,51891,581892]}]}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:carrot_on_a_stick",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{CustomModelData:44,type:soul_lantern,display:{Name:'{\"italic\":\"false\",\"color\":\"dark_aqua\",\"text\":\"Soul Lantern\"}',Lore:['{\"italic\":\"false\",\"color\":\"dark_purple\",\"text\":\"◘ Store souls by holding it in your offhand\"}']}}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:carrot_on_a_stick",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{CustomModelData:58,type:\"pocket_teleporter\",display:{Name:'{\"italic\":\"false\",\"color\":\"dark_aqua\",\"text\":\"Pocket Teleporter\"}',Lore:['{\"italic\":\"false\",\"color\":\"dark_gray\",\"text\":\"○ Used to enter/exit your own personal pocket dimension\"}','{\"italic\":\"false\",\"color\":\"red\",\"text\":\"○ Can only enter pocket dimension while inside the Safezone\"}']}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

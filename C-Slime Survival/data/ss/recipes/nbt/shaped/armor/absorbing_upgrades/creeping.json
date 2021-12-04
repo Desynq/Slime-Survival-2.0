@@ -1,0 +1,94 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"121",
+		"232",
+		"121"
+	],
+	"key": {
+		"1": {
+			"item": "minecraft:tnt"
+		},
+		"2": {
+			"item": "minecraft:white_dye",
+			"data": {
+				"require": {
+					"type": "carbonite"
+				}
+			}
+		},
+		"3": {
+			"item": "minecraft:chainmail_chestplate",
+			"data": {
+				"require": {
+					"type": "absorbing_chainmail_chestplate"
+				}
+			}
+		}
+	},
+	"result": {
+		"item": "minecraft:chainmail_chestplate",
+		"data": {
+			"type": "creeping_chestplate",
+			"CustomModelData": 1,
+			"raceLocked": 1,
+			"Races": [
+				"creep"
+			],
+			"display": {
+				"Name": "{\"italic\":\"false\",\"color\":\"dark_green\",\"text\":\"Creeping Chestplate\"}",
+				"Lore": [
+					"{\"italic\":\"false\",\"color\":\"dark_gray\",\"text\":\"○ Absorption I\"}"
+				]
+			},
+			"Enchantments": [
+				{
+					"id": "minecraft:blast_protection",
+					"lvl": 10
+				},
+				{
+					"id": "minecraft:protection",
+					"lvl": 5
+				}
+			],
+			"AttributeModifiers": [
+				{
+					"AttributeName": "generic.armor",
+					"Amount": 8,
+					"Operation": 0,
+					"Slot": "chest",
+					"UUID": [
+						2032167274,
+						1750486984,
+						2077147376,
+						284032971
+					]
+				},
+				{
+					"AttributeName": "generic.armor_toughness",
+					"Amount": 5,
+					"Operation": 0,
+					"Slot": "chest",
+					"UUID": [
+						842214625,
+						1036240692,
+						1087922177,
+						310252135
+					]
+				},
+				{
+					"AttributeName": "generic.max_health",
+					"Amount": -0.25,
+					"Operation": 2,
+					"Slot": "chest",
+					"UUID": [
+						1611506128,
+						510633532,
+						1133233860,
+						222818762
+					]
+				}
+			]
+		}
+	}
+}

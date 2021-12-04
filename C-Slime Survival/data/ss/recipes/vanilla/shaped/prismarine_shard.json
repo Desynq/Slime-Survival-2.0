@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"121",
+		"232",
+		"121"
+	],
+	"key": {
+		"1": {
+			"item": "minecraft:lapis_lazuli"
+		},
+		"2": {
+			"item": "minecraft:glass"
+		},
+		"3": {
+			"item": "minecraft:diamond"
+		}
+	},
+	"result": {
+		"item": "minecraft:prismarine_shard",
+		"count": 4
+	},
+	"group": "custom"
+}

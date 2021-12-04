@@ -1,0 +1,32 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"121",
+		"232",
+		"121"
+	],
+	"key": {
+		"1": {
+			"item": "minecraft:magma_cream"
+		},
+		"2": {
+			"item": "minecraft:lava_bucket"
+		},
+		"3": {
+			"item": "minecraft:netherite_pickaxe"
+		}
+	},
+	"result": {
+		"item": "minecraft:netherite_pickaxe",
+		"data": {
+			"CustomModelData": 2,
+			"type": "molten_pickaxe",
+			"display": {
+				"Name": "{\"italic\":false,\"color\":\"#ec5109\",\"text\":\"Molten Pickaxe\"}",
+				"Lore": [
+					"{\"italic\":false,\"color\":\"gray\",\"text\":\"○ Autosmelts gold ore and iron ore\"}"
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,45 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "ss:bag/myst/base"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:carrot_on_a_stick",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{CustomModelData:56,type:baskalisk_heart,display:{Name:'{\"italic\":\"false\",\"color\":\"dark_gray\",\"text\":\"Baskalisk Heart\"}',Lore:['{\"italic\":\"false\",\"color\":\"dark_purple\",\"text\":\"|> An undead creature\\'s heart...\"}','{\"italic\":\"false\",\"color\":\"dark_purple\",\"text\":\"|> Regeneration IV unless rifting\"}']}}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:music_disc_stal",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{type:wither_resistance_ring,HideFlags:32,display:{Name:'{\"italic\":\"false\",\"color\":\"dark_gray\",\"text\":\"Wither Resistance Ring\"}'}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 1,
+					"name": "custom:reference/melee/mysts_edge"
+				}
+			]
+		}
+	]
+}

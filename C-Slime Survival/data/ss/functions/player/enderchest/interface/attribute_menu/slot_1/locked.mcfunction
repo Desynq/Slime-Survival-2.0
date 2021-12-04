@@ -1,0 +1,1 @@
+item replace entity @s enderchest.1 with minecraft:command_block{Tags:["clear"],CustomModelData:4008000,type:"locked_slot",display:{Name:'{"italic":false,"color":"dark_red","text":"Attack Speed Attribute"}',Lore:['{"italic":true,"color":"red","text":"We Don\'t Serve Your Kind."}']},AttributeModifiers:[]}

@@ -1,0 +1,84 @@
+{
+	"type": "minecraft:generic",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"color": "#cdcdf0",
+								"text": "Katana"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								[
+									{
+										"italic": false,
+										"color": "dark_gray",
+										"text": "=========[ "
+									},
+									{
+										"italic": false,
+										"color": "dark_purple",
+										"text": "Lore"
+									},
+									{
+										"italic": false,
+										"color": "dark_gray",
+										"text": " ]========="
+									}
+								],
+								{
+									"italic": true,
+									"color": "gray",
+									"text": "It's talking to me?"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"name": "",
+									"attribute": "minecraft:generic.attack_damage",
+									"operation": "addition",
+									"amount": 12,
+									"slot": "mainhand"
+								},
+								{
+									"name": "",
+									"attribute": "minecraft:generic.attack_speed",
+									"operation": "multiply_total",
+									"amount": -0.4,
+									"slot": "mainhand"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:2,type:\"sentient_katana\",Unbreakable:true}"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{SpawnFromLootTable:true}",
+							"conditions": [
+								{
+									"condition": "minecraft:reference",
+									"name": "ss:entity/has_tag/giving_item"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

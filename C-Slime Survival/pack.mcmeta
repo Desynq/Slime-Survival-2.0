@@ -1,6 +1,6 @@
 {
     "pack": {
-        "pack_format": 6,
+        "pack_format": 7,
         "description": "Contains all functions, predicates, tags, and advancements for the Slime Survival server"
     }
 }

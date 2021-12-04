@@ -1,0 +1,80 @@
+{
+	"pools": [
+		{
+			"rolls": {
+				"min": 2,
+				"max": 8
+			},
+			"entries": [
+				{
+					"weight": 1,
+					"type": "item",
+					"name": "minecraft:carrot_on_a_stick",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{CustomModelData:9,type:wrench,display:{Lore:['{\"italic\":\"false\",\"color\":\"gray\",\"text\":\"Repairs stuff on use\"}','{\"italic\":\"false\",\"color\":\"red\",\"text\":\"Singe-Use\"}'],Name:'{\"italic\":\"false\",\"text\":\"Wrench\"}'}}"
+						}
+					]
+				},
+				{
+					"weight": 20,
+					"type": "item",
+					"name": "minecraft:dried_kelp",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 4
+							}
+						}
+					]
+				},
+				{
+					"weight": 10,
+					"type": "item",
+					"name": "minecraft:honey_bottle"
+				},
+				{
+					"weight": 10,
+					"type": "item",
+					"name": "minecraft:gunpowder"
+				},
+				{
+					"weight": 20,
+					"type": "item",
+					"name": "minecraft:rotten_flesh",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 4
+							}
+						}
+					]
+				},
+				{
+					"weight": 5,
+					"type": "item",
+					"name": "minecraft:netherite_scrap"
+				},
+				{
+					"weight": 20,
+					"type": "item",
+					"name": "minecraft:arrow",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 4,
+								"max": 16
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,38 @@
+{
+	"type": "minecraft:generic",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:command_block",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"color": "dark_red",
+								"text": "Sanguine Tentacle"
+							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:1021000,type:\"sanguine_tentacle\"}"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{SpawnFromLootTable:true}",
+							"conditions": [
+								{
+									"condition": "minecraft:reference",
+									"name": "ss:entity/has_tag/giving_item"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

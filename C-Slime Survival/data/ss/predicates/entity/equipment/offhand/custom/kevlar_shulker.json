@@ -1,0 +1,14 @@
+{
+	"condition": "entity_properties",
+	"entity": "this",
+	"predicate": {
+		"equipment": {
+			"offhand": {
+				"items": [
+					"minecraft:black_shulker_box"
+				],
+				"nbt": "{type:\"kevlar_vest\"}"
+			}
+		}
+	}
+}

@@ -1,0 +1,47 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"1 1",
+		"1 1"
+	],
+	"key": {
+		"1": {
+			"item": "minecraft:scute"
+		}
+	},
+	"result": {
+		"item": "minecraft:leather_boots",
+		"data": {
+			"type": "turtle_boots",
+			"HideFlags": 64,
+			"display": {
+				"Name": "{\"italic\":false,\"color\":\"dark_green\",\"text\":\"Turtle Boots\"}",
+				"color": 6192150
+			},
+			"AttributeModifiers": [
+				{
+					"AttributeName": "generic.armor",
+					"Amount": 3,
+					"Slot": "feet",
+					"UUID": [
+						98418691,
+						771860161,
+						591690291,
+						402985391
+					]
+				}
+			],
+			"Enchantments": [
+				{
+					"id": "minecraft:unbreaking",
+					"lvl": 10
+				},
+				{
+					"id": "minecraft:depth_strider",
+					"lvl": 3
+				}
+			]
+		}
+	},
+	"group": "custom"
+}

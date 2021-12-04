@@ -1,0 +1,70 @@
+{
+	"type": "minecraft:generic",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"color": "gray",
+								"text": "Villager Head"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								[
+									{
+										"italic": false,
+										"color": "dark_gray",
+										"text": "=========[ "
+									},
+									{
+										"italic": false,
+										"color": "dark_purple",
+										"text": "Lore"
+									},
+									{
+										"italic": false,
+										"color": "dark_gray",
+										"text": " ]========="
+									}
+								],
+								{
+									"italic": false,
+									"color": "gray",
+									"text": "This should be able to fool villagers into"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"text": "offering better deals for you."
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{type:\"villager_head\",SkullOwner:\"MHF_Villager\"}"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{SpawnFromLootTable:true}",
+							"conditions": [
+								{
+									"condition": "minecraft:reference",
+									"name": "ss:entity/has_tag/giving_item"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,102 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"111",
+		"121",
+		"111"
+	],
+	"key": {
+		"1": {
+			"item": "minecraft:white_dye",
+			"data": {
+				"require": {
+					"type": "carbonite"
+				}
+			}
+		},
+		"2": {
+			"item": "minecraft:netherite_boots",
+			"data": {
+				"require": {
+					"type": "mystite_boots"
+				}
+			}
+		}
+	},
+	"result": {
+		"item": "minecraft:netherite_boots",
+		"data": {
+			"CustomModelData": 3,
+			"type": "carbonite_boots",
+			"Unbreakable": true,
+			"display": {
+				"Name": "{\"italic\":\"false\",\"color\":\"#3D3643\",\"text\":\"Carbonite Boots\"}"
+			},
+			"Enchantments": [
+				{
+					"id": "minecraft:protection",
+					"lvl": 5
+				}
+			],
+			"AttributeModifiers": [
+				{
+					"AttributeName": "generic.armor",
+					"Amount": 3,
+					"Slot": "feet",
+					"UUID": [
+						1640453560,
+						1861433946,
+						1188808857,
+						809025023
+					]
+				},
+				{
+					"AttributeName": "generic.armor_toughness",
+					"Amount": 5,
+					"Slot": "feet",
+					"UUID": [
+						1318826440,
+						654271082,
+						795477351,
+						341841261
+					]
+				},
+				{
+					"AttributeName": "generic.knockback_resistance",
+					"Amount": 0.25,
+					"Slot": "feet",
+					"UUID": [
+						1395234764,
+						1120258272,
+						1395969248,
+						520275732
+					]
+				},
+				{
+					"AttributeName": "generic.max_health",
+					"Amount": 0.125,
+					"Operation": 1,
+					"Slot": "feet",
+					"UUID": [
+						1625555208,
+						444932949,
+						2085902840,
+						1583056520
+					]
+				},
+				{
+					"AttributeName": "generic.attack_damage",
+					"Amount": 0.125,
+					"Operation": 1,
+					"Slot": "feet",
+					"UUID": [
+						1305260304,
+						57056171,
+						1084722342,
+						243849479
+					]
+				}
+			]
+		}
+	}
+}

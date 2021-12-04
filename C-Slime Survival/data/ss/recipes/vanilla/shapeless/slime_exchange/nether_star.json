@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:nether_star"
+		}
+	],
+	"result": {
+		"item": "minecraft:slime_block",
+		"count": 25
+	},
+	"group": "slime_exchange"
+}

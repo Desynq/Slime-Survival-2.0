@@ -1,0 +1,12 @@
+{
+	"values": [
+		"minecraft:item",
+		"minecraft:tnt",
+		"#minecraft:arrows",
+		"minecraft:boat",
+		"minecraft:ender_pearl",
+		"minecraft:wandering_trader",
+		"minecraft:wither_skeleton",
+		"minecraft:cave_spider"
+	]
+}

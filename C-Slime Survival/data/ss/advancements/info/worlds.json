@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Worlds",
+			"color": "white"
+        },
+        "description": {
+            "text": "The previous Slime Survival worlds catalogued from earliest to most recent.",
+			"color": "gray"
+        },
+        "icon": {
+            "item": "minecraft:command_block",
+            "nbt": "{CustomModelData:4012000}"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "acquired": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "ss:info/root"
+}

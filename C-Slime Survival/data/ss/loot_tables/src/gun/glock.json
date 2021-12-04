@@ -1,0 +1,84 @@
+{
+	"type": "minecraft:generic",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"color": "white",
+								"text": "Glock"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								[
+									{
+										"italic": false,
+										"color": "dark_gray",
+										"text": "=========[ "
+									},
+									{
+										"italic": false,
+										"color": "dark_purple",
+										"text": "Lore"
+									},
+									{
+										"italic": false,
+										"color": "dark_gray",
+										"text": " ]========="
+									}
+								],
+								{
+									"italic": false,
+									"color": "gray",
+									"text": "A rather common gun with mediocre stats."
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"name": "",
+									"attribute": "minecraft:generic.attack_damage",
+									"operation": "addition",
+									"amount": 3,
+									"slot": "mainhand"
+								},
+								{
+									"name": "",
+									"attribute": "minecraft:generic.attack_speed",
+									"operation": "multiply_total",
+									"amount": -0.6,
+									"slot": "mainhand"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:1001000,type:\"glock\"}"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{SpawnFromLootTable:true}",
+							"conditions": [
+								{
+									"condition": "minecraft:reference",
+									"name": "ss:entity/has_tag/giving_item"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

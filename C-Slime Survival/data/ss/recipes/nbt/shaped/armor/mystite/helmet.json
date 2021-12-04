@@ -1,0 +1,91 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"111",
+		"1 1"
+	],
+	"key": {
+		"1": {
+			"item": "minecraft:white_dye",
+			"data": {
+				"require": {
+					"type": "mystite_ingot"
+				}
+			}
+		}
+	},
+	"result": {
+		"item": "minecraft:netherite_helmet",
+		"data": {
+			"type": "mystite_helmet",
+			"display": {
+				"Name": "{\"italic\":\"false\",\"color\":\"dark_aqua\",\"text\":\"Mystite Helmet\"}"
+			},
+			"Enchantments": [
+				{
+					"id": "minecraft:protection",
+					"lvl": 5
+				}
+			],
+			"AttributeModifiers": [
+				{
+					"AttributeName": "generic.armor",
+					"Amount": 3,
+					"Slot": "head",
+					"UUID": [
+						2131428773,
+						1628153313,
+						2127079725,
+						1512200119
+					]
+				},
+				{
+					"AttributeName": "generic.armor_toughness",
+					"Amount": 3,
+					"Slot": "head",
+					"UUID": [
+						953436930,
+						1457458767,
+						2096135940,
+						310570987
+					]
+				},
+				{
+					"AttributeName": "generic.knockback_resistance",
+					"Amount": 0.1,
+					"Slot": "head",
+					"UUID": [
+						956499763,
+						1507555321,
+						87036489,
+						1139966516
+					]
+				},
+				{
+					"AttributeName": "generic.max_health",
+					"Amount": 0.05,
+					"Operation": 1,
+					"Slot": "head",
+					"UUID": [
+						1894587630,
+						2102199758,
+						67069758,
+						271832582
+					]
+				},
+				{
+					"AttributeName": "generic.attack_damage",
+					"Amount": 0.05,
+					"Operation": 1,
+					"Slot": "head",
+					"UUID": [
+						149063085,
+						2087225890,
+						1082855487,
+						576042165
+					]
+				}
+			]
+		}
+	}
+}

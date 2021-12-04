@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/vindicator"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "ss:src/gun/crossbow/lee_enfield",
+					"conditions": [
+						{
+							"condition": "random_chance",
+							"chance": 0.05
+						}
+					]
+				}
+			]
+		}
+	]
+}

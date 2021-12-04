@@ -1,0 +1,102 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"111",
+		"121",
+		"111"
+	],
+	"key": {
+		"1": {
+			"item": "minecraft:white_dye",
+			"data": {
+				"require": {
+					"type": "carbonite"
+				}
+			}
+		},
+		"2": {
+			"item": "minecraft:netherite_helmet",
+			"data": {
+				"require": {
+					"type": "mystite_helmet"
+				}
+			}
+		}
+	},
+	"result": {
+		"item": "minecraft:netherite_helmet",
+		"data": {
+			"CustomModelData": 3,
+			"type": "carbonite_helmet",
+			"Unbreakable": true,
+			"display": {
+				"Name": "{\"italic\":\"false\",\"color\":\"#3D3643\",\"text\":\"Carbonite Helmet\"}"
+			},
+			"Enchantments": [
+				{
+					"id": "minecraft:protection",
+					"lvl": 5
+				}
+			],
+			"AttributeModifiers": [
+				{
+					"AttributeName": "generic.armor",
+					"Amount": 3,
+					"Slot": "head",
+					"UUID": [
+						779406377,
+						1493580947,
+						365777162,
+						1316060439
+					]
+				},
+				{
+					"AttributeName": "generic.armor_toughness",
+					"Amount": 5,
+					"Slot": "head",
+					"UUID": [
+						1056187789,
+						873310816,
+						1808248022,
+						655049945
+					]
+				},
+				{
+					"AttributeName": "generic.knockback_resistance",
+					"Amount": 0.25,
+					"Slot": "head",
+					"UUID": [
+						200652746,
+						1689659453,
+						710205810,
+						204153052
+					]
+				},
+				{
+					"AttributeName": "generic.max_health",
+					"Amount": 0.125,
+					"Operation": 1,
+					"Slot": "head",
+					"UUID": [
+						775791865,
+						1876246771,
+						1728993781,
+						778728449
+					]
+				},
+				{
+					"AttributeName": "generic.attack_damage",
+					"Amount": 0.125,
+					"Operation": 1,
+					"Slot": "head",
+					"UUID": [
+						1560014302,
+						462188354,
+						1040670583,
+						1323088731
+					]
+				}
+			]
+		}
+	}
+}

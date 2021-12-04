@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "minecraft:logs"
+        },
+        {
+            "item": "minecraft:shears",
+            "remainder": {
+                "item": "minecraft:shears",
+                "data": {
+                    "Damage": "$ i1.Damage + 5"
+                }
+            }
+        }
+    ],
+    "result": {
+        "item": "minecraft:paper"
+    }
+}

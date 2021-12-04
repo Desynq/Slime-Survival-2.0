@@ -11,6 +11,11 @@
 
 execute unless score @s race matches 0..9 run scoreboard players set @s race 0
 
+# Warriors Adrenaline (1 & 2)
+attribute @s minecraft:generic.attack_damage modifier remove 0-0-0-0-4
+
+
+
 
 
 execute if predicate ss:player/race/invalid run function ss:player/race/invalid/run

@@ -1,0 +1,44 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"1 1",
+		"111",
+		"111"
+	],
+	"key": {
+		"1": {
+			"item": "minecraft:scute"
+		}
+	},
+	"result": {
+		"item": "minecraft:leather_chestplate",
+		"data": {
+			"type": "turtle_chestplate",
+			"HideFlags": 64,
+			"display": {
+				"Name": "{\"italic\":false,\"color\":\"dark_green\",\"text\":\"Turtle Chestplate\"}",
+				"color": 6192150
+			},
+			"AttributeModifiers": [
+				{
+					"AttributeName": "generic.armor",
+					"Amount": 8,
+					"Slot": "chest",
+					"UUID": [
+						95901961,
+						5194016,
+						519506164,
+						596910681
+					]
+				}
+			],
+			"Enchantments": [
+				{
+					"id": "minecraft:unbreaking",
+					"lvl": 10
+				}
+			]
+		}
+	},
+	"group": "custom"
+}

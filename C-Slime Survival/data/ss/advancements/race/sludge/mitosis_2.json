@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": "Mitosis II | $2,500",
+        "description": [
+            {
+                "color": "gray",
+                "text": "Passively receive Regeneration II (0.8hp/s)"
+            }
+        ],
+        "icon": {
+            "item": "minecraft:command_block",
+            "nbt": "{CustomModelData:3002001}"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "acquired": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "ss:race/sludge/mitosis_1"
+}

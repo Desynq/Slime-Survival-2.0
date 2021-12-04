@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "World IV | Taiga",
+			"color": "white"
+        },
+        "description": {
+            "text": "This was the first world to see the introduction of the temperature system, albeit in a crude and unfair state. An early form of the attribute skill system also debuted here.",
+			"color": "gray"
+        },
+        "icon": {
+            "item": "minecraft:spruce_sapling"
+        },
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "acquired": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "ss:info/world/world_3"
+}

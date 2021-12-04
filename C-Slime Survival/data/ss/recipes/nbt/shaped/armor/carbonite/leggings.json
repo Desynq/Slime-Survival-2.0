@@ -1,0 +1,103 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"111",
+		"121",
+		"111"
+	],
+	"key": {
+		"1": {
+			"item": "minecraft:white_dye",
+			"data": {
+				"require": {
+					"type": "carbonite"
+				}
+			}
+		},
+		"2": {
+			"item": "minecraft:netherite_leggings",
+			"data": {
+				"require": {
+					"type": "mystite_leggings"
+				}
+			}
+		}
+	},
+	"result": {
+		"item": "minecraft:netherite_leggings",
+		"data": {
+			"CustomModelData": 3,
+			"type": "carbonite_leggings",
+			"Unbreakable": true,
+			"display": {
+				"Name": "{\"italic\":\"false\",\"color\":\"#3D3643\",\"text\":\"Carbonite Leggings\"}"
+			},
+			"Enchantments": [
+				{
+					"id": "minecraft:protection",
+					"lvl": 5
+				}
+			],
+			"AttributeModifiers": [
+				{
+					"AttributeName": "generic.armor",
+					"Amount": 6,
+					"Slot": "legs",
+					"UUID": [
+						1535885007,
+						326100088,
+						1770591207,
+						815914554
+					]
+				},
+				{
+					"AttributeName": "generic.armor_toughness",
+					"Amount": 5,
+					"Slot": "legs",
+					"UUID": [
+						841358472,
+						182712789,
+						82492346,
+						340211232
+					]
+				},
+				{
+					"AttributeName": "generic.knockback_resistance",
+					"Amount": 0.25,
+					"Slot": "legs",
+					"UUID": [
+						439020937,
+						678470722,
+						1521510977,
+						791722277
+					]
+				},
+				{
+					"AttributeName": "generic.max_health",
+					"Amount": 0.125,
+					"Operation": 1,
+					"Slot": "legs",
+					"UUID": [
+						97175980,
+						1635668211,
+						872658971,
+						1298989767,
+						1315096928
+					]
+				},
+				{
+					"AttributeName": "generic.attack_damage",
+					"Amount": 0.125,
+					"Operation": 1,
+					"Slot": "legs",
+					"UUID": [
+						2143272573,
+						119419400,
+						1485185806,
+						1891870162
+					]
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"121",
+		"232",
+		"121"
+	],
+	"key": {
+		"1": {
+			"item": "minecraft:netherite_ingot"
+		},
+		"2": {
+			"item": "minecraft:white_dye",
+			"data": {
+				"require": {
+					"type": "copper_cable"
+				}
+			}
+		},
+		"3": {
+			"item": "minecraft:netherite_scrap"
+		}
+	},
+	"result": {
+		"item": "minecraft:white_dye",
+		"count": 1,
+		"data": {
+			"CustomModelData": 24,
+			"type": "machine_frame",
+			"display": {
+				"Name": "{\"italic\":\"false\",\"color\":\"white\",\"text\":\"Machine Frame\"}"
+			}
+		}
+	}
+}

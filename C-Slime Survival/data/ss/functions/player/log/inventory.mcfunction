@@ -3,6 +3,7 @@
 data merge storage ss:player_inventory {"Baubles":[{},{},{}],"HandItems":[{},{}]}
 
 data modify storage ss:player_inventory UUID set from entity @s UUID
+data modify storage ss:player_inventory Name set from storage ss:player_storage data.Name
 
 
 

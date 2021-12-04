@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:scute"
+		},
+		{
+			"item": "minecraft:scute"
+		},
+		{
+			"item": "minecraft:pufferfish"
+		},
+		{
+			"item": "minecraft:command_block",
+			"data": {
+				"require": {
+					"type": "axolotl_gills"
+				}
+			}
+		}
+	],
+	"result": {
+		"item": "minecraft:slime_block",
+		"count": 3
+	},
+	"group": "custom"
+}

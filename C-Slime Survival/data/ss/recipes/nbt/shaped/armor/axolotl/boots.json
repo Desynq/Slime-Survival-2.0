@@ -1,0 +1,60 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"1 1",
+		"1 1"
+	],
+	"key": {
+		"1": {
+			"item": "minecraft:command_block",
+			"data": {
+				"require": {
+					"type": "axolotl_gills"
+				}
+			}
+		}
+	},
+	"result": {
+		"item": "minecraft:leather_boots",
+		"data": {
+			"type": "axolotl_boots",
+			"HideFlags": 64,
+			"display": {
+				"Name": "{\"italic\":false,\"color\":\"light_purple\",\"text\":\"Axolotl Boots\"}",
+				"color": 15961002
+			},
+			"Enchantments": [
+				{
+					"id": "minecraft:depth_strider",
+					"lvl": 3
+				}
+			],
+			"AttributeModifiers": [
+				{
+					"AttributeName": "generic.max_health",
+					"Amount": 0.25,
+					"Operation": 1,
+					"Slot": "feet",
+					"UUID": [
+						5198401,
+						5189141,
+						69438539,
+						581851
+					]
+				},
+				{
+					"AttributeName": "generic.armor",
+					"Amount": 1,
+					"Slot": "feet",
+					"UUID": [
+						918491581,
+						5148961,
+						5148104,
+						1905108109
+					]
+				}
+			]
+		}
+	},
+	"group": "custom"
+}

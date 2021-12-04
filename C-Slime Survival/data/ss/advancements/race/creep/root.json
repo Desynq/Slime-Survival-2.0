@@ -1,0 +1,22 @@
+{
+	"display": {
+		"title": {
+			"color": "dark_green",
+			"text": "][---][ Creep ][---]["
+		},
+		"description": "",
+		"icon": {
+			"item": "minecraft:creeper_head"
+		},
+		"frame": "challenge",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false,
+		"background": "minecraft:textures/block/tnt_side.png"
+	},
+	"criteria": {
+		"acquired": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

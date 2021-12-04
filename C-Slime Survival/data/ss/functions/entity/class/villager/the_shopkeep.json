@@ -1,0 +1,79 @@
+{
+	"VillagerData": {
+		"profession": "nitwit",
+		"level": 99,
+		"type": "snow"
+	},
+	"Invulnerable": true,
+	"PersistenceRequired": true,
+	"NoAI": true,
+	"CustomName": "\"The Shopkeep\"",
+	"Offers": {
+		"Recipes": [
+			{
+				"buy": {
+					"id": "minecraft:iron_ingot",
+					"Count": 2
+				},
+				"sell": {
+					"id": "minecraft:emerald",
+					"Count": 1
+				},
+				"rewardExp": 0,
+				"maxUses": 2147483647
+			},
+			{
+				"buy": {
+					"id": "minecraft:gold_ingot",
+					"Count": 1
+				},
+				"sell": {
+					"id": "minecraft:emerald",
+					"Count": 1
+				},
+				"rewardExp": 0,
+				"maxUses": 2147483647
+			},
+			{
+				"buy": {
+					"id": "minecraft:copper_ingot",
+					"Count": 3
+				},
+				"sell": {
+					"id": "minecraft:emerald",
+					"Count": 1
+				},
+				"rewardExp": 0,
+				"maxUses": 2147483647
+			},
+			{
+				"buy": {
+					"id": "minecraft:diamond",
+					"Count": 1
+				},
+				"sell": {
+					"id": "minecraft:emerald",
+					"Count": 5
+				},
+				"rewardExp": 0,
+				"maxUses": 2147483647
+			},
+			{
+				"buy": {
+					"id": "minecraft:slime_block",
+					"Count": 1
+				},
+				"buyB": {
+					"id": "minecraft:slime_ball",
+					"Count": 1
+				},
+				"sell": {
+					"id": "minecraft:emerald",
+					"Count": 1
+				},
+				"rewardExp": 0,
+				"maxUses": 2147483647
+			}
+		]
+	}
+}

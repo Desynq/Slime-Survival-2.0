@@ -1,0 +1,77 @@
+{
+	"type": "minecraft:generic",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:elytra",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"color": "dark_purple",
+								"text": "Phantomizing Elytra"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								[
+									{
+										"italic": false,
+										"color": "dark_gray",
+										"text": "=========[ "
+									},
+									{
+										"italic": false,
+										"color": "dark_purple",
+										"text": "Lore"
+									},
+									{
+										"italic": false,
+										"color": "dark_gray",
+										"text": " ]========="
+									}
+								],
+								{
+									"italic": false,
+									"color": "gray",
+									"text": "It's just an armored elytra."
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"name": "",
+									"attribute": "minecraft:generic.armor",
+									"operation": "addition",
+									"amount": 8,
+									"slot": "chest"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{type:\"phantomizing_elytra\"}"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{SpawnFromLootTable:true}",
+							"conditions": [
+								{
+									"condition": "minecraft:reference",
+									"name": "ss:entity/has_tag/giving_item"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

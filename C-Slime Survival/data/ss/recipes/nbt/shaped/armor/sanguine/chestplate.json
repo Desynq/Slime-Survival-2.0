@@ -1,0 +1,77 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"1 1",
+		"111",
+		"111"
+	],
+	"key": {
+		"1": {
+			"item": "minecraft:command_block",
+			"data": {
+				"require": {
+					"type": "sanguine_tissue"
+				}
+			}
+		}
+	},
+	"result": {
+		"item": "minecraft:leather_chestplate",
+		"data": {
+			"type": "sanguine_chestplate",
+			"raceLocked": true,
+			"Races": [
+				"bloodborne"
+			],
+			"HideFlags": 64,
+			"display": {
+				"Name": "{\"italic\":\"false\",\"color\":\"dark_red\",\"text\":\"Sanguine Chestplate\"}",
+				"color": 7483191
+			},
+			"Enchantments": [
+				{
+					"id": "minecraft:unbreaking",
+					"lvl": 10
+				}
+			],
+			"AttributeModifiers": [
+				{
+					"AttributeName": "minecraft:generic.armor",
+					"Amount": 8,
+					"Operation": 0,
+					"Slot": "chest",
+					"UUID": [
+						454135880,
+						1876148490,
+						1347074589,
+						380266904
+					]
+				},
+				{
+					"AttributeName": "generic.attack_damage",
+					"Amount": 0.125,
+					"Operation": 1,
+					"Slot": "chest",
+					"UUID": [
+						1169601310,
+						399187089,
+						1504111620,
+						1028618209
+					]
+				},
+				{
+					"AttributeName": "generic.attack_speed",
+					"Amount": 0.125,
+					"Operation": 1,
+					"Slot": "chest",
+					"UUID": [
+						1455465170,
+						463148906,
+						1940559143,
+						1765191238
+					]
+				}
+			]
+		}
+	}
+}

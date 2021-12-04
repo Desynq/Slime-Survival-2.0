@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:lava_bucket",
+			"remainder": {
+				"item": "bucket"
+			}
+		},
+		{
+			"item": "minecraft:water_bucket",
+			"remainder": {
+				"item": "bucket"
+			}
+		}
+	],
+	"result": {
+		"item": "minecraft:obsidian"
+	},
+	"group": "custom"
+}

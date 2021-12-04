@@ -20,6 +20,16 @@ execute if entity @s[type=minecraft:end_crystal] run kill @s
 
 
 
+
+
+execute if entity @s[type=minecraft:area_effect_cloud,nbt={Effects:[{Id:32b,Amplifier:127b}]}] run kill @s
+
+
+
+
+
+
+
 execute if entity @s[type=minecraft:tnt_minecart] run function ss:entity/log/tnt_minecart/id
 
 
@@ -28,7 +38,7 @@ execute if entity @s[type=minecraft:tnt_minecart] run function ss:entity/log/tnt
 # Entity Application
 #####################
 
-execute if entity @s[type=#minecraft:arrows] run function ss:entity/log/arrow/run
+execute if entity @s[type=#minecraft:arrows] run function ss:entity/log/class/arrow/run
 
 
 
@@ -40,6 +50,18 @@ execute if entity @s[type=minecraft:creeper,tag=explosive] if data entity @s Act
 # Mobs
 #######
 
+execute if entity @s[type=minecraft:pillager,tag=] run function ss:entity/log/class/pillager/scout
+execute if entity @s[type=minecraft:vindicator,tag=] run function ss:entity/log/class/vindicator/soldier
+
+
+
+execute if entity @s[type=minecraft:husk,tag=,predicate=ss:global/located/deadzone] run function ss:entity/log/class/husk/wasteland_zombie
+
+
+
+
+
+
 
 
 execute if entity @s[tag=noDrops] run data merge entity @s {HandDropChances:[0F,0F],ArmorDropChances:[0F,0F,0F,0F]}
@@ -50,4 +72,4 @@ execute if entity @s[tag=noDrops] run data merge entity @s {HandDropChances:[0F,
 #
 #
 
-scoreboard players set @s entLogged 1
+tag @s add entLogged

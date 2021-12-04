@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"121",
+		"121",
+		"121"
+	],
+	"key": {
+		"1": {
+			"item": "minecraft:coal"
+		},
+		"2": {
+			"item": "minecraft:raw_iron"
+		}
+	},
+	"result": {
+		"item": "minecraft:command_block",
+		"data": {
+			"CustomModelData": 1023000,
+			"type": "steel_blend",
+			"display": {
+				"Name": "{\"italic\":false,\"color\":\"white\",\"text\":\"Steel Blend\"}"
+			}
+		}
+	}
+}

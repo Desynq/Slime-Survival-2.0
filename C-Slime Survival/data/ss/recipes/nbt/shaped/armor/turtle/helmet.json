@@ -1,0 +1,42 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"111",
+		"1 1"
+	],
+	"key": {
+		"1": {
+			"item": "minecraft:scute"
+		}
+	},
+	"result": {
+		"item": "minecraft:turtle_helmet",
+		"data": {
+			"type": "turtle_helmet",
+			"HideFlags": 64,
+			"display": {
+				"Name": "{\"italic\":false,\"color\":\"dark_green\",\"text\":\"Turtle Helmet\"}"
+			},
+			"AttributeModifiers": [
+				{
+					"AttributeName": "generic.armor",
+					"Amount": 3,
+					"Slot": "head",
+					"UUID": [
+						672145168,
+						131528968,
+						1665156184,
+						1731880082
+					]
+				}
+			],
+			"Enchantments": [
+				{
+					"id": "minecraft:unbreaking",
+					"lvl": 10
+				}
+			]
+		}
+	},
+	"group": "custom"
+}

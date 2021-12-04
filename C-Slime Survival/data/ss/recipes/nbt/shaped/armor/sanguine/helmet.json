@@ -1,0 +1,76 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"111",
+		"1 1"
+	],
+	"key": {
+		"1": {
+			"item": "minecraft:command_block",
+			"data": {
+				"require": {
+					"type": "sanguine_tissue"
+				}
+			}
+		}
+	},
+	"result": {
+		"item": "minecraft:leather_helmet",
+		"data": {
+			"type": "sanguine_helmet",
+			"raceLocked": true,
+			"Races": [
+				"bloodborne"
+			],
+			"HideFlags": 64,
+			"display": {
+				"Name": "{\"italic\":\"false\",\"color\":\"dark_red\",\"text\":\"Sanguine Helmet\"}",
+				"color": 7483191
+			},
+			"Enchantments": [
+				{
+					"id": "minecraft:unbreaking",
+					"lvl": 10
+				}
+			],
+			"AttributeModifiers": [
+				{
+					"AttributeName": "minecraft:generic.armor",
+					"Amount": 3,
+					"Operation": 0,
+					"Slot": "head",
+					"UUID": [
+						247547779,
+						560905071,
+						902514129,
+						222675616
+					]
+				},
+				{
+					"AttributeName": "generic.attack_damage",
+					"Amount": 0.125,
+					"Operation": 1,
+					"Slot": "head",
+					"UUID": [
+						476619870,
+						1164760561,
+						909367065,
+						207857616
+					]
+				},
+				{
+					"AttributeName": "generic.attack_speed",
+					"Amount": 0.125,
+					"Operation": 1,
+					"Slot": "head",
+					"UUID": [
+						2014986279,
+						568821990,
+						652438225,
+						3317109
+					]
+				}
+			]
+		}
+	}
+}

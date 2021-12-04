@@ -1,0 +1,58 @@
+[
+	{
+		"condition": "minecraft:entity_properties",
+		"entity": "this",
+		"predicate": {
+			"equipment": {
+				"head": {
+					"items": [
+						"minecraft:turtle_helmet"
+					],
+					"nbt": "{type:\"turtle_helmet\"}"
+				}
+			}
+		}
+	},
+	{
+		"condition": "minecraft:entity_properties",
+		"entity": "this",
+		"predicate": {
+			"equipment": {
+				"chest": {
+					"items": [
+						"minecraft:leather_chestplate"
+					],
+					"nbt": "{type:\"turtle_chestplate\"}"
+				}
+			}
+		}
+	},
+	{
+		"condition": "minecraft:entity_properties",
+		"entity": "this",
+		"predicate": {
+			"equipment": {
+				"legs": {
+					"items": [
+						"minecraft:leather_leggings"
+					],
+					"nbt": "{type:\"turtle_leggings\"}"
+				}
+			}
+		}
+	},
+	{
+		"condition": "minecraft:entity_properties",
+		"entity": "this",
+		"predicate": {
+			"equipment": {
+				"feet": {
+					"items": [
+						"minecraft:leather_boots"
+					],
+					"nbt": "{type:\"turtle_boots\"}"
+				}
+			}
+		}
+	}
+]

@@ -1,0 +1,23 @@
+{
+	"display": {
+		"title": {
+			"color": "dark_aqua",
+			"text": "][---][ Merfolk ][---]["
+		},
+		"description": "",
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:MHF_Squid}"
+		},
+		"frame": "challenge",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false,
+		"background": "minecraft:textures/misc/underwater.png"
+	},
+	"criteria": {
+		"acquired": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

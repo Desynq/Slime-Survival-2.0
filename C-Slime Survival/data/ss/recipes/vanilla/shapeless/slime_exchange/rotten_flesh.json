@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"11",
+		"11"
+	],
+	"key": {
+		"1": {
+			"item": "minecraft:rotten_flesh"
+		}
+	},
+	"result": {
+		"item": "minecraft:slime_ball",
+		"count": 2
+	},
+	"group": "slime_exchange"
+}

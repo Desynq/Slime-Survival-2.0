@@ -1,0 +1,45 @@
+{
+	"pools": [
+		{
+			"rolls": {
+				"min": 4,
+				"max": 16
+			},
+			"entries": [
+				{
+					"weight": 1,
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_scrap"
+				},
+				{
+					"weight": 4,
+					"type": "minecraft:item",
+					"name": "minecraft:coal",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"weight": 5,
+					"type": "minecraft:item",
+					"name": "minecraft:iron_nugget",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 4
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

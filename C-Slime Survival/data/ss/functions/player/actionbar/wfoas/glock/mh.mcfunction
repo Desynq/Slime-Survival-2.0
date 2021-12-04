@@ -1,0 +1,1 @@
+title @s actionbar [{"color":"white","text":"Ammo: "},{"color":"dark_red","score":{"name":"currentAmmo_oh","objective":"temp"}},{"color":"white","text":"/"},{"color":"dark_red","score":{"name":"maxAmmo_oh","objective":"temp"}}]

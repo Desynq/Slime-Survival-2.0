@@ -1,0 +1,37 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" 1 ",
+		"121",
+		" 1 "
+	],
+	"key": {
+		"1": {
+			"item": "minecraft:rabbit_hide",
+			"data": {
+				"require": {
+					"type": "bat_hide"
+				}
+			}
+		},
+		"2": {
+			"item": "minecraft:command_block",
+			"data": {
+				"require": {
+					"type": "sanguine_tentacle"
+				}
+			}
+		}
+	},
+	"result": {
+		"item": "minecraft:command_block",
+		"count": 2,
+		"data": {
+			"CustomModelData": 35,
+			"type": "sanguine_tissue",
+			"display": {
+				"Name": "{\"italic\":false,\"color\":\"dark_red\",\"text\":\"Sanguine Tissue\"}"
+			}
+		}
+	}
+}

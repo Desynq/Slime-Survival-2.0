@@ -1,0 +1,82 @@
+{
+    "Team": "militia",
+    "Tags": [
+        "noDrops",
+        "custom",
+        "soldier"
+    ],
+    "CustomName": "\"Footsoldier\"",
+    "CustomNameVisible": false,
+    "Glowing": false,
+    "Invulnerable": false,
+    "NoAI": false,
+    "NoGravity": false,
+    "PersistenceRequired": true,
+    "Silent": false,
+    "CanPickupLoot": false,
+    "IsBaby": false,
+    "DeathLootTable": "minecraft:entities/vindicator",
+    "Health": 20,
+    "Attributes": [
+        {
+            "Name": "minecraft:generic.armor",
+            "Base": 20
+        },
+        {
+            "Name": "minecraft:generic.armor_toughness",
+            "Base": 20
+        },
+        {
+            "Name": "minecraft:generic.attack_damage",
+            "Base": 10
+        },
+        {
+            "Name": "minecraft:generic.attack_knockback",
+            "Base": 0
+        },
+        {
+            "Name": "minecraft:generic.follow_range",
+            "Base": 64
+        },
+        {
+            "Name": "minecraft:generic.knockback_resistance",
+            "Base": 1
+        },
+        {
+            "Name": "minecraft:generic.max_health",
+            "Base": 20
+        },
+        {
+            "Name": "minecraft:generic.movement_speed",
+            "Base": 0.4
+        }
+    ],
+    "ActiveEffects": [],
+    "HandItems": [
+        {
+            "id": "minecraft:iron_sword",
+            "Count": 1,
+            "tag": {
+                "AttributeModifiers": []
+            }
+        },
+        {}
+    ],
+    "ArmorItems": [
+        {
+            "id": "minecraft:stone",
+            "Count": 1,
+            "tag": {
+                "Enchantments": [
+                    {
+                        "id": "minecraft:blast_protection",
+                        "lvl": 5
+                    }
+                ]
+            }
+        },
+        {},
+        {},
+        {}
+    ]
+}

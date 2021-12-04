@@ -1,0 +1,1 @@
+item replace entity @s enderchest.2 with minecraft:command_block{Tags:["clear"],CustomModelData:4008000,type:"locked_slot",display:{Name:'{"italic":false,"color":"dark_red","text":"Max Health Attribute"}',Lore:['{"italic":true,"color":"red","text":"We Don\'t Serve Your Kind."}']},AttributeModifiers:[]}

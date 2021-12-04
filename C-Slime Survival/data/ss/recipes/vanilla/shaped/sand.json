@@ -1,0 +1,40 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"12",
+		"21"
+	],
+	"key": {
+		"1": {
+			"item": "minecraft:gravel"
+		},
+		"2": {
+			"item": "minecraft:quartz"
+		}
+	},
+	"result": {
+		"item": "minecraft:sand",
+		"count": 2
+	},
+	"group": "roam"
+},
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"21",
+		"12"
+	],
+	"key": {
+		"1": {
+			"item": "minecraft:gravel"
+		},
+		"2": {
+			"item": "minecraft:quartz"
+		}
+	},
+	"result": {
+		"item": "minecraft:sand",
+		"count": 2
+	},
+	"group": "custom"
+}

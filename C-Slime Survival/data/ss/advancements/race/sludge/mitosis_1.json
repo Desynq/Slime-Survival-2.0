@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": "Mitosis I | $500",
+        "description": [
+            {
+                "color": "gray",
+                "text": "Passively receive Regeneration I (0.4hp/s)"
+            }
+        ],
+        "icon": {
+            "item": "minecraft:command_block",
+            "nbt": "{CustomModelData:3002000}"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "acquired": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "ss:race/sludge/root"
+}

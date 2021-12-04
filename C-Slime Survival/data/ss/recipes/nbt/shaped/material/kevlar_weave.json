@@ -1,0 +1,29 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"111",
+		"232",
+		"111"
+	],
+	"key": {
+		"1": {
+			"item": "minecraft:paper"	
+		},
+		"2": {
+			"item": "minecraft:netherite_ingot"	
+		},
+		"3": {
+			"item": "minecraft:string"	
+		}
+	},
+	"result": {
+		"item": "minecraft:command_block",
+		"data": {
+			"CustomModelData": 1011000,
+			"type": "kevlar_weave",
+			"display": {
+				"Name": "{\"italic\":false,\"color\":\"white\",\"text\":\"Kevlar Weave\"}"
+			}
+		}
+	}
+}

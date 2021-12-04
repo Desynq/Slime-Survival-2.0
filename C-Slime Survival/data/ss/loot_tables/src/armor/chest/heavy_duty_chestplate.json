@@ -1,0 +1,99 @@
+{
+	"type": "minecraft:generic",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_chestplate",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"color": "dark_gray",
+								"text": "Heavy Duty Chestplate"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"italic": false,
+									"color": "gray",
+									"text": "Protection 50"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"text": "Projectile Protection 50"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"text": "Blast Protection 50"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"text": "Fire Protection 50"
+								},
+								[
+									{
+										"italic": false,
+										"color": "dark_gray",
+										"text": "=========[ "
+									},
+									{
+										"italic": false,
+										"color": "dark_red",
+										"text": "Limitations"
+									},
+									{
+										"italic": false,
+										"color": "dark_gray",
+										"text": " ]========="
+									}
+								],
+								{
+									"italic": false,
+									"color": "gray",
+									"text": "○ Cannot be used in an anvil"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"text": "○ Cannot be made unbreakable"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:protection": 50,
+								"minecraft:projectile_protection": 50,
+								"minecraft:fire_protection": 50,
+								"minecraft:blast_protection": 50
+							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{type:\"heavy_duty_chestplate\",Unbreakable:false,RepairCost:32767,HideFlags:1}"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{SpawnFromLootTable:true}",
+							"conditions": [
+								{
+									"condition": "minecraft:reference",
+									"name": "ss:entity/has_tag/giving_item"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

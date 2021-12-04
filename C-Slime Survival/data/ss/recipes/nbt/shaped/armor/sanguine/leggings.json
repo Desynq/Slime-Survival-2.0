@@ -1,0 +1,77 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"111",
+		"1 1",
+		"1 1"
+	],
+	"key": {
+		"1": {
+			"item": "minecraft:command_block",
+			"data": {
+				"require": {
+					"type": "sanguine_tissue"
+				}
+			}
+		}
+	},
+	"result": {
+		"item": "minecraft:leather_leggings",
+		"data": {
+			"type": "sanguine_leggings",
+			"raceLocked": true,
+			"Races": [
+				"bloodborne"
+			],
+			"HideFlags": 64,
+			"display": {
+				"Name": "{\"italic\":\"false\",\"color\":\"dark_red\",\"text\":\"Sanguine Leggings\"}",
+				"color": 7483191
+			},
+			"Enchantments": [
+				{
+					"id": "minecraft:unbreaking",
+					"lvl": 10
+				}
+			],
+			"AttributeModifiers": [
+				{
+					"AttributeName": "minecraft:generic.armor",
+					"Amount": 6,
+					"Operation": 0,
+					"Slot": "legs",
+					"UUID": [
+						841314713,
+						2039109715,
+						443913182,
+						2011254942
+					]
+				},
+				{
+					"AttributeName": "generic.attack_damage",
+					"Amount": 0.125,
+					"Operation": 1,
+					"Slot": "legs",
+					"UUID": [
+						985008098,
+						60983418,
+						340776583,
+						928498007
+					]
+				},
+				{
+					"AttributeName": "generic.attack_speed",
+					"Amount": 0.125,
+					"Operation": 1,
+					"Slot": "legs",
+					"UUID": [
+						888661016,
+						1414827063,
+						1073357560,
+						1371631883
+					]
+				}
+			]
+		}
+	}
+}

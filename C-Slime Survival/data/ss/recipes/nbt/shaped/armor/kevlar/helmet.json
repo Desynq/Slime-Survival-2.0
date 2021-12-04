@@ -1,0 +1,74 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"111",
+		"121"
+	],
+	"key": {
+		"1": {
+			"item": "minecraft:command_block",
+			"data": {
+				"require": {
+					"type": "kevlar_weave"
+				}
+			}
+		},
+		"2": {
+			"item": "minecraft:iron_helmet"
+		}
+	},
+	"result": {
+		"item": "minecraft:leather_helmet",
+		"data": {
+			"type": "kevlar_helmet",
+			"HideFlags": 64,
+			"Enchantments": [
+				{
+					"id": "minecraft:protection",
+					"lvl": 4
+				},
+				{
+					"id": "minecraft:projectile_protection",
+					"lvl": 4
+				},
+				{
+					"id": "minecraft:unbreaking",
+					"lvl": 4
+				}
+			],
+			"AttributeModifiers": [
+				{
+					"AttributeName": "generic.armor",
+					"Amount": 3,
+					"Operation": 0,
+					"Slot": "head",
+					"UUID": [
+						1314882990,
+						581200454,
+						1607981126,
+						1493702441
+					]
+				},
+				{
+					"AttributeName": "generic.movement_speed",
+					"Amount": -0.025,
+					"Operation": 2,
+					"Slot": "head",
+					"UUID": [
+						1266351224,
+						997880062,
+						1618901289,
+						1597646219
+					]
+				}
+			],
+			"display": {
+				"color": 1908001,
+				"Name": "{\"italic\":false,\"color\":\"white\",\"text\":\"Kevlar Helmet\"}",
+				"Lore": [
+					"{\"italic\":false,\"color\":\"gray\",\"text\":\"○ When Worn: Prevents nausea from heavy weapons firing\"}"
+				]
+			}
+		}
+	}
+}

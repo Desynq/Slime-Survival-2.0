@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"tag": "ss:netherite"
+		}
+	],
+	"result": {
+		"item": "minecraft:netherite_scrap"
+	},
+	"group": "custom"
+}

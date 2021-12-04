@@ -1,0 +1,39 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"121",
+		"313",
+		"141"
+	],
+	"key": {
+		"1": {
+			"item": "minecraft:netherite_scrap"
+		},
+		"2": {
+			"item": "minecraft:blue_dye"
+		},
+		"3": {
+			"item": "minecraft:paper"
+		},
+		"4": {
+			"item": "minecraft:cartography_table",
+			"remainder": {
+				"item": "minecraft:cartography_table"
+			}
+		}
+	},
+	"result": {
+		"item": "minecraft:white_dye",
+		"count": 1,
+		"data": {
+			"CustomModelData": 9,
+			"type": "blueprint_fragment",
+			"display": {
+				"Name": "{\"italic\":\"false\",\"color\":\"blue\",\"text\":\"Blueprint Fragment\"}",
+				"Lore": [
+					"{\"italic\":\"false\",\"color\":\"gray\",\"text\":\"○ Can be combined to form a random blueprint\"}"
+				]
+			}
+		}
+	}
+}

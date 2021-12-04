@@ -1,0 +1,44 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"111",
+		"1 1",
+		"1 1"
+	],
+	"key": {
+		"1": {
+			"item": "minecraft:scute"
+		}
+	},
+	"result": {
+		"item": "minecraft:leather_leggings",
+		"data": {
+			"type": "turtle_leggings",
+			"HideFlags": 64,
+			"display": {
+				"Name": "{\"italic\":false,\"color\":\"dark_green\",\"text\":\"Turtle Leggings\"}",
+				"color": 6192150
+			},
+			"AttributeModifiers": [
+				{
+					"AttributeName": "generic.armor",
+					"Amount": 6,
+					"Slot": "legs",
+					"UUID": [
+						5190961,
+						651984060,
+						519076930,
+						593863902
+					]
+				}
+			],
+			"Enchantments": [
+				{
+					"id": "minecraft:unbreaking",
+					"lvl": 10
+				}
+			]
+		}
+	},
+	"group": "custom"
+}

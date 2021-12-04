@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "minecraft:totem_of_undying"
+  },
+  "result": "minecraft:emerald",
+  "experience": 0.1,
+  "cookingtime": 50
+}

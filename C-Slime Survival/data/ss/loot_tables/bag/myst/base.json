@@ -1,0 +1,73 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "ss:src/material/mystite_ore",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 2,
+								"max": 8
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:experience_bottle",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 8,
+								"max": 32
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:emerald",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 10,
+								"max": 50
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "ss:src/spell_tome/unbreaking_tome",
+					"weight": 20,
+					"quality": 10
+				},
+				{
+					"type": "minecraft:empty",
+					"weight": 80
+				}
+			]
+		}
+	]
+}

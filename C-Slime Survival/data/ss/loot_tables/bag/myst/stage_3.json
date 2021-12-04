@@ -1,0 +1,42 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "ss:bag/myst/base"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "custom:item/armor/absorbing_chainmail_chestplate"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:shield",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{type:soulwalker_shield,AttributeModifiers:[{AttributeName:generic.attack_speed,Amount:-0.5,Slot:offhand,Operation:2,UUID:[I;1804289383,846930886,1681692777,1714636915]},{AttributeName:generic.movement_speed,Amount:-0.5,Slot:offhand,Operation:2,UUID:[I;1804289383,846930886,1681692777,1714636915]}],display:{Name:'{\"italic\":\"false\",\"color\":\"dark_purple\",\"text\":\"Soulwalker Shield\"}',Lore:['{\"italic\":\"false\",\"color\":\"light_purple\",\"text\":\"Immunity to Soul Flares\"}']}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_pickaxe",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:3,type:\"carbonite_drill\",Enchantments:[{id:\"minecraft:efficiency\",lvl:10},{id:\"minecraft:silk_touch\",lvl:1}],display:{Name:'{\"italic\":\"false\",\"color\":\"dark_gray\",\"text\":\"Carbonite Drill\"}',Lore:['{\"italic\":\"false\",\"color\":\"dark_gray\",\"text\":\"○ Mined diamond ore turns into carbonite\"}']}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

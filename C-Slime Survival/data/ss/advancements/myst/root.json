@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "text": "][---][ Into The Myst ][---][",
+            "color": "dark_purple"
+        },
+        "description": [
+            "",
+            {
+                "text": "Delving into the eldritch now, are we?",
+                "color": "light_purple",
+                "italic": true
+            }
+        ],
+        "icon": {
+            "item": "minecraft:ender_eye"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/lodestone_side.png"
+    },
+    "criteria": {
+        "acquired": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

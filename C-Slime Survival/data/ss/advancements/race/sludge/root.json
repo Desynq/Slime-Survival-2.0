@@ -1,0 +1,23 @@
+{
+	"display": {
+		"title": {
+			"color": "dark_green",
+			"text": "][---][ Sludge ][---]["
+		},
+		"description": "",
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:MHF_Slime}"
+		},
+		"frame": "challenge",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false,
+		"background": "minecraft:textures/block/slime_block.png"
+	},
+	"criteria": {
+		"acquired": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

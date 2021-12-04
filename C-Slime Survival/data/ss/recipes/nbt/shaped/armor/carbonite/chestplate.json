@@ -1,0 +1,102 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"111",
+		"121",
+		"111"
+	],
+	"key": {
+		"1": {
+			"item": "minecraft:white_dye",
+			"data": {
+				"require": {
+					"type": "carbonite"
+				}
+			}
+		},
+		"2": {
+			"item": "minecraft:netherite_chestplate",
+			"data": {
+				"require": {
+					"type": "mystite_chestplate"
+				}
+			}
+		}
+	},
+	"result": {
+		"item": "minecraft:netherite_chestplate",
+		"data": {
+			"CustomModelData": 3,
+			"type": "carbonite_chestplate",
+			"Unbreakable": true,
+			"display": {
+				"Name": "{\"italic\":\"false\",\"color\":\"#3D3643\",\"text\":\"Carbonite Chestplate\"}"
+			},
+			"Enchantments": [
+				{
+					"id": "minecraft:protection",
+					"lvl": 5
+				}
+			],
+			"AttributeModifiers": [
+				{
+					"AttributeName": "generic.armor",
+					"Amount": 8,
+					"Slot": "chest",
+					"UUID": [
+						1400559489,
+						1317367720,
+						903676330,
+						1148138498
+					]
+				},
+				{
+					"AttributeName": "generic.armor_toughness",
+					"Amount": 5,
+					"Slot": "chest",
+					"UUID": [
+						204557586,
+						161742563,
+						611846970,
+						1967375677
+					]
+				},
+				{
+					"AttributeName": "generic.knockback_resistance",
+					"Amount": 0.25,
+					"Slot": "chest",
+					"UUID": [
+						1353488990,
+						1138671619,
+						1725056290,
+						906741690
+					]
+				},
+				{
+					"AttributeName": "generic.max_health",
+					"Amount": 0.125,
+					"Operation": 1,
+					"Slot": "chest",
+					"UUID": [
+						718609702,
+						1447480751,
+						841114160,
+						783703771
+					]
+				},
+				{
+					"AttributeName": "generic.attack_damage",
+					"Amount": 0.125,
+					"Operation": 1,
+					"Slot": "chest",
+					"UUID": [
+						1223104679,
+						1439527241,
+						233962522,
+						1565657845
+					]
+				}
+			]
+		}
+	}
+}

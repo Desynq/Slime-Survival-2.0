@@ -1,0 +1,53 @@
+{
+	"type": "minecraft:generic",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:music_disc_stal",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"color": "dark_gray",
+								"text": "Wither Resistance Ring"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"italic": false,
+									"color": "gray",
+									"text": "When worn as Accessory:"
+								},
+								{
+									"italic": false,
+									"color": "blue",
+									"text": "Immunity to Wither Effect"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{type:\"wither_resistance_ring\"}"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{SpawnFromLootTable:true}",
+							"conditions": [
+								{
+									"condition": "minecraft:reference",
+									"name": "ss:entity/has_tag/giving_item"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

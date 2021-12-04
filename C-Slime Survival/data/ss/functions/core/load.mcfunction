@@ -2,10 +2,15 @@
 # Compatability
 ################
 
-datapack disable vanilla
+datapack disable "vanilla"
 
-# Due to how fabric mods work with /reload, command aliases have to be forcefully loaded after a /reload
-commandaliases load
+
+
+###############
+# Editing Mode
+###############
+
+loot replace entity @a[tag=editing] hotbar.0 loot ss:src/book/race_catalogue
 
 
 
@@ -13,7 +18,7 @@ commandaliases load
 # Other Stuff
 ##############
 
-execute in minecraft:overworld run summon minecraft:marker 0 0 0 {Tags:["onLoad"]}
+execute in minecraft:overworld run summon minecraft:marker 0 0 0 {"Tags":["onLoad"]}
 
 
 
@@ -56,7 +61,7 @@ gamerule witherGriefing false
 
 
 
-function ss:math/table/generate
+function ss:math/gen/math_table
 
 
 
@@ -67,4 +72,5 @@ function ss:math/table/generate
 
 kill @e[type=minecraft:marker,tag=onLoad]
 
-tellraw @a {"color":"dark_purple","text":"Reloaded All Datapacks!"}
+tellraw @a {"color":"dark_purple","text":"Reloaded all Datapacks!"}
+execute as @a at @s run playsound minecraft:item.crossbow.loading_end master @s ~ ~ ~ 1 1

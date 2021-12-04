@@ -1,0 +1,17 @@
+{
+	"condition": "alternative",
+	"terms": [
+		{
+			"condition": "location_check",
+			"predicate": {
+				"dimension": "minecraft:overworld"
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"dimension": "slime:pocket"
+			}
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"121",
+		"2 2",
+		"222"
+	],
+	"key": {
+		"1": {
+			"item": "minecraft:string"
+		},
+		"2": {
+			"item": "minecraft:leather"
+		}
+	},
+	"result": {
+		"item": "minecraft:bundle"
+	}
+}

@@ -1,0 +1,145 @@
+{
+	"type": "minecraft:generic",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:firework_star",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"color": "gold",
+								"text": "Chlorine Gas Grenade"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"text": "",
+									"italic": false,
+									"color": "dark_gray",
+									"extra": [
+										"==========[ ",
+										{
+											"color": "dark_purple",
+											"text": "Lore"
+										},
+										" ]=========="
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"text": "Name a more iconic duo than bleach and ammonia, I'll wait."
+								},
+								{
+									"text": "",
+									"italic": false,
+									"color": "dark_gray",
+									"extra": [
+										"==========[ ",
+										{
+											"color": "gold",
+											"text": "Use"
+										},
+										" ]=========="
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"text": "● Deploys a lethal smokescreen upon hitting"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"text": "  the ground."
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"text": "● Destroyed upon touching a fluid or cobweb."
+								},
+								{
+									"text": "",
+									"italic": false,
+									"color": "dark_gray",
+									"extra": [
+										"==========[ ",
+										{
+											"color": "aqua",
+											"text": "Stats"
+										},
+										" ]=========="
+									]
+								},
+								{
+									"text": "● Type: ",
+									"color": "gray",
+									"italic": false,
+									"extra": [
+										{
+											"text": "Item Grenade",
+											"color": "dark_aqua"
+										}
+									]
+								},
+								{
+									"text": "● Duration: 15 Seconds",
+									"color": "gray",
+									"italic": false
+								},
+								{
+									"text": "● Range: 5 Blocks",
+									"color": "gray",
+									"italic": false
+								},
+								{
+									"text": "● Lethality: ",
+									"color": "gray",
+									"italic": false,
+									"extra": [
+										{
+											"text": "Medium",
+											"color": "yellow"
+										}
+									]
+								},
+								{
+									"text": "● Severity: ",
+									"color": "gray",
+									"italic": false,
+									"extra": [
+										{
+											"text": "High",
+											"color": "red"
+										}
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{type:\"chlorine_gas_grenade\",HideFlags:32,Explosion:{Colors:[I;11250603,14602026]}}"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{SpawnFromLootTable:true}",
+							"conditions": [
+								{
+									"condition": "minecraft:reference",
+									"name": "ss:entity/has_tag/giving_item"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

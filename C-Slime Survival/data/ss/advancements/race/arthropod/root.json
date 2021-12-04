@@ -1,0 +1,23 @@
+{
+	"display": {
+		"title": {
+			"color": "dark_gray",
+			"text": "][---][ Arthropod ][---]["
+		},
+		"description": "",
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:MHF_Spider}"
+		},
+		"frame": "challenge",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false,
+		"background": "minecraft:textures/block/spruce_leaves.png"
+	},
+	"criteria": {
+		"acquired": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

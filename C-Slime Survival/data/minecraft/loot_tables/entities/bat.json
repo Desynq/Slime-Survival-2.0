@@ -1,0 +1,20 @@
+{
+	"type": "entity",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:rabbit_hide",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{type:\"bat_hide\",display:{Name:'{\"italic\":false,\"color\":\"dark_purple\",\"text\":\"Bat Hide\"}'}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

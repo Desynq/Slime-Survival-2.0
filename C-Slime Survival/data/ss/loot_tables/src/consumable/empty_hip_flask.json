@@ -1,0 +1,84 @@
+{
+	"type": "minecraft:generic",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"color": "gold",
+								"text": "Empty Hip Flask"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"text": "",
+									"italic": false,
+									"color": "dark_gray",
+									"extra": [
+										"==========[ ",
+										{
+											"color": "dark_purple",
+											"text": "Lore"
+										},
+										" ]=========="
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"text": "Only alcoholics would carry this around."
+								},
+								{
+									"text": "",
+									"italic": false,
+									"color": "dark_gray",
+									"extra": [
+										"==========[ ",
+										{
+											"color": "gold",
+											"text": "Use"
+										},
+										" ]==========="
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"text": "Drink to get Resistance IV for 90 seconds, the Hip"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"text": "Flask will then go on cooldown until the next dawn."
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{type:\"empty_hip_flask\"}"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{SpawnFromLootTable:true}",
+							"conditions": [
+								{
+									"condition": "minecraft:reference",
+									"name": "ss:entity/has_tag/giving_item"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

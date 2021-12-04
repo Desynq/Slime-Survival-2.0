@@ -1,0 +1,23 @@
+{
+	"display": {
+		"title": {
+			"color": "dark_red",
+			"text": "][---][ Bloodborne ][---]["
+		},
+		"description": "",
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:MHF_Illager}"
+		},
+		"frame": "challenge",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false,
+		"background": "minecraft:textures/block/crimson_nylium.png"
+	},
+	"criteria": {
+		"acquired": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

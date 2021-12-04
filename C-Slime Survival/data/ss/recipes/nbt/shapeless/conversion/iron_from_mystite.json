@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:white_dye",
+			"data": {
+				"require": {
+					"type": "mystite_ingot"
+				}
+			}
+		}
+	],
+	"result": {
+		"item": "minecraft:iron_ingot",
+		"count": 8
+	},
+	"group": "custom"
+}

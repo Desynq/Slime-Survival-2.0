@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "World XI | The Geode Plains",
+			"color": "white"
+        },
+        "description": {
+            "text": "This world used the new 1.17 structure and stone generation. Deepslate ores and amethyst geodes could be found relatively close to the surface. Amethyst first became a crucial part of Myst progression in this world.",
+			"color": "gray"
+        },
+        "icon": {
+            "item": "minecraft:budding_amethyst"
+        },
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "acquired": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "ss:info/world/world_10"
+}

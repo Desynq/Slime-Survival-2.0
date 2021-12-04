@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:blasting",
+	"ingredient": {
+		"item": "minecraft:command_block",
+		"data": {
+			"require": {
+				"type": "steel_blend"
+			}
+		}
+	},
+	"result": {
+		"item": "minecraft:netherite_ingot"
+	},
+	"experience": 1.0,
+	"cookingtime": 600
+}

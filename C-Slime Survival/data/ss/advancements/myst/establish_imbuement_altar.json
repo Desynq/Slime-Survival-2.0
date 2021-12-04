@@ -1,0 +1,36 @@
+{
+    "display": {
+        "title": "The Lexica Mystania.",
+        "description": [
+            "",
+            {
+                "text": "Construct an imbuement altar and create the Lexica Mystania",
+                "color": "gray"
+            }
+        ],
+        "icon": {
+            "item": "minecraft:written_book",
+            "nbt": "{CustomModelData:2000000}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "acquired": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:written_book"
+                        ],
+                        "nbt": "{type:\"lexica_mystania\"}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "ss:myst/acquire_amethyst"
+}

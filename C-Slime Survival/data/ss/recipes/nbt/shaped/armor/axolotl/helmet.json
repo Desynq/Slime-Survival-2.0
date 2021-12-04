@@ -1,0 +1,62 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"111",
+		"1 1"
+	],
+	"key": {
+		"1": {
+			"item": "minecraft:command_block",
+			"data": {
+				"require": {
+					"type": "axolotl_gills"
+				}
+			}
+		}
+	},
+	"result": {
+		"item": "minecraft:player_head",
+		"data": {
+			"type": "axolotl_helmet",
+			"SkullOwner": "Axolotl",
+			"display": {
+				"Name": "{\"italic\":\"false\",\"color\":\"light_purple\",\"text\":\"Axolotl Head\"}",
+				"Lore": [
+					"{\"italic\":false,\"color\":\"dark_red\",\"text\":\"Don't Place!\"}"
+				]
+			},
+			"Enchantments": [
+				{
+					"id": "minecraft:respiration",
+					"lvl": 3
+				}
+			],
+			"AttributeModifiers": [
+				{
+					"AttributeName": "generic.max_health",
+					"Amount": 0.25,
+					"Operation": 1,
+					"Slot": "head",
+					"UUID": [
+						85918761,
+						6189851,
+						189760186,
+						6919601
+					]
+				},
+				{
+					"AttributeName": "generic.armor",
+					"Amount": 2,
+					"Slot": "head",
+					"UUID": [
+						518915,
+						518491064,
+						31896829,
+						106806189
+					]
+				}
+			]
+		}
+	},
+	"group": "custom"
+}

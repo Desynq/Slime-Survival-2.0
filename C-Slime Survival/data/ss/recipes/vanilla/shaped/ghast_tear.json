@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"121",
+		"232",
+		"121"
+	],
+	"key": {
+		"1": {
+			"item": "minecraft:gunpowder"
+		},
+		"2": {
+			"item": "minecraft:blaze_rod"
+		},
+		"3": {
+			"item": "minecraft:snowball"
+		}
+	},
+	"result": {
+		"item": "minecraft:ghast_tear"
+	}
+}

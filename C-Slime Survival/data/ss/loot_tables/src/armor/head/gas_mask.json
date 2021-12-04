@@ -1,0 +1,75 @@
+{
+	"type": "minecraft:generic",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"color": "#964B00",
+								"text": "Military Grade Gas Mask"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								[
+									{
+										"italic": false,
+										"color": "dark_gray",
+										"text": "=========[ "
+									},
+									{
+										"italic": false,
+										"color": "dark_purple",
+										"text": "Lore"
+									},
+									{
+										"italic": false,
+										"color": "dark_gray",
+										"text": " ]========="
+									}
+								],
+								{
+									"italic": false,
+									"color": "gray",
+									"text": "It may have some minor leaks, but it should"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"text": "protect against most harmful gasses and airborne"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"text": "viruses."
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{type:\"military_grade_gas_mask\",Tags:[\"gas_mask\"],SkullOwner:{Id:[I;-1983118700,997084255,-2109997358,1962558997],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzUyZTU5YjE1MDgzOTgzM2ExZDdkOTUxMjhjMmE0YzJjM2ExNWFiZGJiODNlOGRiZmFkN2I1MWQ0MjQ1MTcifX19\"}]}}}"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{SpawnFromLootTable:true}",
+							"conditions": [
+								{
+									"condition": "minecraft:reference",
+									"name": "ss:entity/has_tag/giving_item"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

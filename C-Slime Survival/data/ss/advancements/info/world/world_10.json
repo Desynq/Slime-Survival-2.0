@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "World X | The Coral Ocean",
+			"color": "white"
+        },
+        "description": {
+            "text": "Arguably more controversial than World VI, \"The Coral Ocean\" featured a custom spawn in the middle of a vast, shallow ocean full of coral. Due to the permanence of an altered RX-Virus alongside its subsequent spread and the harsh winters coupled with vast amounts of water covering the surface, this world was deemed to be too unfair and desolate for any real gameplay. Furthermore, the restructuring and repolishing of most of the custom levels meant a lack of gameplay altogether.",
+			"color": "gray"
+        },
+        "icon": {
+            "item": "minecraft:tube_coral"
+        },
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "acquired": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "ss:info/world/world_9"
+}

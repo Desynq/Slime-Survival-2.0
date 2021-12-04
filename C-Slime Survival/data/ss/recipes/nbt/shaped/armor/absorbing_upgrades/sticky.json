@@ -1,0 +1,90 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"121",
+		"232",
+		"121"
+	],
+	"key": {
+		"1": {
+			"item": "minecraft:slime_block"
+		},
+		"2": {
+			"item": "minecraft:white_dye",
+			"data": {
+				"require": {
+					"type": "carbonite"
+				}
+			}
+		},
+		"3": {
+			"item": "minecraft:chainmail_chestplate",
+			"data": {
+				"require": {
+					"type": "absorbing_chainmail_chestplate"
+				}
+			}
+		}
+	},
+	"result": {
+		"item": "minecraft:chainmail_chestplate",
+		"data": {
+			"type": "sticky_chestplate",
+			"CustomModelData": 2,
+			"raceLocked": 1,
+			"Races": [
+				"sludge"
+			],
+			"display": {
+				"Name": "{\"italic\":\"false\",\"color\":\"dark_green\",\"text\":\"Sticky Chestplate\"}",
+				"Lore": [
+					"{\"italic\":\"false\",\"color\":\"dark_gray\",\"text\":\"○ Absorption II\"}"
+				]
+			},
+			"Enchantments": [
+				{
+					"id": "minecraft:protection",
+					"lvl": 5
+				}
+			],
+			"AttributeModifiers": [
+				{
+					"AttributeName": "generic.armor",
+					"Amount": 8,
+					"Operation": 0,
+					"Slot": "chest",
+					"UUID": [
+						909326601,
+						1146664480,
+						60497553,
+						21956586
+					]
+				},
+				{
+					"AttributeName": "generic.armor_toughness",
+					"Amount": 5,
+					"Operation": 0,
+					"Slot": "chest",
+					"UUID": [
+						533023066,
+						1268321996,
+						1761900142,
+						679442134
+					]
+				},
+				{
+					"AttributeName": "generic.max_health",
+					"Amount": -0.6,
+					"Operation": 2,
+					"Slot": "chest",
+					"UUID": [
+						729448890,
+						557796211,
+						1233653840,
+						883807836
+					]
+				}
+			]
+		}
+	}
+}

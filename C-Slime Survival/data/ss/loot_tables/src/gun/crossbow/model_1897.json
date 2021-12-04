@@ -1,0 +1,92 @@
+{
+	"type": "minecraft:generic",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:crossbow",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"color": "white",
+								"text": "Model 1897"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								[
+									{
+										"italic": false,
+										"color": "dark_gray",
+										"text": "=========[ "
+									},
+									{
+										"italic": false,
+										"color": "dark_purple",
+										"text": "Lore"
+									},
+									{
+										"italic": false,
+										"color": "dark_gray",
+										"text": " ]========="
+									}
+								],
+								{
+									"italic": false,
+									"color": "gray",
+									"text": "It's great for defending a trench."
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:power": 20,
+								"minecraft:quick_charge": 3,
+								"minecraft:multishot": 1
+							}
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"name": "",
+									"attribute": "minecraft:generic.attack_damage",
+									"operation": "addition",
+									"amount": 5,
+									"slot": "mainhand"
+								},
+								{
+									"name": "",
+									"attribute": "minecraft:generic.attack_speed",
+									"operation": "multiply_total",
+									"amount": -0.7,
+									"slot": "mainhand"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:2,type:\"model_1897\"}"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{SpawnFromLootTable:true}",
+							"conditions": [
+								{
+									"condition": "minecraft:reference",
+									"name": "ss:entity/has_tag/giving_item"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

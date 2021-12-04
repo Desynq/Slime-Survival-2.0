@@ -1,0 +1,97 @@
+{
+	"pools": [
+		{
+			"rolls": {
+				"min": 3,
+				"max": 12
+			},
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "custom:item/ammo/9mm",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 5,
+								"max": 10
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:carrot_on_a_stick",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{CustomModelData:1,type:medkit,display:{Name:'{\"italic\":\"false\",\"text\":\"Medkit\"}',Lore:['{\"italic\":\"false\",\"color\":\"blue\",\"text\":\"Instant Health II\"}']}}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{CustomModelData:1,generation:3,HideFlags:32,type:bmg_ammo,display:{Name:'{\"italic\":\"false\",\"text\":\".50 BMG Round\"}'}}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:golden_apple",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 4
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:golden_carrot",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 8
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:iron_ingot",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 12
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:emerald",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 4
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

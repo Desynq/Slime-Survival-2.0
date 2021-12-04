@@ -1,0 +1,25 @@
+{
+	"display": {
+		"title": "Fighter's Stance | $5,000",
+		"description": [
+			{
+				"color": "gray",
+				"text": "+1.0 Knockback Resistance"
+			}
+		],
+		"icon": {
+			"item": "minecraft:command_block",
+			"nbt": "{CustomModelData:3003001}"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"acquired": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "ss:race/bloodborne/root"
+}

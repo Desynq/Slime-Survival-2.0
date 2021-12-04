@@ -1,0 +1,92 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"1 1",
+		"111",
+		"111"
+	],
+	"key": {
+		"1": {
+			"item": "minecraft:white_dye",
+			"data": {
+				"require": {
+					"type": "mystite_ingot"
+				}
+			}
+		}
+	},
+	"result": {
+		"item": "minecraft:netherite_chestplate",
+		"data": {
+			"type": "mystite_chestplate",
+			"display": {
+				"Name": "{\"italic\":\"false\",\"color\":\"dark_aqua\",\"text\":\"Mystite Chestplate\"}"
+			},
+			"Enchantments": [
+				{
+					"id": "minecraft:protection",
+					"lvl": 5
+				}
+			],
+			"AttributeModifiers": [
+				{
+					"AttributeName": "generic.armor",
+					"Amount": 8,
+					"Slot": "chest",
+					"UUID": [
+						1301661825,
+						502609091,
+						2102953610,
+						384886414
+					]
+				},
+				{
+					"AttributeName": "generic.armor_toughness",
+					"Amount": 3,
+					"Slot": "chest",
+					"UUID": [
+						1076981717,
+						131163210,
+						1319236975,
+						625806038
+					]
+				},
+				{
+					"AttributeName": "generic.knockback_resistance",
+					"Amount": 0.1,
+					"Slot": "chest",
+					"UUID": [
+						112072653,
+						494835887,
+						1992156075,
+						1271125013
+					]
+				},
+				{
+					"AttributeName": "generic.max_health",
+					"Amount": 0.05,
+					"Operation": 1,
+					"Slot": "chest",
+					"UUID": [
+						532901430,
+						1294995041,
+						1854187630,
+						164031865
+					]
+				},
+				{
+					"AttributeName": "generic.attack_damage",
+					"Amount": 0.05,
+					"Operation": 1,
+					"Slot": "chest",
+					"UUID": [
+						131471773,
+						1079744652,
+						754655411,
+						1967381207
+					]
+				}
+			]
+		}
+	}
+}

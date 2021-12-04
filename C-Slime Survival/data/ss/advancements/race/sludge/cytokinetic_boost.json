@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": "Cytokinetic Boost | $15,000",
+        "description": [
+            {
+                "color": "gray",
+                "text": "+100% Total Movement Speed while below 50% Health"
+            }
+        ],
+        "icon": {
+            "item": "minecraft:command_block",
+            "nbt": "{CustomModelData:3002004}"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "acquired": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "ss:race/sludge/mitosis_3"
+}

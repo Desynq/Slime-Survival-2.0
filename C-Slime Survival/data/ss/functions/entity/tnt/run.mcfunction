@@ -1,1 +1,3 @@
-execute if entity @s[nbt={Fuse:1s}] run function ss:entity/tnt/check
+execute store result score @s tntFuse run data get entity @s Fuse 1
+
+execute if score @s tntFuse matches ..1 run function ss:entity/tnt/check

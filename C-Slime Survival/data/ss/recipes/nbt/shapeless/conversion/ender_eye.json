@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:ender_eye",
+			"data": {
+				"deny": {
+					"CanPlaceOn": [
+						"end_portal_frame"
+					]
+				}
+			}
+		}
+	],
+	"result": {
+		"item": "minecraft:ender_eye",
+		"count": 1,
+		"data": {
+			"CanPlaceOn": [
+				"end_portal_frame"
+			]
+		}
+	},
+	"group": "custom"
+}

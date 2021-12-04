@@ -1,0 +1,23 @@
+{
+	"display": {
+		"title": {
+			"color": "green",
+			"text": "][---][ Floran ][---]["
+		},
+		"description": "",
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:MHF_Apple}"
+		},
+		"frame": "challenge",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false,
+		"background": "minecraft:textures/block/moss_block.png"
+	},
+	"criteria": {
+		"acquired": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

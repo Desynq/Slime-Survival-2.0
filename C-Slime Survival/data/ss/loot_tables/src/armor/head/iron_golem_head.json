@@ -1,0 +1,104 @@
+{
+	"type": "minecraft:generic",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"color": "gray",
+								"text": "Iron Golem Head"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								[
+									{
+										"italic": false,
+										"color": "dark_gray",
+										"text": "=========[ "
+									},
+									{
+										"italic": false,
+										"color": "dark_purple",
+										"text": "Lore"
+									},
+									{
+										"italic": false,
+										"color": "dark_gray",
+										"text": " ]========="
+									}
+								],
+								{
+									"color": "gray",
+									"text": "Speedrunners hate this one trick."
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"name": "",
+									"attribute": "minecraft:generic.attack_damage",
+									"operation": "multiply_base",
+									"amount": 0.25,
+									"slot": "head"
+								},
+								{
+									"name": "",
+									"attribute": "minecraft:generic.max_health",
+									"operation": "multiply_base",
+									"amount": 0.25,
+									"slot": "head"
+								},
+								{
+									"name": "",
+									"attribute": "minecraft:generic.knockback_resistance",
+									"operation": "addition",
+									"amount": 1.0,
+									"slot": "head"
+								},
+								{
+									"name": "",
+									"attribute": "minecraft:generic.armor",
+									"operation": "addition",
+									"amount": 3.0,
+									"slot": "head"
+								},
+								{
+									"name": "",
+									"attribute": "minecraft:generic.armor_toughness",
+									"operation": "addition",
+									"amount": 3.0,
+									"slot": "head"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{type:\"iron_golem_head\",SkullOwner:\"MHF_Golem\"}"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{SpawnFromLootTable:true}",
+							"conditions": [
+								{
+									"condition": "minecraft:reference",
+									"name": "ss:entity/has_tag/giving_item"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

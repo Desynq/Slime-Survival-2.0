@@ -1,0 +1,92 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"111",
+		"1 1",
+		"1 1"
+	],
+	"key": {
+		"1": {
+			"item": "minecraft:white_dye",
+			"data": {
+				"require": {
+					"type": "mystite_ingot"
+				}
+			}
+		}
+	},
+	"result": {
+		"item": "minecraft:netherite_leggings",
+		"data": {
+			"type": "mystite_leggings",
+			"display": {
+				"Name": "{\"italic\":\"false\",\"color\":\"dark_aqua\",\"text\":\"Mystite Leggings\"}"
+			},
+			"Enchantments": [
+				{
+					"id": "minecraft:protection",
+					"lvl": 5
+				}
+			],
+			"AttributeModifiers": [
+				{
+					"AttributeName": "generic.armor",
+					"Amount": 6,
+					"Slot": "legs",
+					"UUID": [
+						781948899,
+						150047078,
+						1023086638,
+						1415337052
+					]
+				},
+				{
+					"AttributeName": "generic.armor_toughness",
+					"Amount": 3,
+					"Slot": "legs",
+					"UUID": [
+						2076425116,
+						56786632,
+						293602797,
+						1997309631
+					]
+				},
+				{
+					"AttributeName": "generic.knockback_resistance",
+					"Amount": 0.1,
+					"Slot": "legs",
+					"UUID": [
+						150642143,
+						829856255,
+						1432513667,
+						757995677
+					]
+				},
+				{
+					"AttributeName": "generic.max_health",
+					"Amount": 0.05,
+					"Operation": 1,
+					"Slot": "legs",
+					"UUID": [
+						628762885,
+						1626554879,
+						791638817,
+						626635469
+					]
+				},
+				{
+					"AttributeName": "generic.attack_damage",
+					"Amount": 0.05,
+					"Operation": 1,
+					"Slot": "legs",
+					"UUID": [
+						1250074063,
+						316687141,
+						982906808,
+						1646164121
+					]
+				}
+			]
+		}
+	}
+}

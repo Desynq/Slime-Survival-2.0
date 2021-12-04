@@ -1,0 +1,55 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"111",
+		"1 1",
+		"1 1"
+	],
+	"key": {
+		"1": {
+			"item": "minecraft:command_block",
+			"data": {
+				"require": {
+					"type": "axolotl_gills"
+				}
+			}
+		}
+	},
+	"result": {
+		"item": "minecraft:leather_leggings",
+		"data": {
+			"type": "axolotl_leggings",
+			"HideFlags": 64,
+			"display": {
+				"Name": "{\"italic\":false,\"color\":\"light_purple\",\"text\":\"Axolotl Leggings\"}",
+				"color": 15961002
+			},
+			"AttributeModifiers": [
+				{
+					"AttributeName": "generic.max_health",
+					"Amount": 0.25,
+					"Operation": 1,
+					"Slot": "legs",
+					"UUID": [
+						1189851,
+						51891,
+						514980196,
+						5194019
+					]
+				},
+				{
+					"AttributeName": "generic.armor",
+					"Amount": 4,
+					"Slot": "legs",
+					"UUID": [
+						9189519,
+						518961,
+						52959106,
+						69106810
+					]
+				}
+			]
+		}
+	},
+	"group": "custom"
+}

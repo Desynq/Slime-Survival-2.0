@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:blasting",
+	"ingredient": {
+		"item": "minecraft:white_dye",
+		"data": {
+			"require": {
+				"type": "mystite_ore"
+			}
+		}
+	},
+	"result": {
+		"item": "minecraft:white_dye",
+		"data": {
+			"CustomModelData": 26,
+			"type": "mystite_ingot",
+			"display": {
+				"Name": "{\"italic\":\"false\",\"color\":\"dark_aqua\",\"text\":\"Mystite Ingot\"}"
+			}
+		}
+	},
+	"experience": 1.0,
+	"cookingtime": 300
+}

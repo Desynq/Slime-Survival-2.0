@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "World VII | Nuclear Winter",
+			"color": "white"
+        },
+        "description": {
+            "text": "The Nuclear Winter world, contrary to the name, featured no forms of radiation, yet saw the re-addition of the temperature system. This world had a prominent Militia standing and became one of the only only worlds to have a controlled RX-Virus outbreak.",
+			"color": "gray"
+        },
+        "icon": {
+            "item": "minecraft:dead_bush"
+        },
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "acquired": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "ss:info/world/world_6"
+}

@@ -1,0 +1,24 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+        {
+            "condition": "minecraft:time_check",
+            "value": {
+                "min": 13000,
+                "max": 23000
+            }
+        },
+        {
+            "condition": "minecraft:value_check",
+            "range": 0,
+            "value": {
+                "type": "score",
+                "target": {
+                    "type": "fixed",
+                    "name": "moonPhase"
+                },
+                "score": "timer"
+            }
+        }
+    ]
+}

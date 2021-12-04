@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"121",
+		"232",
+		"121"
+	],
+	"key": {
+		"1": {
+			"item": "minecraft:rotten_flesh"
+		},
+		"2": {
+			"item": "minecraft:dirt"
+		},
+		"3": {
+			"item": "minecraft:bone_meal"
+		}
+	},
+	"result": {
+		"item": "minecraft:brown_mushroom",
+		"count": 1
+	},
+	"group": "custom"
+}

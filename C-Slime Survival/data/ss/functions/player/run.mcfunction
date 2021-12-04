@@ -2,18 +2,34 @@ function ss:player/log/run
 
 
 
-# If the player does not have air (nothing) on their head
-execute if entity @s[predicate=!ss:entity/equipment/head/air] run function ss:player/equipment/head/something
-execute if entity @s[predicate=!ss:entity/equipment/mainhand/air] run function ss:player/equipment/mainhand/something
+#################
+# Disambuigation
+#################
+
+function ss:player/effects/run
+
+
+function ss:player/util/prevent/run
+
+
+execute if entity @s[tag=!fakePlayer] run function ss:player/race/run
+
+
+function ss:player/equipment/run
 
 
 
-# Detect if player has rejoined since last leaving or has never joined
-execute unless score @s hasLeft matches 0 run function ss:player/server/on_join
+function ss:player/wfoas/run
 
 
-function ss:player/enderchest/run
+execute if entity @s[tag=!fakePlayer] run function ss:player/enderchest/run
+
+
+execute if entity @s[tag=!fakePlayer] run function ss:player/actionbar/run
 
 
 
-function ss:player/actionbar/run
+
+
+
+execute in minecraft:overworld as @e[type=minecraft:marker,tag=player_storage,x=0,y=0,z=0,distance=..1] if score @s entOwner = @p plyUUID0 run data modify entity @s data set from storage ss:player_storage data

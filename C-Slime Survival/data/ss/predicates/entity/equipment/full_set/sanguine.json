@@ -1,0 +1,58 @@
+[
+	{
+		"condition": "minecraft:entity_properties",
+		"entity": "this",
+		"predicate": {
+			"equipment": {
+				"head": {
+					"items": [
+						"minecraft:leather_helmet"
+					],
+					"nbt": "{type:\"sanguine_helmet\"}"
+				}
+			}
+		}
+	},
+	{
+		"condition": "minecraft:entity_properties",
+		"entity": "this",
+		"predicate": {
+			"equipment": {
+				"chest": {
+					"items": [
+						"minecraft:leather_chestplate"
+					],
+					"nbt": "{type:\"sanguine_chestplate\"}"
+				}
+			}
+		}
+	},
+	{
+		"condition": "minecraft:entity_properties",
+		"entity": "this",
+		"predicate": {
+			"equipment": {
+				"legs": {
+					"items": [
+						"minecraft:leather_leggings"
+					],
+					"nbt": "{type:\"sanguine_leggings\"}"
+				}
+			}
+		}
+	},
+	{
+		"condition": "minecraft:entity_properties",
+		"entity": "this",
+		"predicate": {
+			"equipment": {
+				"feet": {
+					"items": [
+						"minecraft:leather_boots"
+					],
+					"nbt": "{type:\"sanguine_boots\"}"
+				}
+			}
+		}
+	}
+]

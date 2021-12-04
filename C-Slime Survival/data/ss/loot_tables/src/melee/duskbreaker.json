@@ -63,8 +63,16 @@
 							]
 						},
 						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:smite": 5,
+								"minecraft:bane_of_arthropods": 5,
+								"minecraft:fire_aspect": 3
+							}
+						},
+						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:1000000,type:\"duskbreaker\"}"
+							"tag": "{CustomModelData:1000000,type:\"duskbreaker\",Unbreakable:true}"
 						},
 						{
 							"function": "minecraft:set_nbt",

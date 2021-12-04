@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:netherite_scrap"
+		}
+	],
+	"result": {
+		"item": "minecraft:slime_ball",
+		"count": 5
+	},
+	"group": "custom"
+}

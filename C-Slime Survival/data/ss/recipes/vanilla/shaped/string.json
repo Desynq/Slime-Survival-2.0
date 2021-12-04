@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"1",
+		"1",
+		"1"
+	],
+	"key": {
+		"1": {
+			"item": "minecraft:wheat"
+		}
+	},
+	"result": {
+		"item": "minecraft:string",
+		"count": 1
+	},
+	"group": "custom"
+}

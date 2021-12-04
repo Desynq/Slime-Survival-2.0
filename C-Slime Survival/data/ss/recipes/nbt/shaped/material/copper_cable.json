@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"111",
+		"222",
+		"111"
+	],
+	"key": {
+		"1": {
+			"item": "minecraft:leather"
+		},
+		"2": {
+			"item": "minecraft:lightning_rod"
+		}
+	},
+	"result": {
+		"item": "minecraft:white_dye",
+		"count": 1,
+		"data": {
+			"CustomModelData": 8,
+			"type": "copper_cable",
+			"display": {
+				"Name": "{\"italic\":\"false\",\"color\":\"white\",\"text\":\"Copper Cable\"}"
+			}
+		}
+	}
+}

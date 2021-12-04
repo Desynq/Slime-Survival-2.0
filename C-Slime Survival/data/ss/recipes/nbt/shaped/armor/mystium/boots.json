@@ -1,0 +1,103 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"1 1",
+		"1 1"
+	],
+	"key": {
+		"1": {
+			"item": "minecraft:white_dye",
+			"data": {
+				"require": {
+					"type": "mystium_ingot"
+				}
+			}
+		}
+	},
+	"result": {
+		"item": "minecraft:netherite_boots",
+		"data": {
+			"CustomModelData": 1,
+			"type": "mystium_boots",
+			"display": {
+				"Name": "{\"italic\":\"false\",\"color\":\"#450f50\",\"text\":\"Mystium Boots\"}"
+			},
+			"Enchantments": [
+				{
+					"id": "minecraft:protection",
+					"lvl": 5
+				}
+			],
+			"AttributeModifiers": [
+				{
+					"AttributeName": "generic.armor",
+					"Amount": 3,
+					"Slot": "feet",
+					"UUID": [
+						416930015,
+						191272578,
+						594630258,
+						1610584226
+					]
+				},
+				{
+					"AttributeName": "generic.armor_toughness",
+					"Amount": 5,
+					"Slot": "feet",
+					"UUID": [
+						270891587,
+						1901081795,
+						1164195918,
+						1377965863
+					]
+				},
+				{
+					"AttributeName": "generic.knockback_resistance",
+					"Amount": 0.1,
+					"Slot": "feet",
+					"UUID": [
+						31009456,
+						1920379934,
+						280388065,
+						201300438
+					]
+				},
+				{
+					"AttributeName": "generic.max_health",
+					"Amount": 25,
+					"Slot": "feet",
+					"UUID": [
+						742163912,
+						1225902362,
+						2121839702,
+						1727695421
+					]
+				},
+				{
+					"AttributeName": "generic.max_health",
+					"Amount": 0.125,
+					"Operation": 1,
+					"Slot": "feet",
+					"UUID": [
+						1133978690,
+						2054791347,
+						995781672,
+						1963420111
+					]
+				},
+				{
+					"AttributeName": "generic.attack_damage",
+					"Amount": 0.125,
+					"Operation": 1,
+					"Slot": "feet",
+					"UUID": [
+						1812360037,
+						1567060305,
+						1225900284,
+						1984361347
+					]
+				}
+			]
+		}
+	}
+}

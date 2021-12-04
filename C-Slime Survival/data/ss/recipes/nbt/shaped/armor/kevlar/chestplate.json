@@ -1,0 +1,79 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" 1 ",
+		"232",
+		"222"
+	],
+	"key": {
+		"1": {
+			"item": "minecraft:chest"
+		},
+		"2": {
+			"item": "minecraft:command_block",
+			"data": {
+				"require": {
+					"type": "kevlar_weave"
+				}
+			}
+		},
+		"3": {
+			"item": "minecraft:iron_chestplate"
+		}
+	},
+	"result": {
+		"item": "minecraft:iron_chestplate",
+		"data": {
+			"CustomModelData": 1,
+			"type": "kevlar_vest",
+			"Enchantments": [
+				{
+					"id": "minecraft:projectile_protection",
+					"lvl": 4
+				},
+				{
+					"id": "minecraft:protection",
+					"lvl": 4
+				}
+			],
+			"AttributeModifiers": [
+				{
+					"AttributeName": "generic.movement_speed",
+					"Amount": -0.1,
+					"Operation": 2,
+					"Slot": "chest",
+					"UUID": [
+						105891,
+						5819451,
+						591805851,
+						58191051
+					]
+				},
+				{
+					"AttributeName": "generic.armor",
+					"Amount": 8,
+					"Operation": 0,
+					"Slot": "chest",
+					"UUID":[
+						589140194,
+						591065930,
+						495983295,
+						1958196
+					]
+				}
+			],
+			"display": {
+				"Name": "{\"italic\":false,\"color\":\"white\",\"text\":\"Kevlar Vest\"}",
+				"Lore": [
+					"{\"italic\":false,\"color\":\"dark_gray\",\"text\":\"════════════════\"}",
+					"{\"italic\":false,\"color\":\"gray\",\"text\":\"• Integrated shulker box\"}",
+					"{\"italic\":false,\"color\":\"gray\",\"text\":\"• Prevents backstabs\"}",
+					"{\"italic\":false,\"color\":\"dark_gray\",\"text\":\"════════════════\"}",
+					"{\"italic\":false,\"color\":\"yellow\",\"text\":\"• Vest -> Shulker: Hold sneak while in offhand then swap to mainhand\"}",
+					"{\"italic\":false,\"color\":\"yellow\",\"text\":\"• Vest <- Shulker: Swap to offhand then back to mainhand\"}",
+					"{\"italic\":false,\"color\":\"dark_gray\",\"text\":\"════════════════\"}"
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,41 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"121",
+		"232",
+		"121"
+	],
+	"key": {
+		"1": {
+			"item": "minecraft:amethyst_shard"
+		},
+		"2": {
+			"item": "minecraft:white_dye",
+			"data": {
+				"require": {
+					"type": "mystium_shard"
+				}
+			}
+		},
+		"3": {
+			"item": "minecraft:white_dye",
+			"data": {
+				"require": {
+					"type": "mystite_ingot"
+				}
+			}
+		}
+	},
+	"result": {
+		"item": "minecraft:white_dye",
+		"count": 1,
+		"data": {
+			"CustomModelData": 31,
+			"type": "mystium_ingot",
+			"display": {
+				"Name": "{\"italic\":\"false\",\"color\":\"#b39eb5\",\"text\":\"Mystium Ingot\"}"
+			}
+		}
+	},
+	"group": "custom"
+}

@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "World V | The Multi-Biome",
+			"color": "white"
+        },
+        "description": {
+            "text": "This world wasn't very special apart from a dirt castle and the pinnacle of automated slime farming. It would become the last world in the initial superflat series.",
+			"color": "gray"
+        },
+        "icon": {
+            "item": "minecraft:grass"
+        },
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "acquired": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "ss:info/world/world_4"
+}

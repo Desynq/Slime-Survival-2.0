@@ -1,0 +1,103 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"111",
+		"1 1"
+	],
+	"key": {
+		"1": {
+			"item": "minecraft:white_dye",
+			"data": {
+				"require": {
+					"type": "mystium_ingot"
+				}
+			}
+		}
+	},
+	"result": {
+		"item": "minecraft:netherite_helmet",
+		"data": {
+			"CustomModelData": 1,
+			"type": "mystium_helmet",
+			"display": {
+				"Name": "{\"italic\":\"false\",\"color\":\"#450f50\",\"text\":\"Mystium Helmet\"}"
+			},
+			"Enchantments": [
+				{
+					"id": "minecraft:protection",
+					"lvl": 5
+				}
+			],
+			"AttributeModifiers": [
+				{
+					"AttributeName": "generic.armor",
+					"Amount": 3,
+					"Slot": "head",
+					"UUID": [
+						384759253,
+						902417873,
+						238328160,
+						607244449
+					]
+				},
+				{
+					"AttributeName": "generic.armor_toughness",
+					"Amount": 5,
+					"Slot": "head",
+					"UUID": [
+						789885084,
+						847349585,
+						1321923915,
+						1429271289
+					]
+				},
+				{
+					"AttributeName": "generic.knockback_resistance",
+					"Amount": 0.1,
+					"Slot": "head",
+					"UUID": [
+						845109073,
+						1704897516,
+						319209485,
+						424208987
+					]
+				},
+				{
+					"AttributeName": "generic.max_health",
+					"Amount": 25,
+					"Slot": "head",
+					"UUID": [
+						1413260103,
+						1215221952,
+						931336166,
+						504133503
+					]
+				},
+				{
+					"AttributeName": "generic.max_health",
+					"Amount": 0.125,
+					"Operation": 1,
+					"Slot": "head",
+					"UUID": [
+						192314828,
+						2118898213,
+						1608793822,
+						1643642574
+					]
+				},
+				{
+					"AttributeName": "generic.attack_damage",
+					"Amount": 0.125,
+					"Operation": 1,
+					"Slot": "head",
+					"UUID": [
+						1976124398,
+						625264125,
+						182147672,
+						266521725
+					]
+				}
+			]
+		}
+	}
+}

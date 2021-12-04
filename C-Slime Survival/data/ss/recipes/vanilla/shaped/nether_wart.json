@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"121",
+		"232",
+		"121"
+	],
+	"key": {
+		"1": {
+			"item": "minecraft:red_dye"
+		},
+		"2": {
+			"item": "minecraft:soul_sand"
+		},
+		"3": {
+			"item": "minecraft:wheat_seeds"
+		}
+	},
+	"result": {
+		"item": "minecraft:nether_wart",
+		"count": 1
+	},
+	"group": "custom"
+}

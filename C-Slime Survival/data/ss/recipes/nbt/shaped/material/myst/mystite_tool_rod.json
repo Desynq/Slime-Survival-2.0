@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"1",
+		"1"
+	],
+	"key": {
+		"1": {
+			"item": "minecraft:white_dye",
+			"data": {
+				"require": {
+					"type": "mystite_ingot"
+				}
+			}
+		}
+	},
+	"result": {
+		"item": "minecraft:white_dye",
+		"count": 1,
+		"data": {
+			"CustomModelData": 29,
+			"type": "mystite_tool_rod",
+			"display": {
+				"Name": "{\"italic\":\"false\",\"color\":\"dark_aqua\",\"text\":\"Mystite Tool Rod\"}"
+			}
+		}
+	}
+}

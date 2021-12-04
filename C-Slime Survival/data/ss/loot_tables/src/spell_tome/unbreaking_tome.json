@@ -1,0 +1,99 @@
+{
+	"type": "minecraft:generic",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"color": "dark_purple",
+								"text": "Unbreaking Tome"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"text": "",
+									"italic": false,
+									"color": "dark_gray",
+									"extra": [
+										"==========[ ",
+										{
+											"color": "dark_purple",
+											"text": "Lore"
+										},
+										" ]=========="
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"text": "Probably one of the oldest classics in"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"text": "Slime Survival, definitely worth the buy."
+								},
+								{
+									"text": "",
+									"italic": false,
+									"color": "dark_gray",
+									"extra": [
+										"==========[ ",
+										{
+											"color": "gold",
+											"text": "Use"
+										},
+										" ]==========="
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"text": "When thrown on the ground, the closest item to"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"text": "it becomes unbreakable. It will destroy itself"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"text": "in the process as well, even if there is no item"
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"text": "to make unbreakable."
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:500,type:\"unbreaking_tome\"}"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{SpawnFromLootTable:true}",
+							"conditions": [
+								{
+									"condition": "minecraft:reference",
+									"name": "ss:entity/has_tag/giving_item"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -13,7 +13,7 @@
             }
         ],
         "icon": {
-            "item": "minecraft:skeleton_skull"
+            "item": "minecraft:iron_sword"
         },
         "frame": "task",
         "show_toast": false,

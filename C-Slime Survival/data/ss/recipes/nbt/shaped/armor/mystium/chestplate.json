@@ -1,0 +1,104 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"1 1",
+		"111",
+		"111"
+	],
+	"key": {
+		"1": {
+			"item": "minecraft:white_dye",
+			"data": {
+				"require": {
+					"type": "mystium_ingot"
+				}
+			}
+		}
+	},
+	"result": {
+		"item": "minecraft:netherite_chestplate",
+		"data": {
+			"CustomModelData": 1,
+			"type": "mystium_chestplate",
+			"display": {
+				"Name": "{\"italic\":\"false\",\"color\":\"#450f50\",\"text\":\"Mystium Chestplate\"}"
+			},
+			"Enchantments": [
+				{
+					"id": "minecraft:protection",
+					"lvl": 5
+				}
+			],
+			"AttributeModifiers": [
+				{
+					"AttributeName": "generic.armor",
+					"Amount": 8,
+					"Slot": "chest",
+					"UUID": [
+						1762377534,
+						858004113,
+						114931579,
+						2094345525
+					]
+				},
+				{
+					"AttributeName": "generic.armor_toughness",
+					"Amount": 5,
+					"Slot": "chest",
+					"UUID": [
+						1329325968,
+						1752653559,
+						115587752,
+						1447902705
+					]
+				},
+				{
+					"AttributeName": "generic.knockback_resistance",
+					"Amount": 0.1,
+					"Slot": "chest",
+					"UUID": [
+						1802067143,
+						1737987691,
+						261747330,
+						675425058
+					]
+				},
+				{
+					"AttributeName": "generic.max_health",
+					"Amount": 25,
+					"Slot": "chest",
+					"UUID": [
+						1927826406,
+						220256868,
+						327488609,
+						99467409
+					]
+				},
+				{
+					"AttributeName": "generic.max_health",
+					"Amount": 0.125,
+					"Operation": 1,
+					"Slot": "chest",
+					"UUID": [
+						1558227124,
+						254025347,
+						534045953,
+						233030801
+					]
+				},
+				{
+					"AttributeName": "generic.attack_damage",
+					"Amount": 0.125,
+					"Operation": 1,
+					"Slot": "chest",
+					"UUID": [
+						2011715522,
+						347876830,
+						1657585848,
+						1476730307
+					]
+				}
+			]
+		}
+	}
+}

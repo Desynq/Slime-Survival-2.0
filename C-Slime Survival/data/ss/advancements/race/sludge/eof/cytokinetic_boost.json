@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "acquired": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "ss:race/sludge/root": true
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "parent": "ss:race/sludge/cytokinetic_boost"
+}

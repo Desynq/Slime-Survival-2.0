@@ -1,0 +1,75 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"111",
+		"121",
+		"1 1"
+	],
+	"key": {
+		"1": {
+			"item": "minecraft:command_block",
+			"data": {
+				"require": {
+					"type": "kevlar_weave"
+				}
+			}
+		},
+		"2": {
+			"item": "minecraft:iron_leggings"
+		}
+	},
+	"result": {
+		"item": "minecraft:leather_leggings",
+		"data": {
+			"type": "kevlar_leggings",
+			"HideFlags": 64,
+			"Enchantments": [
+				{
+					"id": "minecraft:protection",
+					"lvl": 4
+				},
+				{
+					"id": "minecraft:projectile_protection",
+					"lvl": 4
+				},
+				{
+					"id": "minecraft:unbreaking",
+					"lvl": 3
+				}
+			],
+			"AttributeModifiers": [
+				{
+					"AttributeName": "generic.armor",
+					"Amount": 6,
+					"Operation": 0,
+					"Slot": "legs",
+					"UUID": [
+						1282629501,
+						1420100284,
+						1752746563,
+						844592889
+					]
+				},
+				{
+					"AttributeName": "generic.movement_speed",
+					"Amount": -0.075,
+					"Operation": 2,
+					"Slot": "legs",
+					"UUID": [
+						1511027235,
+						1582024,
+						2007608799,
+						718027834
+					]
+				}
+			],
+			"display": {
+				"color": 1908001,
+				"Name": "{\"italic\":false,\"color\":\"white\",\"text\":\"Kevlar Leggings\"}",
+				"Lore": [
+					"{\"italic\":false,\"color\":\"gray\",\"text\":\"○ When Worn: Negates slowdown from firing certain guns\"}"
+				]
+			}
+		}
+	}
+}
