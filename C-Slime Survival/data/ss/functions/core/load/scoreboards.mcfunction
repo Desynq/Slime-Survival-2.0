@@ -19,11 +19,23 @@ scoreboard objectives add hasLeft minecraft.custom:minecraft.leave_game
 scoreboard objectives add isSneaking minecraft.custom:minecraft.sneak_time
 scoreboard objectives add hasJumped minecraft.custom:minecraft.jump
 
+scoreboard objectives add hasBlockedFor dummy
+
 scoreboard objectives add openedEnderchest minecraft.custom:minecraft.open_enderchest
 
 scoreboard objectives add usedWFOAS minecraft.used:minecraft.warped_fungus_on_a_stick
-scoreboard objectives add currentAmmo dummy
-scoreboard objectives add maxAmmo dummy
+scoreboard objectives add ammo.mh dummy
+scoreboard objectives add ammo.oh dummy
+scoreboard objectives add maxAmmo.mh dummy
+scoreboard objectives add maxAmmo.oh dummy
+scoreboard objectives add reloadTime.mh dummy
+scoreboard objectives add reloadTime.oh dummy
+
+
+
+# Invulnerability timer for chlorine gas damage
+scoreboard objectives add it.chlorineGas dummy
+
 
 
 scoreboard objectives add Health health
