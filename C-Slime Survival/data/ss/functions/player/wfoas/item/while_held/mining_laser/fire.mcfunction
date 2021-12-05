@@ -5,4 +5,4 @@ execute if score @s isSneaking matches 1 run scoreboard players remove @s ammoMi
 
 
 scoreboard players set raycast temp 0
-function ss:player/wfoas/item/while_held/tool/mining_laser/raycast
+function ss:player/wfoas/item/while_held/mining_laser/raycast
