@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:water_bucket",
+			"remainder": {
+				"item": "water_bucket"
+			}
+		},
+		{
+			"tag": "minecraft:candles"
+		}
+	],
+	"result": {
+		"item": "minecraft:candle"
+	}
+}

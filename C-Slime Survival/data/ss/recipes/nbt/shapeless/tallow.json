@@ -1,0 +1,30 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:bowl",
+			"remainder": {
+				"item": "minecraft:bowl"
+			}
+		},
+		{
+			"item": "minecraft:porkchop"
+		}
+	],
+	"result": {
+		"item": "minecraft:command_block",
+		"count": 1,
+		"data": {
+			"CustomModelData": 1028000,
+			"type": "tallow",
+			"display": {
+				"Name": {
+					"text": "Tallow",
+					"color": "white",
+					"italic": false,
+					"nbtcrafting:stringify": true
+				}
+			}
+		}
+	}
+}

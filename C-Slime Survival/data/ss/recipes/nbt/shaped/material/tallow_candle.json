@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"1",
+		"2"
+	],
+	"key": {
+		"1": {
+			"item": "minecraft:string"
+		},
+		"2": {
+			"item": "minecraft:command_block",
+			"data": {
+				"require": {
+					"type": "tallow"
+				}
+			}
+		}
+	},
+	"result": {
+		"item": "minecraft:candle",
+		"count": 1
+	}
+}
