@@ -1,3 +1,7 @@
+execute unless score @s hasLeftClicked matches 0 run scoreboard players set @s hasLeftClicked 0
+
+
+
 scoreboard players set @s isSneaking 0
 scoreboard players set @s hasJumped 0
 
