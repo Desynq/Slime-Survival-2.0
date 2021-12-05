@@ -42,10 +42,6 @@ execute if entity @s[type=#minecraft:arrows] run function ss:entity/log/class/ar
 
 
 
-execute if entity @s[type=minecraft:creeper,tag=explosive] if data entity @s ActiveEffects run function ss:entity/log/creeper/explosive
-
-
-
 #######
 # Mobs
 #######
