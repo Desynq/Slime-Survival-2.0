@@ -14,11 +14,6 @@ execute unless score @s stat.luck matches 0.. run scoreboard players set @s stat
 
 
 
-## Disabled for the forseeable future
-
-#execute store success score ran temp if entity @s[predicate=ss:player/race/parasite,scores={parasite=1..}] unless score @s parasite = @s list at @a if score @s parasite = @p list run function ss:player/util/stats/class/parasite
-#execute if predicate ss:player/race/parasite unless score ran temp matches 1 run function ss:player/util/stats/class/parasite_fail
-
 
 execute if entity @s[tag=!admin] run function ss:player/util/stats/class/attack_damage
 
