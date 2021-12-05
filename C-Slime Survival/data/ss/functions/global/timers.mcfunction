@@ -7,8 +7,8 @@ scoreboard players operation moonPhase timer %= 8 math
 
 
 scoreboard players operation season timer = day timer
-scoreboard players operation season timer %= 200 math
-scoreboard players operation season timer /= 50 math
+scoreboard players operation season timer %= 360 math
+scoreboard players operation season timer /= 90 math
 
 
 
