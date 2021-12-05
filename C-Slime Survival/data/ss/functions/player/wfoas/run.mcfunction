@@ -8,6 +8,10 @@ execute store result score reloadTime.mh temp run data get storage ss:player_inv
 execute store result score reloadTime.oh temp run data get storage ss:player_inventory HandItems[1].tag.reloadTime
 
 
+execute store result score zoomLevel.mh temp run data get storage ss:player_inventory HandItems[0].tag.zoomLevel
+execute store result score zoomLevel.oh temp run data get storage ss:player_inventory HandItems[1].tag.zoomLevel
+
+
 
 
 
