@@ -7,4 +7,6 @@ scoreboard players set 10 math 10
 scoreboard players set 20 math 20
 scoreboard players set 40 math 40
 scoreboard players set 50 math 50
+scoreboard players set 90 math 90
 scoreboard players set 200 math 200
+scoreboard players set 360 math 360
