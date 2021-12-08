@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": "Oversaturated | $5,000",
+        "description": [
+            {
+                "color": "gray",
+                "text": "Resistance II while at max hunger"
+            }
+        ],
+        "icon": {
+            "item": "minecraft:baked_potato"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "acquired": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "ss:race/sludge/root"
+}

@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": "Homophagia II | $25,000",
+        "description": [
+            {
+                "color": "gray",
+                "text": "You can no longer sell slime blocks but instead consume them for 20hp per"
+            }
+        ],
+        "icon": {
+            "item": "minecraft:slime_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "acquired": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "ss:race/sludge/homophagia_1"
+}

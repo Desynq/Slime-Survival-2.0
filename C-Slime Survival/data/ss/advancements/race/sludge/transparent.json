@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": "Transparent | $20,000",
+        "description": [
+            {
+                "color": "gray",
+                "text": "You become invisible while sneaking"
+            }
+        ],
+        "icon": {
+            "item": "minecraft:glass_bottle"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "acquired": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "ss:race/sludge/slow_burner_1"
+}

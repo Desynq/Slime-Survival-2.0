@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": "Acidic Composition | $15,000",
+        "description": [
+            {
+                "color": "gray",
+                "text": "Players and mobs within 0.5 blocks of you take a silent 2hp/s damage"
+            }
+        ],
+        "icon": {
+            "item": "minecraft:potion",
+            "nbt": "{Potion:\"minecraft:poison\"}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "acquired": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "ss:race/sludge/slow_burner_1"
+}

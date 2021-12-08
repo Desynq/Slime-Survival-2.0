@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": "Autophagia | $20,000",
+        "description": [
+            {
+                "color": "gray",
+                "text": "You regenerate 1 hunger at the cost of 2hp as long you're above 25% hp"
+            }
+        ],
+        "icon": {
+            "item": "minecraft:command_block",
+            "nbt": "{CustomModelData:4011000}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "acquired": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "ss:race/sludge/oversaturated"
+}
