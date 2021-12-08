@@ -1,4 +1,4 @@
-data merge entity @s {CustomName:'{"color":"dark_green","text":"Wasteland Husk"}',ArmorItems:[]}
+data merge entity @s {CustomName:'{"color":"dark_green","text":"Wasteland Husk"}',ArmorItems:[],IsBaby:false}
 
 attribute @s minecraft:generic.attack_damage base set 10
 attribute @s minecraft:generic.movement_speed base set 0.3
