@@ -2,6 +2,7 @@ execute if entity @s[nbt={CustomPotionEffects:[{Id:26b,Amplifier:1b}]}] run func
 execute if entity @s[nbt={CustomPotionEffects:[{Id:26b,Amplifier:2b}]}] run function ss:entity/class/arrow/explosive/tier_2
 execute if entity @s[nbt={CustomPotionEffects:[{Id:26b,Amplifier:3b}]}] run function ss:entity/class/arrow/explosive/tier_3
 execute if entity @s[nbt={CustomPotionEffects:[{Id:26b,Amplifier:4b}]}] run function ss:entity/class/arrow/explosive/tier_4
+execute if entity @s[nbt={CustomPotionEffects:[{Id:26b,Amplifier:5b}]}] run function ss:entity/class/arrow/explosive/tier_5
 
 
 

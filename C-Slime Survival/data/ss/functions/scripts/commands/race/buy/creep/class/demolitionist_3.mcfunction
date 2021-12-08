@@ -3,6 +3,6 @@ execute if entity @s[advancements={ss:race/creep/demolitionist_3=true}] run func
 
 execute if entity @s[advancements={ss:race/creep/demolitionist_2=false,ss:race/creep/demolitionist_3=false}] run function ss:scripts/commands/race/buy/util/need_parent
 
-execute unless score @s money matches 100000.. if entity @s[advancements={ss:race/creep/demolitionist_3=false}] run function ss:scripts/commands/race/buy/util/insufficient_funds
+execute unless score @s money matches 50000.. if entity @s[advancements={ss:race/creep/demolitionist_3=false}] run function ss:scripts/commands/race/buy/util/insufficient_funds
 
-execute if score @s money matches 100000.. if entity @s[advancements={ss:race/creep/demolitionist_3=false}] run function ss:scripts/commands/race/buy/creep/success/demolitionist_3
+execute if score @s money matches 50000.. if entity @s[advancements={ss:race/creep/demolitionist_3=false}] run function ss:scripts/commands/race/buy/creep/success/demolitionist_3
