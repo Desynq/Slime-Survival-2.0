@@ -14,20 +14,4 @@ execute unless score @s stat.luck matches 0.. run scoreboard players set @s stat
 
 
 
-
-execute if entity @s[tag=!admin] run function ss:player/util/stats/class/attack_damage
-
-
-execute if entity @s[tag=!admin,predicate=!ss:player/race/arthropod] run function ss:player/util/stats/class/attack_speed
-execute if entity @s[tag=!admin,predicate=ss:player/race/arthropod] run function ss:player/util/stats/class/attack_speed_arthropod
-
-
-execute if entity @s[tag=!admin,predicate=!ss:player/race/sludge] run function ss:player/util/stats/class/max_health
-execute if entity @s[tag=!admin,predicate=ss:player/race/sludge] run function ss:player/util/stats/class/max_health_sludge
-
-
-execute if entity @s[tag=!admin] run function ss:player/util/stats/class/movement_speed
-
-
-execute if entity @s[tag=!admin,predicate=!ss:player/race/floran] run function ss:player/util/stats/class/luck
-execute if entity @s[tag=!admin,predicate=ss:player/race/floran] run function ss:player/util/stats/class/luck_floran
+execute if entity @s[tag=!admin] run function ss:player/util/stats/apply
