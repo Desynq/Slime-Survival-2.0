@@ -1,0 +1,60 @@
+{
+	"type": "minecraft:generic",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"color": "dark_purple",
+								"text": "Lexica Mystania"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"text": "",
+									"italic": false,
+									"color": "dark_gray",
+									"extra": [
+										"==========[ ",
+										{
+											"color": "dark_purple",
+											"text": "Lore"
+										},
+										" ]=========="
+									]
+								},
+								{
+									"text": "The book shimmers with a dark, eldritch energy...",
+									"color": "gray"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:2000000,type:\"lexica_mystania\",generation:3}"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{SpawnFromLootTable:true}",
+							"conditions": [
+								{
+									"condition": "minecraft:reference",
+									"name": "ss:entity/has_tag/giving_item"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
