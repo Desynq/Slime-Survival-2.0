@@ -1,5 +1,7 @@
 execute unless score @s it.chlorineGas matches 0.. run scoreboard players set @s it.chlorineGas 0
 
+execute unless score @s c.dart_gun matches 0.. run scoreboard players set @s c.dart_gun 0
+
 
 
 execute if entity @s[scores={timeSinceDeath=1}] run function ss:core/prerun/player/respawned
