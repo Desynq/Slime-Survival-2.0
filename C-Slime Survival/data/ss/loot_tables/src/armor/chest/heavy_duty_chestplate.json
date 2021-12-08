@@ -19,26 +19,6 @@
 						{
 							"function": "minecraft:set_lore",
 							"lore": [
-								{
-									"italic": false,
-									"color": "gray",
-									"text": "Protection 50"
-								},
-								{
-									"italic": false,
-									"color": "gray",
-									"text": "Projectile Protection 50"
-								},
-								{
-									"italic": false,
-									"color": "gray",
-									"text": "Blast Protection 50"
-								},
-								{
-									"italic": false,
-									"color": "gray",
-									"text": "Fire Protection 50"
-								},
 								[
 									{
 										"italic": false,
@@ -79,7 +59,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{type:\"heavy_duty_chestplate\",Unbreakable:false,RepairCost:32767,HideFlags:1}"
+							"tag": "{type:\"heavy_duty_chestplate\",Unbreakable:false,RepairCost:32767}"
 						},
 						{
 							"function": "minecraft:set_nbt",
