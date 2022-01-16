@@ -60,12 +60,6 @@ gamerule witherGriefing false
 
 
 
-
-function ss:math/gen/math_table
-
-
-
-
 ##########
 # Cleanup
 ##########
