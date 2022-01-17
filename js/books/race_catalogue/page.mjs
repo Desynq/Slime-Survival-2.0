@@ -3,11 +3,11 @@ const require = createRequire(import.meta.url); // because json imports are eXpe
 
 import { truncateSync, appendFileSync, readdirSync } from 'fs'; // all fs methods are synchronous because I don't want to bother with promises and async functions
 
-const mcfunction = 'E:/Servers/Slime Survival 2.0/world_slime_survival/datapacks/C-Slime Survival/data/ss/functions/core/load/static/books/race_catalogue.mcfunction';
+const mcfunction = 'D:/Servers/Slime Survival 2.0/world_slime_survival/datapacks/C-Slime Survival/data/ss/functions/core/load/static/books/race_catalogue.mcfunction';
 
 
 
-const files = readdirSync('E:/Servers/Slime Survival 2.0/world_slime_survival/datapacks/js/books/race_catalogue/json');
+const files = readdirSync('D:/Servers/Slime Survival 2.0/world_slime_survival/datapacks/js/books/race_catalogue/json');
 
 truncateSync(mcfunction);
 
