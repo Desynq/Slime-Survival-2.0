@@ -1,32 +1,32 @@
 {
-    "display": {
-        "title": "Demolitionist II",
-        "description": {
-            "text": "",
-            "extra": [
-                {
-                    "text": "$25,000\n\n",
-                    "color": "dark_green",
-                    "underlined": true
-                },
-                {
-                    "text": "12 Explosion Radius",
-                    "color": "gray"
-                }
-            ]
-        },
-        "icon": {
-            "item": "minecraft:tnt"
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": false,
-        "hidden": false
-    },
-    "criteria": {
-        "acquired": {
-            "trigger": "minecraft:impossible"
-        }
-    },
-    "parent": "ss:race/creep/demolitionist_1"
+	"display": {
+		"title": "Demolitionist II",
+		"description": {
+			"text": "",
+			"extra": [
+				{
+					"text": "$12,500\n\n",
+					"color": "dark_green",
+					"underlined": true
+				},
+				{
+					"text": "12 Explosion Radius",
+					"color": "gray"
+				}
+			]
+		},
+		"icon": {
+			"item": "minecraft:tnt"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"acquired": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "ss:race/creep/demolitionist_1"
 }

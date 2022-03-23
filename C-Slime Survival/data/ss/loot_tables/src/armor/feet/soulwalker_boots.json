@@ -1,0 +1,77 @@
+{
+	"type": "minecraft:generic",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:elytra",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"color": "dark_purple",
+								"text": "Soulwalker Boots"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								[
+									{
+										"text": "=========[ ",
+										"color": "dark_gray",
+										"italic": false
+									},
+									{
+										"text": "Lore",
+										"color": "dark_purple",
+										"italic": false
+									},
+									{
+										"text": " ]=========",
+										"color": "dark_gray",
+										"italic": false
+									}
+								],
+								{
+									"italic": false,
+									"color": "gray",
+									"text": "They don't do so well in water..."
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"name": "",
+									"attribute": "minecraft:generic.armor",
+									"operation": "addition",
+									"amount": 8,
+									"slot": "chest"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{type:\"phantomizing_elytra\"}"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{SpawnFromLootTable:true}",
+							"conditions": [
+								{
+									"condition": "minecraft:reference",
+									"name": "ss:entity/has_tag/giving_item"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

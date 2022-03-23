@@ -13,6 +13,7 @@
 	"result": {
 		"item": "minecraft:netherite_chestplate",
 		"data": {
+			"type": "steel_chestplate",
 			"Unbreakable": false,
 			"display": {
 				"Name": "{\"italic\":\"false\",\"color\":\"white\",\"text\":\"Steel Chestplate\"}",
@@ -21,7 +22,13 @@
 					"{\"italic\":\"false\",\"color\":\"dark_red\",\"text\":\"✗ Cannot be made unbreakable\"}",
 					"{\"italic\":\"false\",\"color\":\"dark_gray\",\"text\":\"════════════════\"}"
 				]
-			}
+			},
+			"Enchantments": [
+				{
+					"id": "minecraft:protection",
+					"lvl": 5
+				}
+			]
 		}
 	}
 }

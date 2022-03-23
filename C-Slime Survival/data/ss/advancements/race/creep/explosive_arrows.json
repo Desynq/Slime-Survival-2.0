@@ -1,37 +1,33 @@
 {
-    "display": {
-        "title": "Explosive Arrows",
-        "description": {
-            "text": "",
-            "extra": [
-                {
-                    "text": "$7,500\n\n",
-                    "color": "dark_green",
-                    "underlined": true
-                },
-                {
-                    "text": "Arrows fired will be explosive on contact with entities or blocks.\n\n",
-                    "color": "gray"
-                },
-                {
-                    "text": "Mutually exclusive with incendiary arrows.",
-                    "color": "red"
-                }
-            ]
-        },
-        "icon": {
-            "item": "minecraft:command_block",
-            "nbt": "{CustomModelData:3001000}"
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": false,
-        "hidden": false
-    },
-    "criteria": {
-        "acquired": {
-            "trigger": "minecraft:impossible"
-        }
-    },
-    "parent": "ss:race/creep/incendiary_arrows"
+	"display": {
+		"title": "Explosive Arrows",
+		"description": {
+			"text": "",
+			"extra": [
+				{
+					"text": "$7,500\n\n",
+					"color": "dark_green",
+					"underlined": true
+				},
+				{
+					"text": "Arrows fired have a chance to become explosive.",
+					"color": "gray"
+				}
+			]
+		},
+		"icon": {
+			"item": "minecraft:command_block",
+			"nbt": "{CustomModelData:3001000}"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"acquired": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "ss:race/creep/incendiary_arrows"
 }

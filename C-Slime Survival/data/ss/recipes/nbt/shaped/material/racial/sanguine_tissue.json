@@ -7,10 +7,10 @@
 	],
 	"key": {
 		"1": {
-			"item": "minecraft:rabbit_hide",
+			"item": "minecraft:command_block",
 			"data": {
 				"require": {
-					"type": "bat_hide"
+					"type": "wool_of_bat"
 				}
 			}
 		},
@@ -27,7 +27,7 @@
 		"item": "minecraft:command_block",
 		"count": 2,
 		"data": {
-			"CustomModelData": 35,
+			"CustomModelData": 1022000,
 			"type": "sanguine_tissue",
 			"display": {
 				"Name": "{\"italic\":false,\"color\":\"dark_red\",\"text\":\"Sanguine Tissue\"}"

@@ -1,18 +1,12 @@
 {
-	"type": "entity",
+	"type": "minecraft:entity",
 	"pools": [
 		{
-			"rolls": 1,
+			"rolls": 1.0,
 			"entries": [
 				{
-					"type": "item",
-					"name": "minecraft:rabbit_hide",
-					"functions": [
-						{
-							"function": "set_nbt",
-							"tag": "{type:\"bat_hide\",display:{Name:'{\"italic\":false,\"color\":\"dark_purple\",\"text\":\"Bat Hide\"}'}}"
-						}
-					]
+					"type": "minecraft:loot_table",
+					"name": "ss:src/material/wool_of_bat"
 				}
 			]
 		}

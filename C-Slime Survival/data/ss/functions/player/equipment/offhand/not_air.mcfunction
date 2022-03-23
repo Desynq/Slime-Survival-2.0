@@ -22,4 +22,10 @@ execute if entity @s[predicate=ss:entity/equipment/offhand/written_book,predicat
 
 
 execute if entity @s[predicate=ss:entity/equipment/offhand/emerald] run function ss:player/equipment/offhand/sell/emerald
-execute if entity @s[predicate=ss:entity/equipment/offhand/slime_ball] run function ss:player/equipment/offhand/sell/slime_ball
+
+
+
+
+
+execute if entity @s[predicate=ss:entity/equipment/offhand/slime_ball] run function ss:player/equipment/offhand/class/slime_ball/run
+#execute if entity @s[predicate=ss:entity/equipment/offhand/slime_block] run function ss:player/equipment/offhand/class/slime_block/run

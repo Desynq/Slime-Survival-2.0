@@ -1,0 +1,94 @@
+{
+	"type": "minecraft:generic",
+	"pools": [
+		{
+			"rolls": 1.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:shield",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"text": "Golemite Shield",
+								"color": "gray",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								[
+									{
+										"italic": false,
+										"color": "dark_gray",
+										"text": "=========[ "
+									},
+									{
+										"italic": false,
+										"color": "dark_purple",
+										"text": "Lore"
+									},
+									{
+										"italic": false,
+										"color": "dark_gray",
+										"text": " ]========="
+									}
+								],
+								{
+									"color": "gray",
+									"text": "Hard as rock but slow as rock"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"name": "",
+									"attribute": "minecraft:generic.max_health",
+									"operation": "multiply_base",
+									"amount": 0.5,
+									"slot": "offhand"
+								},
+								{
+									"name": "",
+									"attribute": "minecraft:generic.attack_speed",
+									"operation": "multiply_total",
+									"amount": -0.5,
+									"slot": "offhand"
+								},
+								{
+									"name": "",
+									"attribute": "minecraft:generic.knockback_resistance",
+									"operation": "addition",
+									"amount": 1.0,
+									"slot": "offhand"
+								},
+								{
+									"name": "",
+									"attribute": "minecraft:generic.movement_speed",
+									"operation": "multiply_total",
+									"amount": -0.5,
+									"slot": "offhand"
+								},
+								{
+									"name": "",
+									"attribute": "minecraft:generic.armor_toughness",
+									"operation": "addition",
+									"amount": 3.0,
+									"slot": "offhand"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{type:\"golemite_shield\"}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

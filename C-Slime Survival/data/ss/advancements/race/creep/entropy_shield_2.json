@@ -1,0 +1,32 @@
+{
+	"display": {
+		"title": "Entropy Shield II",
+		"description": {
+			"text": "",
+			"extra": [
+				{
+					"text": "$7,500\n\n",
+					"color": "dark_green",
+					"underlined": true
+				},
+				{
+					"text": "Creates a 20 HP absorption shield at the cost of one gunpowder",
+					"color": "gray"
+				}
+			]
+		},
+		"icon": {
+			"item": "minecraft:chainmail_chestplate"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"acquired": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "ss:race/creep/entropy_shield_1"
+}

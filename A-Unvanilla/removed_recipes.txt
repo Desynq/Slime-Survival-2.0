@@ -16,9 +16,6 @@ bone_meal
 coal_block
 coal
 
-emerald_block
-emerald
-
 flint_and_steel
 
 magma_block

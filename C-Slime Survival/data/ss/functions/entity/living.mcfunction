@@ -6,6 +6,10 @@ execute if entity @s[type=minecraft:cave_spider] run function ss:entity/class/ca
 
 
 
+execute if entity @s[type=minecraft:husk] run function ss:entity/living/husk/run
+
+
+
 
 
 execute if entity @s[type=minecraft:iron_golem] run function ss:entity/living/iron_golem/run

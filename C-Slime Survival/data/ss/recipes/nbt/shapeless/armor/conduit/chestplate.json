@@ -1,0 +1,90 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:leather_chestplate",
+			"data": {
+				"require": {
+					"type": "axolotl_chestplate"
+				}
+			}
+		},
+		{
+			"item": "minecraft:leather_chestplate",
+			"data": {
+				"require": {
+					"type": "turtle_chestplate"
+				}
+			}
+		},
+		{
+			"item": "minecraft:nautilus_shell"
+		},
+		{
+			"item": "minecraft:nautilus_shell"
+		},
+		{
+			"item": "minecraft:nautilus_shell"
+		},
+		{
+			"item": "minecraft:nautilus_shell"
+		}
+	],
+	"result": {
+		"item": "minecraft:leather_chestplate",
+		"data": {
+			"type": "conduit_chestplate",
+			"HideFlags": 64,
+			"display": {
+				"Name": "{\"italic\":\"false\",\"color\":\"#D3BB89\",\"text\":\"Conduit Chestplate\"}",
+				"color": 13876105
+			},
+			"Enchantments": [
+				{
+					"id": "minecraft:protection",
+					"lvl": 4
+				},
+				{
+					"id": "minecraft:unbreaking",
+					"lvl": 10
+				}
+			],
+			"AttributeModifiers": [
+				{
+					"AttributeName": "minecraft:generic.max_health",
+					"Amount": 0.25,
+					"Operation": 1,
+					"Slot": "chest",
+					"UUID": [
+						1512880125,
+						35927829,
+						1544010447,
+						900298471
+					]
+				},
+				{
+					"AttributeName": "minecraft:generic.armor",
+					"Amount": 8,
+					"Slot": "chest",
+					"UUID": [
+						825553379,
+						1703641575,
+						1946745051,
+						1504085986
+					]
+				},
+				{
+					"AttributeName": "minecraft:generic.armor_toughness",
+					"Amount": 3,
+					"Slot": "chest",
+					"UUID": [
+						2070632327,
+						234872261,
+						1678870721,
+						1824566943
+					]
+				}
+			]
+		}
+	}
+}

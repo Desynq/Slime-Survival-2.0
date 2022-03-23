@@ -68,7 +68,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{SpawnFromLootTable:true}",
+							"tag": "{SpawnedFromLootTable:true}",
 							"conditions": [
 								{
 									"condition": "minecraft:reference",

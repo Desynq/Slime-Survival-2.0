@@ -1,0 +1,108 @@
+{
+	"type": "minecraft:generic",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:snowball",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"italic": false,
+								"color": "gold",
+								"text": "Impact Grenade"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"text": "",
+									"italic": false,
+									"color": "dark_gray",
+									"extra": [
+										"==========[ ",
+										{
+											"color": "dark_purple",
+											"text": "Lore"
+										},
+										" ]=========="
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"text": "You probably shouldn't drop this..."
+								},
+								{
+									"text": "",
+									"italic": false,
+									"color": "dark_gray",
+									"extra": [
+										"==========[ ",
+										{
+											"color": "gold",
+											"text": "Use"
+										},
+										" ]=========="
+									]
+								},
+								{
+									"italic": false,
+									"color": "gray",
+									"text": "● Immediately explodes upon hard contact with entities or blocks."
+								},
+								{
+									"text": "",
+									"italic": false,
+									"color": "dark_gray",
+									"extra": [
+										"==========[ ",
+										{
+											"color": "aqua",
+											"text": "Stats"
+										},
+										" ]=========="
+									]
+								},
+								{
+									"text": "● Type: ",
+									"color": "gray",
+									"italic": false,
+									"extra": [
+										{
+											"text": "Throwable Grenade",
+											"color": "dark_aqua"
+										}
+									]
+								},
+								{
+									"text": "● Explosion Power: 3",
+									"color": "gray",
+									"italic": false
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:1000000,type:\"impact_grenade\"}"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{SpawnFromLootTable:true}",
+							"conditions": [
+								{
+									"condition": "minecraft:reference",
+									"name": "ss:entity/has_tag/giving_item"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

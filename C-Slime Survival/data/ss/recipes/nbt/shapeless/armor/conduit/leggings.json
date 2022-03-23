@@ -1,0 +1,90 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:leather_leggings",
+			"data": {
+				"require": {
+					"type": "axolotl_leggings"
+				}
+			}
+		},
+		{
+			"item": "minecraft:leather_leggings",
+			"data": {
+				"require": {
+					"type": "turtle_leggings"
+				}
+			}
+		},
+		{
+			"item": "minecraft:nautilus_shell"
+		},
+		{
+			"item": "minecraft:nautilus_shell"
+		},
+		{
+			"item": "minecraft:nautilus_shell"
+		},
+		{
+			"item": "minecraft:nautilus_shell"
+		}
+	],
+	"result": {
+		"item": "minecraft:leather_leggings",
+		"data": {
+			"type": "conduit_leggings",
+			"HideFlags": 64,
+			"display": {
+				"Name": "{\"italic\":\"false\",\"color\":\"#D3BB89\",\"text\":\"Conduit Leggings\"}",
+				"color": 13876105
+			},
+			"Enchantments": [
+				{
+					"id": "minecraft:protection",
+					"lvl": 4
+				},
+				{
+					"id": "minecraft:unbreaking",
+					"lvl": 10
+				}
+			],
+			"AttributeModifiers": [
+				{
+					"AttributeName": "minecraft:generic.max_health",
+					"Amount": 0.25,
+					"Operation": 1,
+					"Slot": "legs",
+					"UUID": [
+						997863635,
+						1086644977,
+						1654352365,
+						1138964516
+					]
+				},
+				{
+					"AttributeName": "minecraft:generic.armor",
+					"Amount": 6,
+					"Slot": "legs",
+					"UUID": [
+						1797507172,
+						1750492834,
+						1777357559,
+						119028383
+					]
+				},
+				{
+					"AttributeName": "minecraft:generic.armor_toughness",
+					"Amount": 3,
+					"Slot": "legs",
+					"UUID": [
+						1604897806,
+						1255803952,
+						887198050,
+						1968755402
+					]
+				}
+			]
+		}
+	}
+}

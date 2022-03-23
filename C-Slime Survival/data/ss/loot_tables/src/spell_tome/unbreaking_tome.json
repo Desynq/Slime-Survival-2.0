@@ -58,22 +58,41 @@
 								{
 									"italic": false,
 									"color": "gray",
-									"text": "When thrown on the ground, the closest item to"
+									"text": "When thrown on the ground, the closest item"
 								},
 								{
 									"italic": false,
 									"color": "gray",
-									"text": "it becomes unbreakable. It will destroy itself"
+									"text": "within 4 blocks will become unbreakable."
 								},
 								{
+									"text": "",
 									"italic": false,
-									"color": "gray",
-									"text": "in the process as well, even if there is no item"
+									"color": "dark_gray",
+									"extra": [
+										"==========[ ",
+										{
+											"color": "dark_aqua",
+											"text": "Stats"
+										},
+										" ]==========="
+									]
 								},
 								{
-									"italic": false,
+									"text": "● Type: ",
 									"color": "gray",
-									"text": "to make unbreakable."
+									"italic": false,
+									"extra": [
+										{
+											"text": "Spell Tome",
+											"color": "dark_aqua"
+										}
+									]
+								},
+								{
+									"text": "● Uses: 1",
+									"color": "gray",
+									"italic": false
 								}
 							]
 						},

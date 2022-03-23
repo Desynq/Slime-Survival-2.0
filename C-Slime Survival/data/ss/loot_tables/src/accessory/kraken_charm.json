@@ -1,0 +1,48 @@
+{
+	"type": "minecraft:generic",
+	"pools": [
+		{
+			"rolls": 1.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"text": "Kraken Charm",
+								"color": "aqua",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"text": "When worn as Accessory:",
+									"color": "gray",
+									"italic": false
+								},
+								{
+									"text": " +12.5% Movement Speed",
+									"color": "blue",
+									"italic": false
+								},
+								{
+									"text": " • Immunity to Mesmerized effect",
+									"color": "yellow",
+									"italic": false
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:4006,type:\"kraken_charm\"}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

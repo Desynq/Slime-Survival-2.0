@@ -23,15 +23,13 @@ execute in minecraft:overworld run summon minecraft:marker 0 0 0 {"Tags":["onLoa
 
 
 function ss:core/load/scoreboards
-function ss:core/load/bossbars
 function ss:core/load/static/run
 
 
 
 
-# Establish text to json converter and inventory handler
-execute in minecraft:overworld positioned 0 0 0 unless block ~ ~ ~ minecraft:oak_sign run setblock ~ ~ ~ minecraft:oak_sign
-execute in minecraft:overworld positioned 0 0 1 unless block ~ ~ ~ minecraft:shulker_box run setblock ~ ~ ~ minecraft:shulker_box
+# Establish inventory handler
+execute in minecraft:overworld positioned 0 0 0 unless block ~ ~ ~ minecraft:shulker_box run setblock ~ ~ ~ minecraft:shulker_box
 
 
 

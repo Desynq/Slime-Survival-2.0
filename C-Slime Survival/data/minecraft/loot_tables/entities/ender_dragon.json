@@ -27,7 +27,14 @@
 									"slot": "head",
 									"attribute": "minecraft:generic.attack_damage",
 									"operation": "multiply_base",
-									"amount": 0.5
+									"amount": 0.25
+								},
+								{
+									"name": "draconic_headdress",
+									"slot": "head",
+									"attribute": "minecraft:generic.movement_speed",
+									"operation": "multiply_base",
+									"amount": 0.25
 								}
 							]
 						},

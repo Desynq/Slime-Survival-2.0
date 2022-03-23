@@ -1,5 +1,5 @@
 {
-	"type": "myst:facility",
+	"type": "slime:myst_facility",
 	"generator": {
 		"type": "minecraft:flat",
 		"seed": 0,
@@ -7,7 +7,7 @@
 			"level": "",
 			"lakes": false,
 			"lava_lakes": false,
-			"features": true,
+			"features": false,
 			"biome": "minecraft:the_void",
 			"structures": {
 				"structures": {}

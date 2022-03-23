@@ -39,6 +39,10 @@
 				{
 					"id": "minecraft:depth_strider",
 					"lvl": 3
+				},
+				{
+					"id": "minecraft:protection",
+					"lvl": 3
 				}
 			]
 		}

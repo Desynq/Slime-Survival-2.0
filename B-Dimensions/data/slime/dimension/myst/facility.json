@@ -7,7 +7,7 @@
 			"level": "",
 			"lakes": false,
 			"lava_lakes": false,
-			"features": true,
+			"features": false,
 			"biome": "minecraft:the_void",
 			"structures": {
 				"structures": {}

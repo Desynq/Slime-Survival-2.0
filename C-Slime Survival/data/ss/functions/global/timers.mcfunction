@@ -28,6 +28,9 @@ scoreboard players operation 20 tick %= 20 math
 scoreboard players operation 40 tick = gametime timer
 scoreboard players operation 40 tick %= 40 math
 
+scoreboard players operation 100 tick = gametime timer
+scoreboard players operation 100 tick %= 100 math
+
 
 
 

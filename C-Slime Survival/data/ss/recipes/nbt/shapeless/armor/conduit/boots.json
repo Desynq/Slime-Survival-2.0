@@ -1,0 +1,94 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:leather_boots",
+			"data": {
+				"require": {
+					"type": "axolotl_boots"
+				}
+			}
+		},
+		{
+			"item": "minecraft:leather_boots",
+			"data": {
+				"require": {
+					"type": "turtle_boots"
+				}
+			}
+		},
+		{
+			"item": "minecraft:nautilus_shell"
+		},
+		{
+			"item": "minecraft:nautilus_shell"
+		},
+		{
+			"item": "minecraft:nautilus_shell"
+		},
+		{
+			"item": "minecraft:nautilus_shell"
+		}
+	],
+	"result": {
+		"item": "minecraft:leather_boots",
+		"data": {
+			"type": "conduit_boots",
+			"HideFlags": 64,
+			"display": {
+				"Name": "{\"italic\":\"false\",\"color\":\"#D3BB89\",\"text\":\"Conduit Boots\"}",
+				"color": 13876105
+			},
+			"Enchantments": [
+				{
+					"id": "minecraft:depth_strider",
+					"lvl": 3
+				},
+				{
+					"id": "minecraft:protection",
+					"lvl": 4
+				},
+				{
+					"id": "minecraft:unbreaking",
+					"lvl": 10
+				}
+			],
+			"AttributeModifiers": [
+				{
+					"AttributeName": "minecraft:generic.max_health",
+					"Amount": 0.25,
+					"Operation": 1,
+					"Slot": "feet",
+					"UUID": [
+						1147451008,
+						1892412873,
+						2048166363,
+						1385124949
+					]
+				},
+				{
+					"AttributeName": "minecraft:generic.armor",
+					"Amount": 3,
+					"Slot": "feet",
+					"UUID": [
+						1159390742,
+						672531356,
+						1257920585,
+						741994866
+					]
+				},
+				{
+					"AttributeName": "minecraft:generic.armor_toughness",
+					"Amount": 3,
+					"Slot": "feet",
+					"UUID": [
+						715221453,
+						500244967,
+						10805026,
+						1025394464
+					]
+				}
+			]
+		}
+	}
+}

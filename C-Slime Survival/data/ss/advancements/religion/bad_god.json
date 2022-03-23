@@ -1,0 +1,19 @@
+{
+	"display": {
+		"title": "Bad God Route",
+		"description": "",
+		"icon": {
+			"item": "minecraft:wither_rose"
+		},
+		"frame": "goal",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"acquired": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"parent": "ss:religion/root"
+}

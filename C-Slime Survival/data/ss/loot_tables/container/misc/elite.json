@@ -41,7 +41,7 @@
 			"entries": [
 				{
 					"type": "item",
-					"weight": 1,
+					"weight": 3,
 					"name": "minecraft:firework_star",
 					"functions": [
 						{
@@ -56,6 +56,11 @@
 							}
 						}
 					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 1,
+					"name": "ss:src/spell_tome/unbreaking_tome"
 				}
 			]
 		}

@@ -15,7 +15,12 @@
 			}
 		},
 		"2": {
-			"item": "minecraft:iron_leggings"
+			"item": "minecraft:netherite_leggings",
+			"data": {
+				"require": {
+					"type": "steel_leggings"
+				}
+			}
 		}
 	},
 	"result": {
@@ -34,7 +39,7 @@
 				},
 				{
 					"id": "minecraft:unbreaking",
-					"lvl": 3
+					"lvl": 20
 				}
 			],
 			"AttributeModifiers": [
@@ -52,7 +57,7 @@
 				},
 				{
 					"AttributeName": "generic.movement_speed",
-					"Amount": -0.075,
+					"Amount": -0.1,
 					"Operation": 2,
 					"Slot": "legs",
 					"UUID": [

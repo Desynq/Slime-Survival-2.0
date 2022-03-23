@@ -1,0 +1,52 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"rolls": 1.0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "ss:src/staff/soul_staff"
+				}
+			]
+		},
+		{
+			"rolls": 1.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:emerald_block",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "uniform",
+								"min": 8,
+								"max": 24
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1.0,
+			"entries": [
+				{
+					"weight": 3,
+					"type": "minecraft:loot_table",
+					"name": "ss:src/armor/head/rift_mage_head"
+				},
+				{
+					"weight": 2,
+					"type": "minecraft:loot_table",
+					"name": "ss:src/tool/respawn_amulet"
+				},
+				{
+					"weight": 4,
+					"type": "minecraft:empty"
+				}
+			]
+		}
+	]
+}

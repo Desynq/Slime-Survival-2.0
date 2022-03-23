@@ -1,0 +1,32 @@
+{
+	"display": {
+		"title": "Fistful of Wood",
+		"description": [
+			"",
+			{
+				"text": "Punch a tree and acquire a log, and then craft it into wooden planks",
+				"color": "gray"
+			}
+		],
+		"icon": {
+			"item": "minecraft:oak_planks"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"acquired": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"tag": "minecraft:planks"
+					}
+				]
+			}
+		}
+	},
+	"parent": "ss:survival/root"
+}

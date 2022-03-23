@@ -1,0 +1,29 @@
+{
+	"display": {
+		"title": {
+			"text": "][---][ Religion ][---][",
+			"color": "#2243b6"
+		},
+		"description": [
+			"",
+			{
+				"text": "We can make a religion out of this!",
+				"color": "dark_purple",
+				"italic": true
+			}
+		],
+		"icon": {
+			"item": "minecraft:enchanted_book"
+		},
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false,
+		"background": "minecraft:textures/block/bookshelf.png"
+	},
+	"criteria": {
+		"acquired": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

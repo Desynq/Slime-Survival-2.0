@@ -56,8 +56,8 @@
 								{
 									"name": "",
 									"attribute": "minecraft:generic.attack_speed",
-									"operation": "multiply_total",
-									"amount": -0.5,
+									"operation": "addition",
+									"amount": -2,
 									"slot": "mainhand"
 								}
 							]
@@ -76,7 +76,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{SpawnFromLootTable:true}",
+							"tag": "{SpawnedFromLootTable:true}",
 							"conditions": [
 								{
 									"condition": "minecraft:reference",

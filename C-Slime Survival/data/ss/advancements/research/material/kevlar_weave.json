@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": "Kevlar Weave",
+        "description": {
+            "text": "",
+            "extra": [
+                {
+                    "text": "A weave of synthetic fiber boasting high tensile strength and flame retardant capabilities",
+                    "color": "gray"
+                }
+            ]
+        },
+        "icon": {
+            "item": "minecraft:command_block",
+            "nbt": "{CustomModelData:1011000}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "acquired": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "ss:scripts/rewards/research/kevlar_weave"
+    },
+    "parent": "ss:research/material"
+}

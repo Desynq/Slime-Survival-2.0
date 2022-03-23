@@ -1,0 +1,43 @@
+{
+	"type": "minecraft:generic",
+	"pools": [
+		{
+			"rolls": 1.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"text": "Winter Coat",
+								"color": "aqua",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"italic": false,
+									"color": "gray",
+									"text": "When worn as Accessory:"
+								},
+								{
+									"italic": false,
+									"color": "#D45580",
+									"text": " +30 Ambient Temperature"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:4001,type:\"winter_coat\"}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

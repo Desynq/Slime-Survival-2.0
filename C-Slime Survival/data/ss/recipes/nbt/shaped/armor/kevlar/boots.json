@@ -1,0 +1,79 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"121",
+		"1 1"
+	],
+	"key": {
+		"1": {
+			"item": "minecraft:command_block",
+			"data": {
+				"require": {
+					"type": "kevlar_weave"
+				}
+			}
+		},
+		"2": {
+			"item": "minecraft:netherite_boots",
+			"data": {
+				"require": {
+					"type": "steel_boots"
+				}
+			}
+		}
+	},
+	"result": {
+		"item": "minecraft:leather_boots",
+		"data": {
+			"type": "kevlar_boots",
+			"HideFlags": 64,
+			"Enchantments": [
+				{
+					"id": "minecraft:protection",
+					"lvl": 4
+				},
+				{
+					"id": "minecraft:projectile_protection",
+					"lvl": 4
+				},
+				{
+					"id": "minecraft:unbreaking",
+					"lvl": 20
+				}
+			],
+			"AttributeModifiers": [
+				{
+					"AttributeName": "generic.armor",
+					"Amount": 3,
+					"Operation": 0,
+					"Slot": "feet",
+					"UUID": [
+						1633475971,
+						945054632,
+						1444926248,
+						1168095904
+					]
+				},
+				{
+					"AttributeName": "generic.movement_speed",
+					"Amount": -0.05,
+					"Operation": 2,
+					"Slot": "feet",
+					"UUID": [
+						123917612,
+						1886961088,
+						1994243772,
+						1094183550
+					]
+				}
+			],
+			"display": {
+				"color": 1908001,
+				"Name": "{\"italic\":false,\"color\":\"white\",\"text\":\"Kevlar Boots\"}",
+				"Lore": [
+					"{\"italic\":false,\"color\":\"gray\",\"text\":\"○ When Worn: Protection against sharp objects on ground\"}"
+				]
+			}
+		}
+	}
+}

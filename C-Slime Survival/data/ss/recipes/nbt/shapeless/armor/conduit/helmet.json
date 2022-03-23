@@ -1,0 +1,98 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:leather_helmet",
+			"data": {
+				"require": {
+					"type": "axolotl_helmet"
+				}
+			}
+		},
+		{
+			"item": "minecraft:turtle_helmet",
+			"data": {
+				"require": {
+					"type": "turtle_helmet"
+				}
+			}
+		},
+		{
+			"item": "minecraft:nautilus_shell"
+		},
+		{
+			"item": "minecraft:nautilus_shell"
+		},
+		{
+			"item": "minecraft:nautilus_shell"
+		},
+		{
+			"item": "minecraft:nautilus_shell"
+		}
+	],
+	"result": {
+		"item": "minecraft:leather_helmet",
+		"data": {
+			"type": "conduit_helmet",
+			"HideFlags": 64,
+			"display": {
+				"Name": "{\"italic\":\"false\",\"color\":\"#D3BB89\",\"text\":\"Conduit Helmet\"}",
+				"color": 13876105
+			},
+			"Enchantments": [
+				{
+					"id": "minecraft:aqua_affinity",
+					"lvl": 1
+				},
+				{
+					"id": "minecraft:respiration",
+					"lvl": 3
+				},
+				{
+					"id": "minecraft:protection",
+					"lvl": 4
+				},
+				{
+					"id": "minecraft:unbreaking",
+					"lvl": 10
+				}
+			],
+			"AttributeModifiers": [
+				{
+					"AttributeName": "minecraft:generic.max_health",
+					"Amount": 0.25,
+					"Operation": 1,
+					"Slot": "head",
+					"UUID": [
+						1734092904,
+						102887949,
+						759170270,
+						1767256723
+					]
+				},
+				{
+					"AttributeName": "minecraft:generic.armor",
+					"Amount": 3,
+					"Slot": "head",
+					"UUID": [
+						1408940672,
+						573043444,
+						1789654044,
+						2032878163
+					]
+				},
+				{
+					"AttributeName": "minecraft:generic.armor_toughness",
+					"Amount": 3,
+					"Slot": "head",
+					"UUID": [
+						235633039,
+						2111107818,
+						1290490686,
+						760724308
+					]
+				}
+			]
+		}
+	}
+}

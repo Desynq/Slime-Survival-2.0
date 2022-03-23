@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"acquired": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"player": {
+						"advancements": {
+							"ss:race/creep/root": true
+						}
+					}
+				}
+			}
+		}
+	},
+	"parent": "ss:race/creep/entropy_shield_4"
+}

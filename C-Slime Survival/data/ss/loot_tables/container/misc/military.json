@@ -20,22 +20,19 @@
 					]
 				},
 				{
-					"type": "item",
-					"name": "minecraft:carrot_on_a_stick",
-					"functions": [
-						{
-							"function": "set_nbt",
-							"tag": "{CustomModelData:1,type:medkit,display:{Name:'{\"italic\":\"false\",\"text\":\"Medkit\"}',Lore:['{\"italic\":\"false\",\"color\":\"blue\",\"text\":\"Instant Health II\"}']}}"
-						}
-					]
+					"type": "minecraft:loot_table",
+					"name": "ss:src/consumable/medkit"
 				},
 				{
-					"type": "item",
-					"name": "minecraft:written_book",
+					"type": "minecraft:loot_table",
+					"name": "ss:src/throwable/impact_grenade",
 					"functions": [
 						{
-							"function": "set_nbt",
-							"tag": "{CustomModelData:1,generation:3,HideFlags:32,type:bmg_ammo,display:{Name:'{\"italic\":\"false\",\"text\":\".50 BMG Round\"}'}}"
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 4
+							}
 						}
 					]
 				},

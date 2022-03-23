@@ -1,0 +1,67 @@
+{
+	"type": "minecraft:overworld",
+	"generator": {
+		"type": "minecraft:flat",
+		"settings": {
+			"biome": "minecraft:plains",
+			"lakes": true,
+			"features": true,
+			"layers": [
+				{
+					"block": "minecraft:bedrock",
+					"height": 1
+				},
+				{
+					"block": "minecraft:deepslate",
+					"height": 63
+				},
+				{
+					"block": "minecraft:stone",
+					"height": 27
+				},
+				{
+					"block": "minecraft:dirt",
+					"height": 4
+				},
+				{
+					"block": "minecraft:grass_block",
+					"height": 1
+				}
+			],
+			"structures": {
+				"stronghold": {
+					"distance": 8,
+					"spread": 1,
+					"count": 1
+				},
+				"structures": {
+					"minecraft:ruined_portal": {
+						"spacing": 16,
+						"separation": 8,
+						"salt": 34222645
+					},
+					"minecraft:pillager_outpost": {
+						"spacing": 16,
+						"separation": 8,
+						"salt": 165745296
+					},
+					"minecraft:village": {
+						"spacing": 32,
+						"separation": 16,
+						"salt": 10387312
+					},
+					"minecraft:mineshaft": {
+						"spacing": 1,
+						"separation": 0,
+						"salt": 0
+					},
+					"minecraft:stronghold": {
+						"spacing": 1,
+						"separation": 0,
+						"salt": 0
+					}
+				}
+			}
+		}
+	}
+}

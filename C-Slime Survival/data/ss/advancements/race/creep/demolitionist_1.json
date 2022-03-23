@@ -1,33 +1,33 @@
 {
-    "display": {
-        "title": "Demolitionist I",
-        "description": {
-            "text": "",
-            "extra": [
-                {
-                    "text": "$10,000\n\n",
-                    "color": "dark_green",
-                    "underlined": true
-                },
-                {
-                    "text": "6 Explosion Radius",
-                    "color": "gray"
-                }
-            ]
-        },
-        "icon": {
-            "item": "minecraft:player_head",
-            "nbt": "{SkullOwner:MHF_TNT2}"
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": false,
-        "hidden": false
-    },
-    "criteria": {
-        "acquired": {
-            "trigger": "minecraft:impossible"
-        }
-    },
-    "parent": "ss:race/creep/root"
+	"display": {
+		"title": "Demolitionist I",
+		"description": {
+			"text": "",
+			"extra": [
+				{
+					"text": "$5,000\n\n",
+					"color": "dark_green",
+					"underlined": true
+				},
+				{
+					"text": "6 Explosion Radius",
+					"color": "gray"
+				}
+			]
+		},
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:MHF_TNT2}"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"acquired": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "ss:race/creep/root"
 }

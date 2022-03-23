@@ -1,10 +1,19 @@
 {
 	"display": {
-		"title": "Battlecry | $7,500                                           ",
+		"title": [
+			{
+				"text": "Battlecry | ",
+				"color": "white"
+			},
+			{
+				"text": "$7,500",
+				"color": "dark_green"
+			}
+		],
 		"description": [
 			{
-				"color": "gray",
-				"text": "When a player (even you) dies within 16 blocks of you:\n Mobs within 32 blocks get:\n ◘ Weakness V (0:05)\n ◘ Slowness V (0:05)\n Players (including you) within 8 blocks gain:\n ◘ Strength II 0:10\n ◘ Haste II 0:10\n ◘ Speed II 0:10\n ◘ Regeneration IV 0:10"
+				"text": "You emit a battle cry when someone dies within 16 blocks of you",
+				"color": "gray"
 			}
 		],
 		"icon": {

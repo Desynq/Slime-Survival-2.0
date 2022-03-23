@@ -1,0 +1,19 @@
+{
+    "display": {
+        "title": "Materials",
+        "description": "",
+        "icon": {
+            "item": "minecraft:raw_iron"
+        },
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "acquired": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "ss:research/root"
+}

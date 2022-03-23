@@ -15,15 +15,12 @@
 		}
 	},
 	"result": {
-		"item": "minecraft:player_head",
+		"item": "minecraft:leather_helmet",
 		"data": {
 			"type": "axolotl_helmet",
-			"SkullOwner": "Axolotl",
 			"display": {
-				"Name": "{\"italic\":\"false\",\"color\":\"light_purple\",\"text\":\"Axolotl Head\"}",
-				"Lore": [
-					"{\"italic\":false,\"color\":\"dark_red\",\"text\":\"Don't Place!\"}"
-				]
+				"Name": "{\"italic\":\"false\",\"color\":\"light_purple\",\"text\":\"Axolotl Helmet\"}",
+				"color": 15961002
 			},
 			"Enchantments": [
 				{
@@ -46,7 +43,7 @@
 				},
 				{
 					"AttributeName": "generic.armor",
-					"Amount": 2,
+					"Amount": 3,
 					"Slot": "head",
 					"UUID": [
 						518915,

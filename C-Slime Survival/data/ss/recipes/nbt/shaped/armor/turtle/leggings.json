@@ -36,6 +36,10 @@
 				{
 					"id": "minecraft:unbreaking",
 					"lvl": 10
+				},
+				{
+					"id": "minecraft:protection",
+					"lvl": 3
 				}
 			]
 		}

@@ -1,0 +1,83 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"121",
+		"121",
+		" 3 "
+	],
+	"key": {
+		"1": {
+			"item": "minecraft:soul_sand"
+		},
+		"2": {
+			"item": "minecraft:amethyst_shard"
+		},
+		"3": {
+			"item": "minecraft:stick"
+		}
+	},
+	"result": {
+		"item": "minecraft:iron_sword",
+		"data": {
+			"CustomModelData": 4,
+			"type": "athame",
+			"Unbreakable": false,
+			"RepairCost": 32767,
+			"Enchantments": [
+				{
+					"id": "minecraft:smite",
+					"lvl": 10
+				}
+			],
+			"AttributeModifiers": [
+				{
+					"AttributeName": "minecraft:generic.attack_damage",
+					"Amount": 4,
+					"Operation": 0,
+					"Slot": "mainhand",
+					"UUID": [
+						659312971,
+						1235547946,
+						122558431,
+						2122736015
+					]
+				},
+				{
+					"AttributeName": "minecraft:generic.attack_speed",
+					"Amount": -2,
+					"Operation": 0,
+					"Slot": "mainhand",
+					"UUID": [
+						1391432347,
+						1042711716,
+						1000527197,
+						1486381280
+					]
+				},
+				{
+					"AttributeName": "minecraft:generic.max_health",
+					"Amount": -0.25,
+					"Operation": 2,
+					"Slot": "mainhand",
+					"UUID": [
+						1390691577,
+						1223480761,
+						296995069,
+						19887019
+					]
+				}
+			],
+			"display": {
+				"Name": "{\"italic\":\"false\",\"color\":\"#953553\",\"text\":\"Athame\"}",
+				"Lore": [
+					"{\"italic\":\"true\",\"color\":\"#953553\",\"text\":\"The consecrated sacrificial dagger emanates such radiant energy\"}",
+					"{\"italic\":\"true\",\"color\":\"#953553\",\"text\":\"that even your own soul trembles...\"}",
+					"{\"italic\":\"false\",\"color\":\"dark_gray\",\"text\":\"════════════════\"}",
+					"{\"italic\":\"false\",\"color\":\"dark_red\",\"text\":\"✗ Cannot be made unbreakable\"}",
+					"{\"italic\":\"false\",\"color\":\"dark_red\",\"text\":\"✗ Cannot be enchanted nor repaired\"}",
+					"{\"italic\":\"false\",\"color\":\"dark_gray\",\"text\":\"════════════════\"}"
+				]
+			}
+		}
+	}
+}

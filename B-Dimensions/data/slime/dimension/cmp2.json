@@ -1,5 +1,21 @@
 {
-	"type": "minecraft:overworld",
+	"type": {
+		"ultrawarm": false,
+		"natural": true,
+		"piglin_safe": true,
+		"respawn_anchor_works": true,
+		"bed_works": true,
+		"has_raids": false,
+		"has_skylight": true,
+		"has_ceiling": false,
+		"coordinate_scale": 1,
+		"ambient_light": 0.0,
+		"logical_height": 0,
+		"effects": "minecraft:overworld",
+		"infiniburn": "minecraft:infiniburn_overworld",
+		"min_y": 0,
+		"height": 256
+	},
 	"generator": {
 		"type": "minecraft:flat",
 		"seed": 2043603658,

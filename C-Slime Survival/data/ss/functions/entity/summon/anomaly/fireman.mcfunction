@@ -1,0 +1,1 @@
+summon minecraft:husk ~ ~ ~ {Tags:["SCP-457","boss"],Team:mob,Glowing:true,PersistenceRequired:true,HasVisibleFire:true,Health:10000,Attributes:[{Name:"minecraft:generic.max_health",Base:10000},{Name:"minecraft:generic.attack_damage",Base:25},{Name:"minecraft:generic.movement_speed",Base:0.4}],ActiveEffects:[{Id:12b,Duration:2147483647,Amplifier:0b,ShowParticles:false}]}

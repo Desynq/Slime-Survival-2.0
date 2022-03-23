@@ -13,11 +13,12 @@ truncateSync(mcfunction);
 
 let jsonString;
 for (let i = 0; i < files.length; i++) {
-	jsonString = JSON.stringify(require(`./json/page-${i}.json`), null, 0);
-	jsonString = jsonString.replace(/\\"/g, '§');
-	jsonString = jsonString.replace(/"/g, '\\"');
-	jsonString = jsonString.replace(/\\n/g, '\\\\n');
-	jsonString = jsonString.replace(/§/g, '\\\\\\"');
+	jsonString = JSON.stringify(require(`./json/page-${i}.json`), null, 0)
+		.replace(/\\"/g, '§')
+		.replace(/"/g, '\\"')
+		.replace(/\\n/g, '\\\\n')
+		.replace(/§/g, '\\\\\\"');
+	
 	jsonString = `"${jsonString}"`;
 	jsonString = `data modify storage ss:books books[{"type":"race_catalogue"}].pages append value ${jsonString}`;
 	appendFileSync(mcfunction,`${jsonString}\n`);

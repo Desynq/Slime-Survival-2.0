@@ -35,6 +35,9 @@ execute if predicate ss:player/race/sludge run function ss:player/race/sludge/ru
 
 
 
+## Creep
+
+execute if predicate ss:player/race/creep run script in _main run player_race_creep( player() );
 
 
 

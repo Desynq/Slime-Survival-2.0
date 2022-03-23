@@ -1,0 +1,40 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"121",
+		"343",
+		"535"
+	],
+	"key": {
+		"1": {
+			"item": "minecraft:lead"
+		},
+		"2": {
+			"item": "minecraft:nether_star"
+		},
+		"3": {
+			"item": "minecraft:phantom_membrane"
+		},
+		"4": {
+			"item": "minecraft:bundle"
+		},
+		"5": {
+			"item": "minecraft:amethyst_shard"
+		}
+	},
+	"result": {
+		"item": "minecraft:warped_fungus_on_a_stick",
+		"data": {
+			"CustomModelData": 2000000,
+			"type": "accessory_bag",
+			"display": {
+				"Name": "{\"italic\":false,\"color\":\"aqua\",\"text\":\"Accessory Bag\"}",
+				"Lore": [
+					"[{\"text\":\"==========[ \",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\"Stats\",\"color\":\"dark_aqua\",\"italic\":false},{\"text\":\" ]==========\",\"color\":\"dark_gray\",\"italic\":false}]",
+					"{\"text\":\"● Inventory Space: 5\",\"color\":\"gray\",\"italic\":false}",
+					"{\"text\":\"● Allows accessories to be used\",\"color\":\"gray\",\"italic\":false}"
+				]
+			}
+		}
+	}
+}

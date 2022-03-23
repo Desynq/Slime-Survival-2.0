@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:generic",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:command_block",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{CustomModelData:1028000,type:\"polar_bear_fur\"}"
+						},
+						{
+							"function": "set_name",
+							"name": {
+								"text": "Polar Bear Fur",
+								"color": "white",
+								"italic": false
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

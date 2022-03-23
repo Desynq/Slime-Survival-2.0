@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:generic",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:command_block",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{CustomModelData:1029000,type:\"wool_of_bat\"}"
+						},
+						{
+							"function": "set_name",
+							"name": {
+								"text": "Wool of Bat",
+								"color": "white",
+								"italic": false
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

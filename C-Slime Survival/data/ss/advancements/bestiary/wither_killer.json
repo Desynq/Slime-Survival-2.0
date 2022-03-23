@@ -1,0 +1,33 @@
+{
+	"display": {
+		"title": "Wither Killer",
+		"description": [
+			"",
+			{
+				"text": "It was hell...",
+				"color": "gray"
+			}
+		],
+		"icon": {
+			"item": "minecraft:nether_star"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"acquired": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:wither"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ss:scripts/rewards/shared/5_max_attribute_points"
+	},
+	"parent": "ss:bestiary/root"
+}

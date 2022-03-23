@@ -1,0 +1,83 @@
+{
+	"type": "minecraft:generic",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"text": "Rift Mage Head",
+								"color": "light_purple",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								[
+									{
+										"italic": false,
+										"color": "dark_gray",
+										"text": "=========[ "
+									},
+									{
+										"italic": false,
+										"color": "dark_purple",
+										"text": "Lore"
+									},
+									{
+										"italic": false,
+										"color": "dark_gray",
+										"text": " ]========="
+									}
+								],
+								{
+									"color": "gray",
+									"text": "The head seems to be decayed and warped"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"name": "rift_mage_head",
+									"attribute": "minecraft:generic.max_health",
+									"operation": "addition",
+									"amount": 20,
+									"slot": "head"
+								},
+								{
+									"name": "rift_mage_head",
+									"attribute": "minecraft:generic.attack_damage",
+									"operation": "multiply_base",
+									"amount": 0.25,
+									"slot": "head"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{type:\"rift_mage_head\",SkullOwner:\"Skull\"}"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{SpawnedFromLootTable:1b}",
+							"conditions": [
+								{
+									"condition": "minecraft:reference",
+									"name": "ss:entity/has_tag/giving_item"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
